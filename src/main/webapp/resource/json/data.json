@@ -1,0 +1,108 @@
+div1 = [{ //계약
+  "category": "달성",
+  "value": 52,
+  "fill":"#00ffcc" 
+  
+}, {
+  "category": "미달성",
+  "value": 48,
+  "fill":"#ffffff"
+}];
+
+div1_text = "52%";
+
+div2 = [{ //매출
+  "category": "달성",
+  "value": 79,
+  "fill":"yellow"
+}, {
+  "category": "미달성",
+  "value": 21,
+  "fill":"#ffffff"
+}];
+
+div2_text = "79%";
+
+div3 =[{ //이익
+  "category": "달성",
+  "value": 71,
+  "fill":"#00ccff"
+}, {
+  "category": "미달성",
+  "value": 29,
+  "fill":"#ffffff"
+}];
+
+div3_text = "71%";
+
+div4 = [{ //원가
+  "category": "달성",
+  "value": 2,
+  "fill":"#ff8a00"
+}, {
+  "category": "미달성",
+  "value": 98,
+  "fill":"#ffffff"
+}];
+
+div4_text = "2%";
+
+div5=[
+  {date:"1", value1:50, value2:48},
+  {date:"2", value1:53, value2:51},
+  {date:"3", value1:56, value2:58},
+  {date:"4", value1:52, value2:53},
+  {date:"5", value1:48, value2:44},
+  {date:"6", value1:47, value2:42},
+  {date:"7", value1:59, value2:55},
+  {date:"8", value1:60, value2:65},
+  {date:"9", value1:63, value2:60},
+  {date:"10", value1:42, value2:50},
+  {date:"11", value1:39, value2:55},
+  {date:"12", value1:71, value2:50}
+];
+
+div6=[
+  {date:"1", value1:50, value2:48},
+  {date:"2", value1:53, value2:51},
+  {date:"3", value1:56, value2:58},
+  {date:"4", value1:52, value2:53},
+  {date:"5", value1:48, value2:44},
+  {date:"6", value1:47, value2:42},
+  {date:"7", value1:59, value2:55},
+  {date:"8", value1:60, value2:65},
+  {date:"9", value1:63, value2:60},
+  {date:"10", value1:42, value2:50},
+  {date:"11", value1:39, value2:55},
+  {date:"12", value1:71, value2:50}
+];
+
+div7=[
+  {date:"1", value1:50, value2:48},
+  {date:"2", value1:53, value2:51},
+  {date:"3", value1:56, value2:58},
+  {date:"4", value1:52, value2:53},
+  {date:"5", value1:48, value2:44},
+  {date:"6", value1:47, value2:42},
+  {date:"7", value1:59, value2:55},
+  {date:"8", value1:60, value2:65},
+  {date:"9", value1:63, value2:60},
+  {date:"10", value1:42, value2:50},
+  {date:"11", value1:39, value2:55},
+  {date:"12", value1:71, value2:50}
+];
+
+div8=[
+  {date:"1", value1:50, value2:48},
+  {date:"2", value1:53, value2:51},
+  {date:"3", value1:56, value2:58},
+  {date:"4", value1:52, value2:53},
+  {date:"5", value1:48, value2:44},
+  {date:"6", value1:47, value2:42},
+  {date:"7", value1:59, value2:55},
+  {date:"8", value1:60, value2:65},
+  {date:"9", value1:63, value2:60},
+  {date:"10", value1:42, value2:50},
+  {date:"11", value1:39, value2:55},
+  {date:"12", value1:71, value2:50}
+];

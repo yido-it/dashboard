@@ -4,24 +4,47 @@
 <html>
 <%@include file="include/head.jsp" %>
 <body>
+<div class="wrap" data-href="">
 <%@include file="include/header.jsp" %>
-<c:if test="${dir eq null && (path eq null || path eq 'index')}">
-<script src="/resource/js/main.js"></script>
-	<jsp:include page="main.jsp"/>
-</c:if>
-<c:if test="${path ne null && path ne 'index' }">
-	<%@include file="include/aside.jsp"%>
-	<c:if test="${sub ne null }">
-		<jsp:include page="${dir}/${path}/${sub}.jsp"/>
-	</c:if>
-	<c:if test="${dir ne null && sub eq null }">
-		<jsp:include page="${dir}/${path}.jsp"/>
-	</c:if>
-	<c:if test="${dir eq null }">
-		<jsp:include page="${path}.jsp"/>
-	</c:if>
-</c:if>
+<div class="content">
+</div>
+</div>
 <%@include file="include/footer.jsp" %>
 </body>
+<div class="script"></div>
+<!-- <script src="/resource/js/main.js"></script> -->
+<script>
+$(document).ready(function(){
+	href("main");
+	
+	$(document).on("click", ".navi", function(){
+		href($(this).data("href"));
+	})	
+	$(document).on("click", ".navi_sub", function(){
+		href_sub($(this).data("href"));
+	})	
+	
+});
+	
+function href(path){
+	$(".content").load("/load/"+path, function (){
+		$.getScript("/resource/js/common.js", function (){
+		});
+	});
+	
+	$(".wrap").data("href", path);
+}
+
+function href_sub(path){
+	$(".content").load("/load/"+path, function (){
+	});
+	$.getScript("/resource/js/common.js", function (){
+	});
+	$(".wrap").data("href", path);
+}
+
+</script>
 <!-- Main JS -->
 </html>
+
+
