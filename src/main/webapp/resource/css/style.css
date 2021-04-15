@@ -971,3 +971,14 @@ background: url(../images/env/video/video_m3_2.jpg) no-repeat 0 0;background-siz
 .chartDiv {width: 100% !important;height: 250px !important;font-size:11px !important}
 .cart_map p {display:none;}
 .cart_map img {display:none;}
+
+.content01_main{background: url(/resource/images/main/environment1.jpg) no-repeat 100% 0%; background-size: 110%}
+.content01_env{background: url(/resource/images/main/environment.jpg) no-repeat 86% 53%; background-size: 110%}
+.content01_env_sudoe{background: url(/resource/images/main/sudoe.jpg) no-repeat 100% 0%; background-size: 100%}
+.content01_env_ilsung{background: url(/resource/images/ilsung/ilsung_textbg.jpg) no-repeat 50% 50%; background-size: 100%}
+
+.content01_golf{background: url(/resource/images/golf/bg_boeun.jpg) no-repeat 100% 0%; background-size: 100%}
+.content01_golf_boeun{background: url(/resource/images/golf/bg_boeun.jpg) no-repeat 100% 0%; background-size: 100%}
+.content01_golf_songnisan{background: url(/resource/images/golf/bg_songnisan.jpg) no-repeat 100% 0%; background-size: 100%}
+.content01_golf_geumgang{background: url(/resource/images/golf/bg_geumgang.jpg) no-repeat 100% 0%; background-size: 100%}
+.content01_golf_geochang{background: url(/resource/images/golf/bg_geochang.jpg) no-repeat 100% 0%; background-size: 100%}

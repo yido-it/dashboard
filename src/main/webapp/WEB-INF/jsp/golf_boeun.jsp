@@ -2,7 +2,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!--1번째컨텐츠-->
 <div class="content_01">
-	<div class="content_01-2" style="background: url(resource/images/golf/bg_boeun.jpg) no-repeat 100% 0%;background-size:100%">
+	<div class="content_01-2 content01_golf_boeun" >
 		<!-- <div class="title_month">YIDO 매출비율</div> -->
 		<div class="tc mt50" style="font-size: 40px; color: #fff; font-weight: bold;">CLUBD BOEUN Country Club</div>
 		<h2 class="tc colorwhite fs18"  style="line-height:29px;margin-top:30px">

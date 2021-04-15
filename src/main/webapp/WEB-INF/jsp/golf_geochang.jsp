@@ -1,18 +1,16 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <div class="content_01">
-	<div class="content_01-2" style="background: url(resource/images/golf/bg_boeun.jpg) no-repeat 100% 0%; background-size: 100%">
+	<div class="content_01-2 content01_golf_geochang" >
 		<!-- <div class="title_month">YIDO 매출비율</div> -->
-		<div class="tc mt50" style="font-size: 40px; color: #fff; font-weight: bold;">CLUBD BOEUN Country Club</div>
-		<h2 class="tc colorwhite fs18" style="line-height: 29px; margin-top: 30px">
-			자연속에서 '최고의 휴식'을 만들어 내는 것입니다.<br />보다 안전하고, 편리한 삶을 만들기 위해 노력하는 기업입니다.
+		<div class="tc mt50" style="font-size: 40px; color: #fff; font-weight: bold;">CLUBD GEOCHANG Country Club</div>
+		<h2 class="tc colorwhite fs18"  style="line-height:29px;margin-top:30px">
+			바람이 만든 낮은 언덕과도 같은 감악산 자락에 조성된 클럽디거창은,<br/>
+			3대 국립공원인 지리산, 덕유산, 가야산이 감싸고 있어 수려한 원경을 지니고 있습니다.
 		</h2>
-		<h2 class="tc colorwhite fs18" style="margin-top: 15px; font-weight: bold;">18Hole / Par 72 (6,163m)</h2>
-		<!-- <div class="mt20">
-			<video style="width:33%" autoplay="" loop="" muted="" playsinline="" preload="" src="resource/images/env/video/video_c1_2.mp4"></video>
-			<video style="width:33%" autoplay="" loop="" muted="" playsinline="" preload="" src="resource/images/env/video/video_c1_1.mp4"></video>
-			<video style="width:33%" autoplay="" loop="" muted="" playsinline="" preload="" src="resource/images/env/video/video_c2_2.mp4"></video>
-		 </div> -->
+		<h2 class="tc colorwhite fs18"  style="margin-top: 15px; font-weight: bold;">
+			27Hole / Par 72
+		</h2>
 	</div>
 	<%@include file="content01/golf.jsp"%>
 </div>

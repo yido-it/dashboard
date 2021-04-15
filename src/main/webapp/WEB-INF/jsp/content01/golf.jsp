@@ -7,7 +7,7 @@
 			<li class="navi" data-href="main"><img src="resource/images/main/btn01.png"></li>
 			<li class="navi" data-href="golf_boeun"><img src="resource/images/golf/btn_b.png"></li>
 			<li class="navi" data-href="golf_songnisan"><img src="resource/images/golf/btn_s.png"></li>
-			<li class="navi" data-href="golf_gumgang" style="margin-left: 30%"><img style="" src="resource/images/golf/btn_g.png"></li>
+			<li class="navi" data-href="golf_geumgang" style="margin-left: 30%"><img style="" src="resource/images/golf/btn_g.png"></li>
 			<li class="navi" data-href="golf_geochang"><img style="" src="resource/images/golf/btn_gc.png"></li>
 		</ul>
 	</div>

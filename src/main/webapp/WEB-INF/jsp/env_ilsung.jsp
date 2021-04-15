@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <div class="content_01">
-	<div class="content_01-2" style="background: url(resource/images/ilsung/ilsung_textbg.jpg) no-repeat 50% 50%; background-size: 100%">
+	<div class="content_01-2 content01_env_ilsung" style="">
 		<div class="tc mt100">
 			<h1 style="font-size: 30px; font-weight: bold; color: white; text-shadow: 3px 3px 3px #404040;">YIDO "일성"은 Water Solution의 시대적 소명을 다 하겠습니다.</h1>
 		</div>

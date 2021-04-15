@@ -2,7 +2,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!--1번째컨텐츠-->
 <div class="content_01">
-	<div class="content_01-2" style="background: url(resource/images/main/environment1.jpg) no-repeat 100% 0%; background-size: 110%">
+	<div class="content_01-2 content01_main" style="">
 		<!-- <div class="title_month">YIDO 매출비율</div> -->
 		<div class="tc mt50">
 			<img style="" src="resource/images/main/slogan2.png">

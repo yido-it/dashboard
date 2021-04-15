@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <div class="content_01">
-	<div class="content_01-2" style="background: url(resource/images/main/sudoe.jpg) no-repeat 100% 0%; background-size: 100%">
+	<div class="content_01-2 content01_env_sudoe" style="">
 		<!-- <div class="title_month">YIDO 매출비율</div> -->
 		<div class="tc mt100">
 			<h1 style="font-size: 30px; font-weight: bold; color: white; text-shadow: 3px 3px 3px #404040;">4차 산업 혁명을 리드하는 친환경 플랫폼의 대표주자 "수도권환경"</h1>

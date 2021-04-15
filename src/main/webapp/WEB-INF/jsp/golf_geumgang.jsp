@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <div class="content_01">
-	<div class="content_01-2" style="background: url(resource/images/golf/bg_geumgang.jpg) no-repeat 100% 0%; background-size: 100%">
+	<div class="content_01-2 content01_golf_geumgang" >
 		<!-- <div class="title_month">YIDO 매출비율</div> -->
 		<div class="tc mt50" style="font-size: 40px; color: #fff; font-weight: bold;">CLUBD GEUMGANG Country Club</div>
 		<h2 class="tc colorwhite fs18" style="line-height: 29px; margin-top: 30px">
