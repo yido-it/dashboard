@@ -27,6 +27,7 @@ $(document).ready(function(){
 });
 	
 function href(path){
+	$("body").removeClass("modal-open");
 	$(".content").load("/load/"+path, function (){
 		$.getScript("/resource/js/common.js", function (){
 		});
@@ -35,13 +36,13 @@ function href(path){
 	$(".wrap").data("href", path);
 }
 
-function href_sub(path){
-	$(".content").load("/load/"+path, function (){
-	});
-	$.getScript("/resource/js/common.js", function (){
-	});
-	$(".wrap").data("href", path);
-}
+// function href_sub(path){
+// 	$(".content").load("/load/"+path, function (){
+// 	});
+// 	$.getScript("/resource/js/common.js", function (){
+// 	});
+// 	$(".wrap").data("href", path);
+// }
 
 </script>
 <!-- Main JS -->

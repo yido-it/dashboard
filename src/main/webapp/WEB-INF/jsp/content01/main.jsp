@@ -6,7 +6,7 @@
 		<ul class="ul_main_select">
 			<li><img src="resource/images/main/btn01.png"></li>
 			<li class="navi" data-href="env"><img src="resource/images/main/btn02.png"></li>
-			<li class="navi_sub" data-href="infra"><img src="resource/images/main/btn03.png"></li>
+			<li class="navi" data-href="infra"><img src="resource/images/main/btn03.png"></li>
 			<li><img src="resource/images/main/btn04.png"></li>
 			<li class="navi" data-href="golf"><img src="resource/images/main/btn05.png"></li>
 			<li><img src="resource/images/main/btn06.png"></li>

@@ -69,7 +69,7 @@
 								<li>운영분야: 영업, 도로, 시설, ITS, 교통</li>
 								<li>길이 - 3.97km</li>
 							</ul>
-							<button type="button" class="btn btn-primary mt10 mb10" onclick="location.href='infra.html'">
+							<button type="button" class="btn btn-primary mt10 mb10" onclick="href('infra')">
 								인프라사업소개 <i class="fas fa-arrow-circle-right"></i>
 							</button>
 						</div>
@@ -112,7 +112,7 @@
 								<li>경부와 호남고속도로 연결구간</li>
 								<li>길이 - 80.96km</li>
 							</ul>
-							<button type="button" class="btn btn-primary mt10 mb10" onclick="location.href='infra.html'">
+							<button type="button" class="btn btn-primary mt10 mb10" onclick="href('infra')">
 								인프라사업소개 <i class="fas fa-arrow-circle-right"></i>
 							</button>
 						</div>
@@ -155,7 +155,7 @@
 								<li>길이 - 27.38km (수원~광명)</li>
 								<li>길이 - 38.50km (서수원~오산~평택)</li>
 							</ul>
-							<button type="button" class="btn btn-primary mt10 mb10" onclick="location.href='infra.html'">
+							<button type="button" class="btn btn-primary mt10 mb10" onclick="href('infra')">
 								인프라사업소개 <i class="fas fa-arrow-circle-right"></i>
 							</button>
 						</div>
@@ -197,7 +197,7 @@
 								<li>운영분야: 영업, 도로, 시설, ITS, 교통, 안전</li>
 								<li>길이 - 22.90km</li>
 							</ul>
-							<button type="button" class="btn btn-primary mt10 mb10" onclick="location.href='infra.html'">
+							<button type="button" class="btn btn-primary mt10 mb10" onclick="href('infra')">
 								인프라사업소개 <i class="fas fa-arrow-circle-right"></i>
 							</button>
 						</div>
@@ -215,7 +215,7 @@
 					<p class="portfolio-item-paragraph">
 						전라남도 순천시 서면 황현로 559<br>
 					</p>
-					<button type="button" class="btn btn-primary mt10 mb10" onclick="location.href='infra.html'">
+					<button type="button" class="btn btn-primary mt10 mb10" onclick="href('infra')">
 						인프라사업소개 <i class="fas fa-arrow-circle-right"></i>
 					</button>
 				</li>
@@ -253,7 +253,7 @@
 								<li>영업, 도로, 시설, ITS, 교통</li>
 								<li>길이 - 8.38km</li>
 							</ul>
-							<button type="button" class="btn btn-primary mt10 mb10" onclick="location.href='infra.html'">
+							<button type="button" class="btn btn-primary mt10 mb10" onclick="href('infra')">
 								인프라사업소개 <i class="fas fa-arrow-circle-right"></i>
 							</button>
 						</div>
@@ -304,7 +304,7 @@
 								<li>제주시 노연로 100</li>
 								<li>연면적 - 6048.2㎡</li>
 							</ul>
-							<button type="button" class="btn btn-primary mt10 mb10" onclick="location.href='realasset.html'">
+							<button type="button" class="btn btn-primary mt10 mb10" onclick="href('realasset')">
 								부동산사업소개 <i class="fas fa-arrow-circle-right"></i>
 							</button>
 						</div>
@@ -344,7 +344,7 @@
 								<li>제주시 애월읍 부룡수길 33외 13필지</li>
 								<li>연면적 - 1844.8㎡</li>
 							</ul>
-							<button type="button" class="btn btn-primary mt10 mb10" onclick="location.href='realasset.html'">
+							<button type="button" class="btn btn-primary mt10 mb10" onclick="href('realasset')">
 								부동산사업소개 <i class="fas fa-arrow-circle-right"></i>
 							</button>
 						</div>
@@ -429,7 +429,7 @@
 						<li>CLUBD 속리산 골프장 통합관리운영</li>
 						<li>18홀 코스 (East:9홀, West:9홀)</li>
 					</ul>
-					<button type="button" class="btn btn-primary mt10" onclick="location.href='golf_sognisan.html'">
+					<button type="button" class="btn btn-primary mt10" onclick="href('golf_songnisan')">
 						사업소개 바로가기 <i class="fas fa-arrow-circle-right"></i>
 					</button>
 				</li>
@@ -454,7 +454,7 @@
 								<li>CLUBD 속리산 골프장 통합관리운영</li>
 								<li>18홀 코스 (East:9홀, West:9홀)</li>
 							</ul>
-							<button type="button" class="btn btn-primary mt10 mb10" onclick="location.href='golf_songnisan.html'">
+							<button type="button" class="btn btn-primary mt10 mb10" onclick="href('golf_songnisan')">
 								골프사업소개1 <i class="fas fa-arrow-circle-right"></i>
 							</button>
 						</div>
@@ -475,7 +475,7 @@
 						<li>CLUBD 보은 골프장 통합관리운영</li>
 						<li>18홀 코스 (East:9홀, West:9홀)</li>
 					</ul>
-					<button type="button" class="btn btn-primary mt10" onclick="location.href='golf_boeun.html'">
+					<button type="button" class="btn btn-primary mt10" onclick="href('golf_boeun')">
 						사업소개 바로가기 <i class="fas fa-arrow-circle-right"></i>
 					</button>
 				</li>
@@ -500,7 +500,7 @@
 								<li>CLUBD 보은 골프장 통합관리운영</li>
 								<li>18홀 코스 (East:9홀, West:9홀)</li>
 							</ul>
-							<button type="button" class="btn btn-primary mt10 mb10" onclick="location.href='golf_boeun.html'">
+							<button type="button" class="btn btn-primary mt10 mb10" onclick="href('golf_boeun')">
 								골프사업소개 <i class="fas fa-arrow-circle-right"></i>
 							</button>
 						</div>
@@ -521,7 +521,7 @@
 						<li>CLUBD 금강 골프장 통합관리운영</li>
 						<li>18홀 코스 (East:9홀, West:9홀)</li>
 					</ul>
-					<button type="button" class="btn btn-primary mt10" onclick="location.href='golf_geumgang.html'">
+					<button type="button" class="btn btn-primary mt10" onclick="href('golf_geumgang')'">
 						사업소개 바로가기 <i class="fas fa-arrow-circle-right"></i>
 					</button>
 				</li>
@@ -546,7 +546,7 @@
 								<li>CLUBD 금강 골프장 통합관리운영</li>
 								<li>18홀 코스 (East:9홀, West:9홀)</li>
 							</ul>
-							<button type="button" class="btn btn-primary mt10 mb10" onclick="location.href='golf_geumgang.html'">
+							<button type="button" class="btn btn-primary mt10 mb10" onclick="href('golf_geumgang')">
 								골프사업소개 <i class="fas fa-arrow-circle-right"></i>
 							</button>
 						</div>
@@ -567,7 +567,7 @@
 						<li>CLUBD 거창 골프장 통합관리운영</li>
 						<li>27홀 코스 (East:9홀, West:9홀, South:9홀)</li>
 					</ul>
-					<button type="button" class="btn btn-primary mt10" onclick="location.href='golf_geochang.html'">
+					<button type="button" class="btn btn-primary mt10" onclick="href('golf_geochang')">
 						사업소개 바로가기 <i class="fas fa-arrow-circle-right"></i>
 					</button>
 				</li>
@@ -592,7 +592,7 @@
 								<li>CLUBD 거창 골프장 통합관리운영</li>
 								<li>27홀 코스 (East:9홀, West:9홀, South:9홀)</li>
 							</ul>
-							<button type="button" class="btn btn-primary mt10 mb10" onclick="location.href='golf_geochang.html'">
+							<button type="button" class="btn btn-primary mt10 mb10" onclick="href('golf_geochang')">
 								골프사업소개 <i class="fas fa-arrow-circle-right"></i>
 							</button>
 						</div>
@@ -614,7 +614,7 @@
 						<li>운영분야: 영업, 도로, 시설, ITS, 교통</li>
 						<li>길이 - 2.4km</li>
 					</ul>
-					<button type="button" class="btn btn-primary mt10" onclick="location.href='infra.html'">
+					<button type="button" class="btn btn-primary mt10" onclick="href('infra')">
 						사업소개 바로가기 <i class="fas fa-arrow-circle-right"></i>
 					</button>
 				</li>
@@ -640,7 +640,7 @@
 								<li>운영분야: 영업, 도로, 시설, ITS, 교통</li>
 								<li>길이 - 2.4km</li>
 							</ul>
-							<button type="button" class="btn btn-primary mt10 mb10" onclick="location.href='infra.html'">
+							<button type="button" class="btn btn-primary mt10 mb10" onclick="href('infra')">
 								인프라 사업소개 <i class="fas fa-arrow-circle-right"></i>
 							</button>
 						</div>
@@ -660,7 +660,7 @@
 						<li>인천광역시 남동구 청능대로 409번길 19 296</li>
 						<li>폐수수탁처리업/폐수재이용업</li>
 					</ul>
-					<button type="button" class="btn btn-primary mt10" onclick="location.href='env_sudoe.html'">
+					<button type="button" class="btn btn-primary mt10" onclick="href('env_sudoe')">
 						사업소개 바로가기 <i class="fas fa-arrow-circle-right"></i>
 					</button>
 				</li>
@@ -684,7 +684,7 @@
 								<li>인천광역시 남동구 청능대로 409번길 19 296</li>
 								<li>폐수수탁처리업/폐수재이용업</li>
 							</ul>
-							<button type="button" class="btn btn-primary mt10 mb10" onclick="location.href='env_sudoe.html'">
+							<button type="button" class="btn btn-primary mt10 mb10" onclick="href('env_sudoe')">
 								친환경 사업소개 <i class="fas fa-arrow-circle-right"></i>
 							</button>
 						</div>
@@ -704,7 +704,7 @@
 						<li>인천광역시 서구 원창동 427번지</li>
 						<li>청라5구역 및 남청라JCT구간 매립폐기물 정비</li>
 					</ul>
-					<button type="button" class="btn btn-primary mt10" onclick="location.href='env_sudoe.html'">
+					<button type="button" class="btn btn-primary mt10" onclick="href('env_sudoe')">
 						사업소개 바로가기 <i class="fas fa-arrow-circle-right"></i>
 					</button>
 				</li>
@@ -728,7 +728,7 @@
 								<li>인천광역시 서구 원창동 427번지</li>
 								<li>청라5구역 및 남청라JCT구간 매립폐기물 정비</li>
 							</ul>
-							<button type="button" class="btn btn-primary mt10" onclick="location.href='env_sudoe.html'">
+							<button type="button" class="btn btn-primary mt10" onclick="href('env_sudoe')">
 								환경사업소개 <i class="fas fa-arrow-circle-right"></i>
 							</button>
 						</div>
@@ -742,7 +742,7 @@
 		<span class="po e11"> <img src="resource/images/main/map/e_dangjin.png">
 			<ul class="po_photo">
 				<li>
-					<button type="button" class="btn btn-primary mt10" onclick="location.href='env_sudoe.html'">
+					<button type="button" class="btn btn-primary mt10" onclick="href('env_sudoe')">
 						사업소개 바로가기 <i class="fas fa-arrow-circle-right"></i>
 					</button>
 				</li>
@@ -779,7 +779,7 @@
 							<ul class="modal_map_ul">
 								<li>스팀배관 유지관리</li>
 							</ul>
-							<button type="button" class="btn btn-primary mt10" onclick="location.href='env_sudoe.html'">
+							<button type="button" class="btn btn-primary mt10" onclick="href('env_sudoe')">
 								환경사업소개 <i class="fas fa-arrow-circle-right"></i>
 							</button>
 						</div>
@@ -799,7 +799,7 @@
 						<li>전라북도 전주시 덕진구 원만성로55</li>
 						<li>폐기물 소각/스팀 공급</li>
 					</ul>
-					<button type="button" class="btn btn-primary mt10" onclick="location.href='env_sudoe.html'">
+					<button type="button" class="btn btn-primary mt10" onclick="href('env_sudoe')">
 						사업소개 바로가기 <i class="fas fa-arrow-circle-right"></i>
 					</button>
 				</li>
@@ -823,7 +823,7 @@
 								<li>전라북도 전주시 덕진구 원만성로55</li>
 								<li>폐기물 소각/스팀 공급</li>
 							</ul>
-							<button type="button" class="btn btn-primary mt10" onclick="location.href='env_sudoe.html'">
+							<button type="button" class="btn btn-primary mt10" onclick="href('env_sudoe')">
 								환경사업소개 <i class="fas fa-arrow-circle-right"></i>
 							</button>
 						</div>
@@ -844,7 +844,7 @@
 						<li>연 폐기물 반입량 1,912,348톤</li>
 						<li>건설 폐기물 중간 처리/수집 운반</li>
 					</ul>
-					<button type="button" class="btn btn-primary mt10" onclick="location.href='env_sudoe.html'">
+					<button type="button" class="btn btn-primary mt10" onclick="href('env_sudoe')">
 						사업소개 바로가기 <i class="fas fa-arrow-circle-right"></i>
 					</button>
 				</li>
@@ -869,7 +869,7 @@
 								<li>연 폐기물 반입량 1,912,348톤</li>
 								<li>건설 폐기물 중간 처리/수집 운반</li>
 							</ul>
-							<button type="button" class="btn btn-primary mt10" onclick="location.href='env_sudoe.html'">
+							<button type="button" class="btn btn-primary mt10" onclick="href('env_sudoe')">
 								사업소개 바로가기 <i class="fas fa-arrow-circle-right"></i>
 							</button>
 						</div>
@@ -890,7 +890,7 @@
 						<li>레미콘 제조/판매, 아스콘 제조/판매</li>
 						<li>시설용량: 레미콘 1,680톤/일, 아스콘 640톤/일</li>
 					</ul>
-					<button type="button" class="btn btn-primary mt10" onclick="location.href='env_sudoe.html'">
+					<button type="button" class="btn btn-primary mt10" onclick="href('env_sudoe')">
 						사업소개 바로가기 <i class="fas fa-arrow-circle-right"></i>
 					</button>
 				</li>
@@ -908,7 +908,7 @@
 						<li>건설폐기물처리, 유제판매, 건설장비임대</li>
 						<li>시설용량: 건폐 1,200톤/일</li>
 					</ul>
-					<button type="button" class="btn btn-primary mt10" onclick="location.href='env_sudoe.html'">
+					<button type="button" class="btn btn-primary mt10" onclick="href('env_sudoe')">
 						사업소개 바로가기 <i class="fas fa-arrow-circle-right"></i>
 					</button>
 				</li>
@@ -926,7 +926,7 @@
 						<li>아스콘 제조/판매, 건설폐기물처리</li>
 						<li>시설용량: 아스콘 720톤/일, 건폐 1,600톤/일</li>
 					</ul>
-					<button type="button" class="btn btn-primary mt10" onclick="location.href='env_sudoe.html'">
+					<button type="button" class="btn btn-primary mt10" onclick="href('env_sudoe')">
 						사업소개 바로가기 <i class="fas fa-arrow-circle-right"></i>
 					</button>
 				</li>
@@ -963,7 +963,7 @@
 								<li>105 Gun Beach Road, Tumon, Guam</li>
 								<li>연면적 19731.0㎡</li>
 							</ul>
-							<button type="button" class="btn btn-primary mt10 mb10" onclick="location.href='realasset.html'">
+							<button type="button" class="btn btn-primary mt10 mb10" onclick="href('realasset')">
 								부동산사업소개 <i class="fas fa-arrow-circle-right"></i>
 							</button>
 						</div>
@@ -1004,7 +1004,7 @@
 								<li>연면적 13349.0㎡</li>
 								<li>PM/FM 통합건물관리</li>
 							</ul>
-							<button type="button" class="btn btn-primary mt10" onclick="location.href='realasset.html'">
+							<button type="button" class="btn btn-primary mt10" onclick="href('realasset')">
 								부동산 사업소개 <i class="fas fa-arrow-circle-right"></i>
 							</button>
 						</div>
@@ -1046,7 +1046,7 @@
 								<li>총 구간 : 4.8km (미포~청사포~송정)</li>
 								<li>운영분야 : 임대관리(LM)</li>
 							</ul>
-							<button type="button" class="btn btn-primary mt10" onclick="location.href='realasset.html'">
+							<button type="button" class="btn btn-primary mt10" onclick="href('realasset')">
 								부동산 사업소개 <i class="fas fa-arrow-circle-right"></i>
 							</button>
 						</div>
@@ -1088,7 +1088,7 @@
 								<li>허가용량: 소각 70.1톤/일</li>
 								<li>처리기술 : Stoker식 소각로</li>
 							</ul>
-							<button type="button" class="btn btn-primary mt10" onclick="location.href='realasset.html'">
+							<button type="button" class="btn btn-primary mt10" onclick="href('realasset')">
 								사업소개 <i class="fas fa-arrow-circle-right"></i>
 							</button>
 						</div>
@@ -1140,7 +1140,7 @@
 								<li>연면적 11570.9㎡</li>
 								<li>PM/FM 통합건물관리</li>
 							</ul>
-							<button type="button" class="btn btn-primary mt10" onclick="location.href='realasset.html'">
+							<button type="button" class="btn btn-primary mt10" onclick="href('realasset')">
 								부동산 사업소개 <i class="fas fa-arrow-circle-right"></i>
 							</button>
 						</div>
