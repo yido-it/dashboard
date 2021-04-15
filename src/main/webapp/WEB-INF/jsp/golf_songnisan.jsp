@@ -82,15 +82,15 @@
 				<ul class="ul_data">
 					<li><span class="fl tit">팀수</span>
 						<div class="fr box bg_red">
-							<span class="bold num"><span class="counter" id="enTeam">0</span>/ <span id="bookTeam">0</span></span> <span class="unit">팀</span>
+							<span class="bold num"><span class="counter_status" id="enTeam">0</span>/ <span id="bookTeam">0</span></span> <span class="unit">팀</span>
 						</div></li>
 					<li><span class="fl tit">내장인원</span>
 						<div class="fr box bg_blue">
-							<span class="bold num counter" id="enCnt">0</span> <span class="unit">명</span>
+							<span class="bold num counter_status" id="enCnt">0</span> <span class="unit">명</span>
 						</div></li>
 					<li><span class="fl tit">매출</span>
 						<div class="fr box bg_green">
-							<span class="bold num counter" id="amt">0</span> <span class="unit">만원</span>
+							<span class="bold num counter_status" id="amt">0</span> <span class="unit">만원</span>
 						</div></li>
 				</ul>
 				<div class="cb"></div>
@@ -159,25 +159,37 @@
 <!--4번째컨텐츠-->
 <div class="content_04" style="background: url(resource/images/bg.jpg) no-repeat 0 0">
 	<div class="content_04-1">
-		<div class="title_month">CLUBD 속리산 2021년 4월 Business Status</div>
+		<div class="title_month">
+			CLUBD 속리산
+			<num id="yyMm"></num>
+			Business Status
+		</div>
 		<ul class="section_data">
 			<li>
-				<p>매출</p> <span class="counter">644</span>억 <br>
-				<div class="year_count">계획 1,238억</div> <!-- 차트 -->
+				<p>매출</p> <span class="counter_status" id="saleAmt"></span>억 <br>
+				<div class="year_count">
+					계획
+					<h10 id="planAmt"> </h10>
+					억
+				</div> <!-- 차트 -->
 				<div id="chartdiv1" class="chartDiv"></div>
 			</li>
 			<li>
-				<p style="font-size: 18px">예약팀수</p> <span class="counter">1,769</span>팀 <br>
-				<div class="year_count">전체팀수 2,247팀</div>
+				<p style="font-size: 17px">예약팀수</p> <span class="counter_status" id="bookTeeup"></span>팀 <br>
+				<div class="year_count">
+					전체팀수
+					<h10 id="allTeeup"> </h10>
+					팀
+				</div>
 				<div id="chartdiv2" class="chartDiv"></div>
 			</li>
 			<li>
-				<p>내장객</p> <span class="counter">1334</span>명 <br>
+				<p>내장객</p> <span class="counter_status" id="enCnts"></span>명 <br>
 				<div class="year_count"></div>
 				<div id="chartdiv5" class="chartDiv"></div>
 			</li>
 			<li>
-				<p>객단가</p> <span class="counter">122,227</span>원 <br>
+				<p>객단가</p> <span class="counter_status" id="allPerson"></span>원 <br>
 				<div class="year_count"></div>
 				<div id="chartdiv6" class="chartDiv"></div>
 			</li>
@@ -195,50 +207,23 @@
 		getDashboardStatus();
 		getDashboardLine();
 		
-		am4core.ready(function() {
-			// Themes begin
-			am4core.useTheme(am4themes_dark);
-			// Themes end
-			fnMakePieChart("chartdiv1", div1, div1_text);
-			fnMakePieChart("chartdiv2", div2, div2_text);  
-			fnMakePieChart("chartdiv3", div3, div3_text);
-			fnMakePieChart("chartdiv4", div4, div4_text);
-			
-			var div5 = [];
-			div5.push({date:1, value1:2308});
-			div5.push({date:2, value1:5191});
-			div5.push({date:3, value1:8662});
-			div5.push({date:4, value1:3662});
-			
-			var div6 = [];
-			div6.push({date:1, value1:96965});
-			div6.push({date:2, value1:118011});
-			div6.push({date:3, value1:80085});
-			div6.push({date:4, value1:135857});
-	
-			console.log(div6);
-	
-			fnMakeLineChart("chartdiv5", div5);
-			fnMakeLineChart2("chartdiv6", div6);
-			
-		/************************** divchart7 end *******************/
-		}); // end am4core.ready()		
-		
 	});
 	
-	$(".cb").on("click", function(){
-		$(".top_txt").hide();
-		$(".coDiv").show();
-	});
-	$(".okay").on("click", function(){
-		location.href="/dashboard.do?coDiv=" + $(".coDiv input").val();
-	});
+// 	$(".cb").on("click", function(){
+// 		$(".top_txt").hide();
+// 		$(".coDiv").show();
+// 	});
+// 	$(".okay").on("click", function(){
+// 		location.href="/dashboard.do?coDiv=" + $(".coDiv input").val();
+// 	});
 	
 	var sUrl1 = "http://10.10.85.83:8080/dash/getDashboardInfo.do";
 	var sUrl2 = "http://10.10.85.83:8080/dash/getDashboardCart.do";
 	var sUrl3 = "http://10.10.85.83:8080/dash/getDashboardStatus.do";
 	var sUrl4 = "http://10.10.85.83:8080/dash/getDashboardLine.do";
 	var sParams = {};
+	var lineData = [];
+	var lineData2 = [];
 
 	setInterval(function(){
 		getDashboardInfo(),
@@ -248,7 +233,7 @@
         }, 30000);
 
     function getDashboardInfo(){
-    	sParams["coDiv"] = '05';
+    	sParams["coDiv"] = '02';
     	$.get(sUrl1, sParams, function(result) {
     		var data = JSON.parse(result)
 			var d = new Date();
@@ -267,7 +252,7 @@
     
     function getDashboardCart(){
     	$(".cart_map p, .cart_map img").hide();
-    	sParams["coDiv"] = '05';
+    	sParams["coDiv"] = '02';
     	$.get(sUrl2, sParams, function(result) {
     		var data = JSON.parse(result)
 			var d = new Date();
@@ -283,7 +268,7 @@
     }
     
     function getDashboardStatus(){
-    	sParams["coDiv"] = '05';
+    	sParams["coDiv"] = '02';
     	$.get(sUrl3, sParams, function(result) {
     		var data = JSON.parse(result)
 			var d = new Date();
@@ -299,31 +284,41 @@
     	    	$("#planAmt").html(planAmt); 	//계획매출
     	    	var saleAmt = (item.SALE_AMT/100000000).toFixed(2)
     	    	$("#saleAmt").html(numberWithCommas(saleAmt)); 	//매출
-    	    	
-    	    	$('.counter').counterUp({
-    	            delay: 10,
-    	            time: 1000
-    	        });
-
+    	    	text1 = (saleAmt / planAmt * 100).toFixed(1);
+    	    	text2 = (item.BOOK_TEEUP / item.ALL_TEEUP * 100).toFixed(1);
     	    }
-    	});
+    	}).done(function(){
+    		fnMakePieChart("chartdiv1", div1, text1 + "%");
+			fnMakePieChart("chartdiv2", div2, text2 + "%");  
+    		
+    		$('.counter_status').counterUp({
+	            delay: 10,
+	            time: 1000
+	        });
+    	})
     }
     
     function getDashboardLine(){
-    	sParams["coDiv"] = '05';
+    	var lineData = [];
+    	var lineData2 = [];
+    	sParams["coDiv"] = '02';
     	$.get(sUrl4, sParams, function(result) {
     		var data = JSON.parse(result)
 			var d = new Date();
     	    if(data.resultCode == "0000") {
-    	        data.rows.forEach(function(item){
-    	        	
-    	        	var dataCart = item.CURRENTCOURSE + item.CURRENTHOLE + item.CURRENTPAR;
-    	        	$(".cart_map ."+dataCart).html(item.CART_NO).show().next().show();
-    	        })
-
+    	    	data.rows.forEach(function(item){
+	    	    	console.log(item);
+    	    		lineData.push({date: item.month.replace(/(^0+)/, ""), value1 : item.EN_CNT});
+    	    		lineData2.push({date: item.month.replace(/(^0+)/, ""), value1 : item.ALL_PERSON});
+    	    	});
     	    }
-    	});
+    	    
+   	    }).done(function(){
+   	    	fnMakeLineChart("chartdiv5", lineData);
+    	    fnMakeLineChart2("chartdiv6", lineData2);
+   	    });
     }
+    
 
  
  <!--지도액션추가 -->
