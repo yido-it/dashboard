@@ -14,6 +14,7 @@
 <div class="script"></div>
 <!-- <script src="/resource/js/main.js"></script> -->
 <script>
+var dashboard;
 $(document).ready(function(){
 	href("main");
 	
@@ -27,7 +28,9 @@ $(document).ready(function(){
 });
 	
 function href(path){
+	clearInterval(dashboard);
 	$("body").removeClass("modal-open");
+	
 	$(".content").load("/load/"+path, function (){
 		$.getScript("/resource/js/common.js", function (){
 		});

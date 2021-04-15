@@ -110,13 +110,17 @@
 	var sUrl3 = "http://10.10.85.83:8080/dash/getDashboardStatus.do";
 	var sUrl4 = "http://10.10.85.83:8080/dash/getDashboardLine.do";
 	var sParams = {};
-
-	setInterval(function(){
-		getDashboardInfo(),
-		getDashboardCart(),
-		getDashboardStatus(),
-		getDashboardLine()
+	
+	dashboard = setInterval(function(){
+		getDashboard()
         }, 30000);
+	
+	function getDashboard(){
+		getDashboardInfo();
+		getDashboardCart();
+		getDashboardStatus();
+		getDashboardLine();
+	}
 
     function getDashboardInfo(){
     	sParams["coDiv"] = '03';

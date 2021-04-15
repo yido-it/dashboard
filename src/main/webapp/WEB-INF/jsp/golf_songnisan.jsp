@@ -225,12 +225,17 @@
 	var lineData = [];
 	var lineData2 = [];
 
-	setInterval(function(){
-		getDashboardInfo(),
-		getDashboardCart(),
-		getDashboardStatus(),
-		getDashboardLine()
+
+	dashboard = setInterval(function(){
+		getDashboard()
         }, 30000);
+	
+	function getDashboard(){
+		getDashboardInfo();
+		getDashboardCart();
+		getDashboardStatus();
+		getDashboardLine();
+	}
 
     function getDashboardInfo(){
     	sParams["coDiv"] = '02';
