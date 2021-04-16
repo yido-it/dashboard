@@ -11,7 +11,7 @@
 			<br /> 작업장을 최첨단 현대화 시설로 탈바꿈 시켜 비산먼지와 소음을 최소화 하였고, <br />골재 생산 능력을 극대화 하여 자원 재생 능력이 효율적으로 탈바꿈하였습니다.<br /> 건설 폐기물을 친환경적으로 처리하는 동시에 버려지는 쓰레기들을 품질 좋은 자원으로 재생산 해 내고 있습니다.
 		</h2>
 	</div>
-	<%@include file="content01/env.jsp"%>
+	<%@include file="content01/env.jsp"%> 
 </div>
 <div class="content_02">
 	<div class="container tc">
