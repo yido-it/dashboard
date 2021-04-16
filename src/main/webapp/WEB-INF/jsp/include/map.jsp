@@ -521,7 +521,7 @@
 						<li>CLUBD 금강 골프장 통합관리운영</li>
 						<li>18홀 코스 (East:9홀, West:9홀)</li>
 					</ul>
-					<button type="button" class="btn btn-primary mt10" onclick="href('golf_geumgang')'">
+					<button type="button" class="btn btn-primary mt10" onclick="href('golf_geumgang')">
 						사업소개 바로가기 <i class="fas fa-arrow-circle-right"></i>
 					</button>
 				</li>

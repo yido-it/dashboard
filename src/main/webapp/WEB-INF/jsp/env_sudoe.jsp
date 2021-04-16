@@ -19,7 +19,7 @@
 			<div class="title_month tl" style="padding: 1%">수도권환경 │ 작업 공종도</div>
 			<!--공종도 이미지 -->
 			<div class="fl div_gongjong_left" style="position: relative">
-				<img src="resource/images/env/sudoe_gongjong.jpg" usemap="#gongjong_map" style="width: 796px">
+				<div class="content02_env_sudoe"> </div>
 				<div class="gongjong_area area1" id="btn_gongjong01"></div>
 				<div class="gongjong_area area2"></div>
 				<div class="gongjong_area area3"></div>

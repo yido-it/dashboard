@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
 <div class="content_01">
 	<div class="content_01-2 content01_env_ilsung" style="">
 		<div class="tc mt100">
@@ -16,7 +17,7 @@
 	<div class="container tc">
 		<div class="tab_content" style="margin-left: 60px">
 			<div class="title_month tl" style="padding: 1%">일성 │ 작업 공종도</div>
-			<img src="resource/images/ilsung/ilsung_gongjong.jpg">
+				<div class="content02_env_ilsung"> </div>
 			<!-- 공종도 NEw-->
 			<div class="row mt50">
 				<div class="col-xs-12">
@@ -234,3 +235,5 @@
 	</div>
 </div>
 <!--//4번째컨텐츠-->
+
+

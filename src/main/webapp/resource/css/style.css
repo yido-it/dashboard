@@ -728,6 +728,7 @@ background: url(../images/env/video/video_m3_2.jpg) no-repeat 0 0;background-siz
 } 
 
 .img_cart{width: 43px;  position: absolute;  margin-top: 27px;  margin-left: 15px;}
+
 .BoeunEast p, .GeochangSouth p, .SongnisanEast p { z-index:9999999;background:#ffa904; /* default background for browsers without gradient support */
   /* css3 */
   background:-webkit-gradient(linear, 0 0, 0 100%, from(#ffa904), to(#a56300));
@@ -735,8 +736,8 @@ background: url(../images/env/video/video_m3_2.jpg) no-repeat 0 0;background-siz
   background:-o-linear-gradient(#ffa904, #a56300);
   background:linear-gradient(#ffa904, #a56300);
  }
- .BoeunEast .triangle-right:after, .GeochangSouth .triangle-right:after, .SongnisanEast .triangle-right:after{border-color: #a56300 transparent;}
-
+.BoeunEast .triangle-right:after, .GeochangSouth .triangle-right:after, .SongnisanEast .triangle-right:after{border-color: #a56300 transparent;}
+.BoeunWest p{z-index:999999}
 
  .SongnisanWest p, .GeochangEast p { z-index:9999999;background:#ed1a3b; /* default background for browsers without gradient support */
   /* css3 */
@@ -975,7 +976,10 @@ background: url(../images/env/video/video_m3_2.jpg) no-repeat 0 0;background-siz
 .content01_main{background: url(/resource/images/main/environment1.jpg) no-repeat 100% 0%; background-size: 110%}
 .content01_env{background: url(/resource/images/main/environment.jpg) no-repeat 86% 53%; background-size: 110%}
 .content01_env_sudoe{background: url(/resource/images/main/sudoe.jpg) no-repeat 100% 0%; background-size: 100%}
+.content02_env_sudoe{background: url(/resource/images/env/sudoe_gongjong.jpg) no-repeat 100% 0%; background-size: 100%;width:796px;height:558px}
 .content01_env_ilsung{background: url(/resource/images/ilsung/ilsung_textbg.jpg) no-repeat 50% 50%; background-size: 100%}
+.content02_env_ilsung{background: url(/resource/images/ilsung/ilsung_gongjong.jpg) no-repeat 50% 50%; background-size: 100%;width:900px;height:533px}
+
 
 .content01_golf{background: url(/resource/images/golf/bg_boeun.jpg) no-repeat 100% 0%; background-size: 100%}
 .content01_golf_boeun{background: url(/resource/images/golf/bg_boeun.jpg) no-repeat 100% 0%; background-size: 100%}
