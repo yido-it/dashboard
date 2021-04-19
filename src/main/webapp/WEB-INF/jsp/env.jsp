@@ -23,7 +23,7 @@
 		<div class="title_month">환경사업 2021년 3월 누적 Business Status</div>
 		<ul class="section_data">
 			<li>
-				<p>매출</p> <span class="counter">133</span>억 <br>
+				<p>매출</p> <span class="counter">133</span>억 <br> 
 				<div class="year_count">계획 128억</div>
 				<div id="chartdiv2" class="chartDiv"></div>
 			</li>
