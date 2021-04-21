@@ -5,7 +5,7 @@
 	<div class="content_01-2 content01_main" style="">
 		<!-- <div class="title_month">YIDO 매출비율</div> -->
 		<div class="tc mt50">
-			<img style="" src="resource/images/main/slogan2.png">
+			<div class="slogan" style="width:750px; height: 161px;display:inline-block;" ></div>
 		</div>
 		<h2 class="tc colorwhite fs18" style="line-height: 29px; margin-top: 30px">
 			이도(YIDO)는 인류의 더 나은 삶의 질을 위한 비전으로 깨끗한 환경을 만들기 위해 <br />친환경 폐기물 및 수처리 사업장을 운영하고 있습니다.<br> 또한, IT를 접목한 최첨단의 인프라, 골프장, 부동산 자산 운영을 통해 <br />보다 안전하고, 편리한 삶을 만들기 위해 노력하는 기업입니다.

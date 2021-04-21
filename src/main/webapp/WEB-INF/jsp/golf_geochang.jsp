@@ -200,15 +200,15 @@
 				<ul class="ul_data">
 					<li><span class="fl tit">팀수</span>
 						<div class="fr box bg_red">
-							<span class="bold num"><span class="counter" id="enTeam">0</span>/ <span id="bookTeam">0</span></span> <span class="unit">팀</span>
+							<span class="bold num"><span class="counter_status" id="enTeam">0</span>/ <span id="bookTeam">0</span></span> <span class="unit">팀</span>
 						</div></li>
 					<li><span class="fl tit">내장인원</span>
 						<div class="fr box bg_blue">
-							<span class="bold num counter" id="enCnt">0</span> <span class="unit">명</span>
+							<span class="bold num counter_status" id="enCnt">0</span> <span class="unit">명</span>
 						</div></li>
 					<li><span class="fl tit">매출</span>
 						<div class="fr box bg_green">
-							<span class="bold num counter" id="amt">0</span> <span class="unit">만원</span>
+							<span class="bold num counter_status" id="amt">0</span> <span class="unit">만원</span>
 						</div></li>
 				</ul>
 				<div class="cb"></div>
@@ -279,10 +279,10 @@
 		location.href="/dashboard.do?coDiv=" + $(".coDiv input").val();
 	});
 	
-	var sUrl1 = "http://10.10.85.83:8080/dash/getDashboardInfo.do";
-	var sUrl2 = "http://10.10.85.83:8080/dash/getDashboardCart.do";
-	var sUrl3 = "http://10.10.85.83:8080/dash/getDashboardStatus.do";
-	var sUrl4 = "http://10.10.85.83:8080/dash/getDashboardLine.do";
+	var sUrl1 = "http://101.101.160.40:8080/dash/getDashboardInfo.do";
+	var sUrl2 = "http://101.101.160.40:8080/dash/getDashboardCart.do";
+	var sUrl3 = "http://101.101.160.40:8080/dash/getDashboardStatus.do";
+	var sUrl4 = "http://101.101.160.40:8080/dash/getDashboardLine.do";
 	var sParams = {};
 
 	dashboard = setInterval(function(){
