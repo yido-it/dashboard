@@ -224,56 +224,49 @@
 <div class="content_04">
 	<div class="content_04-1">
 		<div class="title_month">
-			<i class="fas fa-circle-notch"></i> 수도권환경 2020년 12월 누적 Business Status
+			<i class="fas fa-circle-notch"></i> 수도권환경 2021년 3월 누적 Business Status
 		</div>
-		<ul class="section_data">
+		<ul class="section_data section_data2">
 			<li>
-				<p>계약</p> <span class="counter">644</span>억 <br>
-				<div class="year_count">계획 238억</div> <!-- 차트 -->
-				<div id="chartdiv1" class="chartDiv"></div>
-			</li>
-			<li>
-				<p>매출</p> <span class="counter">1,769</span>억 <br>
-				<div class="year_count">계획 247억</div>
+				<p>매출</p> <span class="counter">98</span>억 <br>
+				<div class="year_count">계획 93억</div>
 				<div id="chartdiv2" class="chartDiv"></div>
 			</li>
 			<li>
-				<p>이익</p> <span class="counter">350</span>억 <br>
-				<div class="year_count">계획 90억</div>
+				<p>이익</p> <span class="counter">3.4</span>억 <br>
+				<div class="year_count">계획 -억</div>
 				<div id="chartdiv3" class="chartDiv"></div>
 			</li>
 			<li>
-				<p>원가율</p> <span class="counter">95.2</span>% <br>
-				<div class="year_count">계획 93.1%</div>
+				<p>원가율</p> <span class="counter">96.5</span>% <br>
+				<div class="year_count">계획 96.5%</div>
 				<div id="chartdiv4" class="chartDiv"></div>
 			</li>
+			
 		</ul>
 	</div>
 	<div class="content_04-2" style="background: url(resource/images/bg.jpg) no-repeat 0% 88%;">
 		<div class="title_month">
-			<i class="fas fa-chart-line"></i> 수도권환경 2020년 12월 Chart
+			<i class="fas fa-chart-line"></i> 수도권환경 2021년 3월 Chart
 		</div>
-		<ul class="section_data">
+		<ul class="section_data section_data2">
+		
 			<li>
-				<p>계약</p> <span class="counter">17</span>억 <br>
-				<div class="year_count">계획 0</div> <!-- HTML -->
-				<div id="chartdiv5" class="chartDiv"></div>
+				<p>매출</p> <span class="counter">35</span>억 <br>
+				<div class="year_count">계획 37억</div>
+				<div id="sudoe_s" class="chartDiv"></div>
 			</li>
 			<li>
-				<p>매출</p> <span class="counter">160</span>억 <br>
-				<div class="year_count">계획 54억</div>
-				<div id="chartdiv6" class="chartDiv"></div>
+				<p>이익</p> <span class="counter">1.7</span>억 <br>
+				<div class="year_count">계획 -억</div>
+				<div id="sudoe_p" class="chartDiv"></div>
 			</li>
 			<li>
-				<p>이익</p> <span class="counter">28</span>억 <br>
-				<div class="year_count">계획 7억</div>
-				<div id="chartdiv7" class="chartDiv"></div>
+				<p>원가율</p> <span class="counter">95.1</span>% <br>
+				<div class="year_count">계획 93.9%</div>
+				<div id="sudoe_c" class="chartDiv"></div>
 			</li>
-			<li>
-				<p>원가율</p> <span class="counter">97.7</span>% <br>
-				<div class="year_count">87.0%</div>
-				<div id="chartdiv8" class="chartDiv"></div>
-			</li>
+		
 		</ul>
 	</div>
 </div>

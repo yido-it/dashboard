@@ -25,7 +25,7 @@
 <div class="content_04">
 	<div class="content_04-1">
 		<div class="title_month">YIDO 2021년 3월 누적 Business Status</div>
-		<ul class="section_data">
+		<ul class="section_data section_data2">
 			<li>
 				<p>매출</p> <span class="counter">379</span>억 <br>
 				<div class="year_count">계획 372억</div>
@@ -41,16 +41,12 @@
 				<div class="year_count">계획 97.8%</div>
 				<div id="chartdiv4" class="chartDiv"></div>
 			</li>
-			<li>
-				<p>계약</p> <span class="counter">0</span>억 <br>
-				<div class="year_count">계획 -억</div> <!-- 차트 -->
-				<div id="chartdiv1" class="chartDiv"></div>
-			</li>
+			
 		</ul>
 	</div>
 	<div class="content_04-2" style="background: url(resource/images/bg.jpg) no-repeat 0% 88%;">
 		<div class="title_month">YIDO 2021년 3월 Chart</div>
-		<ul class="section_data">
+		<ul class="section_data section_data2">
 			<li>
 				<p>매출</p> <span class="counter">146</span>억 <br>
 				<div class="year_count">계획 155억</div>
@@ -66,11 +62,7 @@
 				<div class="year_count">계획 87.6%</div>
 				<div id="chartdiv8" class="chartDiv"></div>
 			</li>
-			<li>
-				<p>계약</p> <span class="counter">0</span>억 <br>
-				<div class="year_count">계획 0</div> <!-- HTML -->
-				<div id="chartdiv5" class="chartDiv"></div>
-			</li>
+		
 		</ul>
 	</div>
 </div>

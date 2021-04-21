@@ -24,7 +24,7 @@
 <div class="content_04">
 	<div class="content_04-1">
 		<div class="title_month">골프사업 2021년 3월 누적 Business Status</div>
-		<ul class="section_data">
+		<ul class="section_data section_data2">
 			<li>
 				<p>매출</p> <span class="counter">379</span>억 <br>
 				<div class="year_count">계획 372억</div>
@@ -40,36 +40,28 @@
 				<div class="year_count">계획 97.8%</div>
 				<div id="chartdiv4" class="chartDiv"></div>
 			</li>
-			<li>
-				<p>계약</p> <span class="counter">0</span>억 <br>
-				<div class="year_count">계획 -억</div> <!-- 차트 -->
-				<div id="chartdiv1" class="chartDiv"></div>
-			</li>
+
 		</ul>
 	</div>
 	<div class="content_04-2" style="background: url(resource/images/bg.jpg) no-repeat 0% 88%;">
-		<div class="title_month">골프사업 2021년 4월 Chart</div>
-		<ul class="section_data">
+		<div class="title_month">골프사업 2021년 3월 Chart</div>
+		<ul class="section_data section_data2">
 			<li>
 				<p>매출</p> <span class="counter">65.7</span>억 <br>
 				<div class="year_count">계획 57.9억</div>
-				<div id="chartdiv6" class="chartDiv"></div>
+				<div id="golf_s" class="chartDiv"></div>
 			</li>
 			<li>
 				<p>이익</p> <span class="counter">-4.2</span>억 <br>
 				<div class="year_count">계획 -14억</div>
-				<div id="chartdiv7" class="chartDiv"></div>
+				<div id="golf_p" class="chartDiv"></div>
 			</li>
 			<li>
 				<p>원가율</p> <span class="counter">106.4</span>% <br>
 				<div class="year_count">계획 125.1%</div>
-				<div id="chartdiv8" class="chartDiv"></div>
+				<div id="golf_c" class="chartDiv"></div>
 			</li>
-			<li>
-				<p>계약</p> <span class="counter">0</span>억 <br>
-				<div class="year_count">계획 0</div> <!-- HTML -->
-				<div id="chartdiv5" class="chartDiv"></div>
-			</li>
+
 		</ul>
 	</div>
 </div>
