@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
 <div class="content_01">
 	<div class="content_01-2 content01_env_sudoe" style="">
 		<!-- <div class="title_month">YIDO 매출비율</div> -->
