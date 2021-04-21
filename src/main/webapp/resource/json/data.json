@@ -1,6 +1,6 @@
-div1 = [{ //계약
+div1 = [{ //이도누적계약
   "category": "달성",
-  "value": 52,
+  "value": 0,
   "fill":"#00ffcc" 
   
 }, {
@@ -9,11 +9,11 @@ div1 = [{ //계약
   "fill":"#ffffff"
 }];
 
-div1_text = "52%";
+div1_text = "0%";
 
-div2 = [{ //매출
+div2 = [{ //이도누적 매출 
   "category": "달성",
-  "value": 79,
+  "value": 101,
   "fill":"yellow"
 }, {
   "category": "미달성",
@@ -21,11 +21,11 @@ div2 = [{ //매출
   "fill":"#ffffff"
 }];
 
-div2_text = "79%";
+div2_text = "101%";
 
-div3 =[{ //이익
+div3 =[{ //이도누적 이익
   "category": "달성",
-  "value": 71,
+  "value": 38,
   "fill":"#00ccff"
 }, {
   "category": "미달성",
@@ -33,11 +33,11 @@ div3 =[{ //이익
   "fill":"#ffffff"
 }];
 
-div3_text = "71%";
+div3_text = "38%";
 
-div4 = [{ //원가
+div4 = [{ // 이도누적 원가
   "category": "달성",
-  "value": 2,
+  "value": 11,
   "fill":"#ff8a00"
 }, {
   "category": "미달성",
@@ -45,64 +45,102 @@ div4 = [{ //원가
   "fill":"#ffffff"
 }];
 
-div4_text = "2%";
+div4_text = "-3.5%";
 
+
+
+
+
+
+
+//이도 하단 월별 변화그래프
 div5=[
   {date:"1", value1:50, value2:48},
   {date:"2", value1:53, value2:51},
-  {date:"3", value1:56, value2:58},
-  {date:"4", value1:52, value2:53},
-  {date:"5", value1:48, value2:44},
-  {date:"6", value1:47, value2:42},
-  {date:"7", value1:59, value2:55},
-  {date:"8", value1:60, value2:65},
-  {date:"9", value1:63, value2:60},
-  {date:"10", value1:42, value2:50},
-  {date:"11", value1:39, value2:55},
-  {date:"12", value1:71, value2:50}
+  {date:"3", value1:14608, value2:15545} 
 ];
 
-div6=[
-  {date:"1", value1:50, value2:48},
-  {date:"2", value1:53, value2:51},
-  {date:"3", value1:56, value2:58},
-  {date:"4", value1:52, value2:53},
-  {date:"5", value1:48, value2:44},
-  {date:"6", value1:47, value2:42},
-  {date:"7", value1:59, value2:55},
-  {date:"8", value1:60, value2:65},
-  {date:"9", value1:63, value2:60},
-  {date:"10", value1:42, value2:50},
-  {date:"11", value1:39, value2:55},
-  {date:"12", value1:71, value2:50}
+div6=[ //매출
+  {date:"1", value1:10254, value2:10197},
+  {date:"2", value1:12432, value2:10985},
+  {date:"3", value1:14608, value2:15545} 
 ];
 
-div7=[
-  {date:"1", value1:50, value2:48},
-  {date:"2", value1:53, value2:51},
-  {date:"3", value1:56, value2:58},
-  {date:"4", value1:52, value2:53},
-  {date:"5", value1:48, value2:44},
-  {date:"6", value1:47, value2:42},
-  {date:"7", value1:59, value2:55},
-  {date:"8", value1:60, value2:65},
-  {date:"9", value1:63, value2:60},
-  {date:"10", value1:42, value2:50},
-  {date:"11", value1:39, value2:55},
-  {date:"12", value1:71, value2:50}
+div7=[ //이익
+  {date:"1", value1:-572, value2:-210},
+  {date:"2", value1:641, value2:-502},
+  {date:"3", value1:1930, value2:2173} 
 ];
 
-div8=[
-  {date:"1", value1:50, value2:48},
-  {date:"2", value1:53, value2:51},
-  {date:"3", value1:56, value2:58},
-  {date:"4", value1:52, value2:53},
-  {date:"5", value1:48, value2:44},
-  {date:"6", value1:47, value2:42},
-  {date:"7", value1:59, value2:55},
-  {date:"8", value1:60, value2:65},
-  {date:"9", value1:63, value2:60},
-  {date:"10", value1:42, value2:50},
-  {date:"11", value1:39, value2:55},
-  {date:"12", value1:71, value2:50}
+div8=[ //원가
+  {date:"1", value1:119.4, value2:117.1},
+  {date:"2", value1:104.6, value2:94.8},
+  {date:"3", value1:87.6, value2:85.1} 
 ];
+
+golf_s=[ //골프매출
+  {date:"1", value1:119.4, value2:117.1},
+  {date:"2", value1:104.6, value2:94.8},
+  {date:"3", value1:87.6, value2:85.1} 
+];
+golf_p=[ //골프이익
+  {date:"1", value1:119.4, value2:117.1},
+  {date:"2", value1:104.6, value2:94.8},
+  {date:"3", value1:87.6, value2:85.1} 
+];
+golf_c=[ //골프원가
+  {date:"1", value1:119.4, value2:117.1},
+  {date:"2", value1:104.6, value2:94.8},
+  {date:"3", value1:87.6, value2:85.1} 
+];
+ 
+env_s=[ //환경매출
+  {date:"1", value1:4222, value2:4164},
+  {date:"2", value1:4234, value2:3721},
+  {date:"3", value1:4765, value2:5088} 
+];
+env_p=[ //환경이익
+  {date:"1", value1:93, value2:608},
+  {date:"2", value1:14, value2:-79},
+  {date:"3", value1:215, value2:164} 
+];
+env_c=[ //환경원가
+  {date:"1", value1:112.8, value2:100.4},
+  {date:"2", value1:99.7, value2:102.1},
+  {date:"3", value1:95.5, value2:96.8} 
+];
+
+
+
+sudoe_s=[ //수도권매출
+  {date:"1", value1:3049, value2:2906},
+  {date:"2", value1:3134, value2:2703},
+  {date:"3", value1:3530, value2:3750} 
+];
+sudoe_p=[ //수도권이익
+  {date:"1", value1:193, value2:193},
+  {date:"2", value1:-25, value2:-25},
+  {date:"3", value1:173, value2:173}
+];
+sudoe_c=[ //수도권원가
+  {date:"1", value1:109.6, value2:96.8},
+  {date:"2", value1:100.8, value2:102.3},
+  {date:"3", value1:95.1, value2:93.9}
+];
+
+ilsung_s=[ //일성매출
+  {date:"1", value1:148, value2:172},
+  {date:"2", value1:216, value2:172},
+  {date:"3", value1:287, value2:285}
+];
+ilsung_p=[ //일성이익
+  {date:"1", value1:198, value2:198},
+  {date:"2", value1:-102, value2:-102},
+  {date:"3", value1:-42, value2:-42}
+];
+ilsung_c=[ //일성원가
+  {date:"1", value1:246.9, value2:228.8},
+  {date:"2", value1:147.4, value2:158.1},
+  {date:"3", value1:114.9, value2:112.4}
+];
+ 

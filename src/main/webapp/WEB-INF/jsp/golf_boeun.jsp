@@ -186,7 +186,7 @@
 				<div id="chartdiv1" class="chartDiv"></div>
 			</li>
 			<li>
-				<p style="font-size: 17px">예약팀수</p> <span class="counter_status" id="bookTeeup"></span>팀 <br>
+				<p style="width: 98px;">예약팀수</p> <span class="counter_status" id="bookTeeup"></span>팀 <br>
 				<div class="year_count">
 					전체팀수
 					<h10 id="allTeeup"> </h10>
@@ -441,5 +441,4 @@
 			return n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 		}
 	}
-
 </script>

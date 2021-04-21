@@ -28,18 +28,31 @@ $(document).ready(function() {
 
 		// Themes begin
 		am4core.useTheme(am4themes_dark);
-		// Themes end
+		// 이도 첫화면 상단 실적
 		fnMakePieChart("chartdiv1", div1, div1_text);
 		fnMakePieChart("chartdiv2", div2, div2_text);
 		fnMakePieChart("chartdiv3", div3, div3_text);
 		fnMakePieChart("chartdiv4", div4, div4_text);
 
+		//월별 변화그래프
 		fnMakeLineChart("chartdiv5", div5);
 		fnMakeLineChart("chartdiv6", div6);
 		fnMakeLineChart("chartdiv7", div7);
 		fnMakeLineChart("chartdiv8", div8);
-
-		/************************** divchart7 end *******************/
+		fnMakeLineChart("golf_s", golf_s);
+		fnMakeLineChart("golf_p", golf_p);
+		fnMakeLineChart("golf_c", golf_c);
+		fnMakeLineChart("env_s", env_s);
+		fnMakeLineChart("env_p", env_p);
+		fnMakeLineChart("env_c", env_c);
+		fnMakeLineChart("sudoe_s", sudoe_s);
+		fnMakeLineChart("sudoe_p", sudoe_p);
+		fnMakeLineChart("sudoe_c", sudoe_c);
+		fnMakeLineChart("ilsung_s", ilsung_s);
+		fnMakeLineChart("ilsung_p", ilsung_p);
+		fnMakeLineChart("ilsung_c", ilsung_c);
+		
+		/**************************  end *******************/
 
 	}); // end am4core.ready()
 

@@ -5,7 +5,7 @@
 	<div class="content_01-2 content01_main" style="">
 		<!-- <div class="title_month">YIDO 매출비율</div> -->
 		<div class="tc mt50">
-			<div class="slogan" style="width:750px; height: 161px;display:inline-block;" ></div>
+			<img style="" src="resource/images/main/slogan2.png">
 		</div>
 		<h2 class="tc colorwhite fs18" style="line-height: 29px; margin-top: 30px">
 			이도(YIDO)는 인류의 더 나은 삶의 질을 위한 비전으로 깨끗한 환경을 만들기 위해 <br />친환경 폐기물 및 수처리 사업장을 운영하고 있습니다.<br> 또한, IT를 접목한 최첨단의 인프라, 골프장, 부동산 자산 운영을 통해 <br />보다 안전하고, 편리한 삶을 만들기 위해 노력하는 기업입니다.
@@ -25,7 +25,7 @@
 <div class="content_04">
 	<div class="content_04-1">
 		<div class="title_month">YIDO 2021년 3월 누적 Business Status</div>
-		<ul class="section_data">
+		<ul class="section_data section_data2">
 			<li>
 				<p>매출</p> <span class="counter">379</span>억 <br>
 				<div class="year_count">계획 372억</div>
@@ -41,16 +41,12 @@
 				<div class="year_count">계획 97.8%</div>
 				<div id="chartdiv4" class="chartDiv"></div>
 			</li>
-			<li>
-				<p>계약</p> <span class="counter">0</span>억 <br>
-				<div class="year_count">계획 -억</div> <!-- 차트 -->
-				<div id="chartdiv1" class="chartDiv"></div>
-			</li>
+			
 		</ul>
 	</div>
 	<div class="content_04-2" style="background: url(resource/images/bg.jpg) no-repeat 0% 88%;">
 		<div class="title_month">YIDO 2021년 3월 Chart</div>
-		<ul class="section_data">
+		<ul class="section_data section_data2">
 			<li>
 				<p>매출</p> <span class="counter">146</span>억 <br>
 				<div class="year_count">계획 155억</div>
@@ -66,11 +62,7 @@
 				<div class="year_count">계획 87.6%</div>
 				<div id="chartdiv8" class="chartDiv"></div>
 			</li>
-			<li>
-				<p>계약</p> <span class="counter">0</span>억 <br>
-				<div class="year_count">계획 0</div> <!-- HTML -->
-				<div id="chartdiv5" class="chartDiv"></div>
-			</li>
+		
 		</ul>
 	</div>
 </div>

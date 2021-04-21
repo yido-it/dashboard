@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
 <div class="content_01">
 	<div class="content_01-2 content01_env_ilsung" style="">
 		<div class="tc mt100">
@@ -16,7 +17,7 @@
 	<div class="container tc">
 		<div class="tab_content" style="margin-left: 60px">
 			<div class="title_month tl" style="padding: 1%">일성 │ 작업 공종도</div>
-			<img src="resource/images/ilsung/ilsung_gongjong.jpg">
+				<div class="content02_env_ilsung"> </div>
 			<!-- 공종도 NEw-->
 			<div class="row mt50">
 				<div class="col-xs-12">
@@ -61,63 +62,7 @@
 				</div>
 			</div>
 			<!-- //공종도 New -->
-			<!--공종도 이미지 -->
-			<!-- <div class="fl div_gongjong_left" style="position:relative">
-									<img src="resource/images/env/sudoe_gongjong.jpg" usemap="#gongjong_map" style="width:796px">
-
-									<div class="gongjong_area area1" id="btn_gongjong01"></div>
-									<div class="gongjong_area area2"></div>
-									<div class="gongjong_area area3"></div>
-									<div class="gongjong_area area4"></div>
-									<div class="gongjong_area area5"></div>
-    							</div> -->
-			<!-- <div class="div_gongjong tc">
-								
-
-									<div class="fl div_gongjong_right" >
-										<p class="bold" style="color: #153459;"><i class="fas fa-truck-moving" style="color: #153459;"></i>건설폐기물</p> 
-									   <button id="btn_gongjong01" class="btn btn-default colorwhite boldnone label  on">
-										   계근  
-										</button>		 			
-											 <div class="arrow2"><span class="gongjong_arrow"></span></div>
-										<button   id="btn_gongjong02"  class="btn btn-default   colorwhite boldnone label  ">
-										   하차
-										</button>	 
-										<div class="arrow2"><span class="gongjong_arrow"></span></div>
-									  <button   id="btn_gongjong03"  class="btn btn-default  colorwhite boldnone label  ">
-										   선별
-										</button>	 
-										 <div class="arrow2"><span class="gongjong_arrow"></span></div> 
-										 <button   id="btn_gongjong04"  class="btn btn-default  colorwhite boldnone label ">
-										   파쇄
-										</button>	 
-										<div class="arrow2"><span class="gongjong_arrow"></span></div>
-										 <button   id="btn_gongjong05"  class="btn btn-default  colorwhite boldnone label ">
-										   반출
-										</button>	 
-									   
-								   </div> 
-
-
-								   <div class="fl div_gongjong_right bgblue" style="width:775px">
-									<p class="bold" style="color:#2877f1"><i class="fas fa-trash-alt" style="color:#2877f1"></i>혼합폐기물 </p>
-									 <button   id="btn_gongjong06"  class="btn btn-default  colorwhite boldnone label  ">
-									   하차
-									</button>	 
-									 <div class="arrow2"><span class="gongjong_arrow"></span></div>
-						 
-									 <button   id="btn_gongjong08"  class="btn btn-default  colorwhite boldnone label ">
-									   선별
-									</button>	 
-									 <div class="arrow2"><span class="gongjong_arrow"></span></div>
-									 <button   id="btn_gongjong09"  class="btn btn-default  colorwhite boldnone label ">
-									   반출
-									</button>	 
-							   </div>  
-						
-								 
-
-									</div> -->
+	 
 		</div>
 	</div>
 </div>
@@ -180,57 +125,53 @@
 <div class="content_04">
 	<div class="content_04-1">
 		<div class="title_month">
-			<i class="fas fa-circle-notch"></i> 일성 2020년 12월 누적 Business Status
+			<i class="fas fa-circle-notch"></i> 일성 2021년 3월 누적 Business Status
 		</div>
-		<ul class="section_data">
+		<ul class="section_data section_data2">
+			
 			<li>
-				<p>계약</p> <span class="counter">644</span>억 <br>
-				<div class="year_count">계획 238억</div> <!-- 차트 -->
-				<div id="chartdiv1" class="chartDiv"></div>
-			</li>
-			<li>
-				<p>매출</p> <span class="counter">1,769</span>억 <br>
-				<div class="year_count">계획 247억</div>
+				<p>매출</p> <span class="counter">6.4</span>억 <br>
+				<div class="year_count">계획6억</div>
 				<div id="chartdiv2" class="chartDiv"></div>
 			</li>
 			<li>
-				<p>이익</p> <span class="counter">350</span>억 <br>
-				<div class="year_count">계획 90억</div>
+				<p>이익</p> <span class="counter">-3.4</span>억 <br>
+				<div class="year_count">계획 -억</div>
 				<div id="chartdiv3" class="chartDiv"></div>
 			</li>
 			<li>
-				<p>원가율</p> <span class="counter">95.2</span>% <br>
-				<div class="year_count">계획 93.1%</div>
+				<p>원가율</p> <span class="counter">153</span>% <br>
+				<div class="year_count">계획 155%</div>
 				<div id="chartdiv4" class="chartDiv"></div>
 			</li>
+		
 		</ul>
 	</div>
 	<div class="content_04-2" style="background: url(resource/images/bg.jpg) no-repeat 0% 88%;">
 		<div class="title_month">
-			<i class="fas fa-chart-line"></i> 일성 2020년 12월 Chart
+			<i class="fas fa-chart-line"></i> 일성 2021년 3월 Chart
 		</div>
-		<ul class="section_data">
+		<ul class="section_data section_data2">
+		
 			<li>
-				<p>계약</p> <span class="counter">17</span>억 <br>
-				<div class="year_count">계획 0</div> <!-- HTML -->
-				<div id="chartdiv5" class="chartDiv"></div>
+				<p>매출</p> <span class="counter">2.8</span>억 <br>
+				<div class="year_count">계획 2.8억</div>
+				<div id="ilsung_s" class="chartDiv"></div>
 			</li>
 			<li>
-				<p>매출</p> <span class="counter">160</span>억 <br>
-				<div class="year_count">계획 54억</div>
-				<div id="chartdiv6" class="chartDiv"></div>
+				<p>이익</p> <span class="counter">-0.4</span>억 <br>
+				<div class="year_count">계획 -억</div>
+				<div id="ilsung_p" class="chartDiv"></div>
 			</li>
 			<li>
-				<p>이익</p> <span class="counter">28</span>억 <br>
-				<div class="year_count">계획 7억</div>
-				<div id="chartdiv7" class="chartDiv"></div>
+				<p>원가율</p> <span class="counter">114.9</span>% <br>
+				<div class="year_count">계획112.4%</div>
+				<div id="ilsung_c" class="chartDiv"></div>
 			</li>
-			<li>
-				<p>원가율</p> <span class="counter">97.7</span>% <br>
-				<div class="year_count">87.0%</div>
-				<div id="chartdiv8" class="chartDiv"></div>
-			</li>
+		
 		</ul>
 	</div>
 </div>
 <!--//4번째컨텐츠-->
+
+
