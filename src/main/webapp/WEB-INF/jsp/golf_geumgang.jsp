@@ -97,30 +97,26 @@
 		
 	});
 	
-	$(".cb").on("click", function(){
-		$(".top_txt").hide();
-		$(".coDiv").show();
-	});
-	$(".okay").on("click", function(){
-		location.href="/dashboard.do?coDiv=" + $(".coDiv input").val();
-	});
-	
-	var sUrl1 = "http://10.10.85.83:8080/dash/getDashboardInfo.do";
-	var sUrl2 = "http://10.10.85.83:8080/dash/getDashboardCart.do";
-	var sUrl3 = "http://10.10.85.83:8080/dash/getDashboardStatus.do";
-	var sUrl4 = "http://10.10.85.83:8080/dash/getDashboardLine.do";
+	var sUrl1 = "http://101.101.160.40:8080/dash/getDashboardInfo.do";
+	var sUrl2 = "http://101.101.160.40:8080/dash/getDashboardCart.do";
+	var sUrl3 = "http://101.101.160.40:8080/dash/getDashboardStatus.do";
+	var sUrl4 = "http://101.101.160.40:8080/dash/getDashboardLine.do";
+// 	var sUrl1 = "http://10.10.85.83:8080/dash/getDashboardInfo.do";
+// 	var sUrl2 = "http://10.10.85.83:8080/dash/getDashboardCart.do";
+// 	var sUrl3 = "http://10.10.85.83:8080/dash/getDashboardStatus.do";
+// 	var sUrl4 = "http://10.10.85.83:8080/dash/getDashboardLine.do";
 	var sParams = {};
+	var arr = [];
 	
 	dashboard = setInterval(function(){
-		getDashboard()
-        }, 30000);
-	
-	function getDashboard(){
 		getDashboardInfo();
 		getDashboardCart();
+        }, 5000);
+	
+	dashboard2 = setInterval(function(){
 		getDashboardStatus();
 		getDashboardLine();
-	}
+        }, 30000);
 
     function getDashboardInfo(){
     	sParams["coDiv"] = '03';
@@ -128,9 +124,8 @@
     		var data = JSON.parse(result)
 			var d = new Date();
     	    if(data.resultCode == "0000") {
-    	        console.log(data);
-    	        $('#today').text(data.rows[0].TODAY +' ' + d.getHours() + ":" + (d.getMinutes() < 10 ? '0' + d.getMinutes() : d.getMinutes()));
 
+    	        $('#today').text(data.rows[0].TODAY +' ' + d.getHours() + ":" + (d.getMinutes() < 10 ? '0' + d.getMinutes() : d.getMinutes()));
     	        $('#enTeam').text(data.rows[0].EN_TEAM);
     	        $('#bookTeam').text(data.rows[0].BOOK_TEAM);
     	        $('#enCnt').text(data.rows[0].EN_CNT);
@@ -141,24 +136,42 @@
     }
     
     function getDashboardCart(){
-    	$(".cart_map p, .cart_map img").hide();
     	sParams["coDiv"] = '01';
     	$.get(sUrl2, sParams, function(result) {
     		var data = JSON.parse(result)
 			var d = new Date();
-    	    if(data.resultCode == "0000") {
-    	        data.rows.forEach(function(item){
-    	        	
-    	        	var dataCart = item.CURRENTCOURSE + item.CURRENTHOLE + item.CURRENTPAR;
-    	        	$(".cart_map ."+dataCart).html(item.CART_NO).show().next().show();
-    	        })
-
-    	    }
+    	    if(data.rows.length != arr.length){
+    	    		arr = [];
+    	    		$(".cart_map p, .cart_map img").hide();
+    	    		data.rows.forEach(function(item, index){
+    	    			var dataCart = item.CURRENTCOURSE + item.CURRENTHOLE + item.CURRENTPAR;
+    	    			arr.push(dataCart);
+   	    	     		
+    	    			$(".cart_map ."+dataCart).html(item.CART_NO).show().next().show();
+    	    		})
+    	    	}else{
+	    	        data.rows.forEach(function(item, index){
+	    	        	var dataCart = item.CURRENTCOURSE + item.CURRENTHOLE + item.CURRENTPAR;
+	    	        	
+	    	        	var idx = arr.indexOf(dataCart);
+	    	        	if(idx == -1 ){
+	    	        		//같은게 없을때
+	    	        		var removed = arr.splice(index, 1, dataCart);
+	    	        		$(".cart_map ."+removed).html("0").hide().next().hide();
+	    	        		$(".cart_map ."+dataCart).html(item.CART_NO).show().next().show();
+	    	        	}else{
+	    	        		
+	    	        	}
+	    	        	
+	    	        })
+    	    	}
     	});
     }
     
     function getDashboardStatus(){
     	sParams["coDiv"] = '03';
+   		var text1 = "";
+    	var text2 = "";
     	$.get(sUrl3, sParams, function(result) {
     		var data = JSON.parse(result)
 			var d = new Date();
@@ -176,15 +189,25 @@
     	    	$("#saleAmt").html(numberWithCommas(saleAmt)); 	//매출
     	    	text1 = (saleAmt / planAmt * 100).toFixed(1);
     	    	text2 = (item.BOOK_TEEUP / item.ALL_TEEUP * 100).toFixed(1);
+    	    	
+    	    	div1 = [{ 
+        			  "value": text1,
+        			  "fill":"yellow" 
+        			}, {
+        			  "value": 100-text1,
+        			  "fill":"#ffffff"
+        			}];
+       			div2 = [{ 
+       			  "value": text2,
+       			  "fill":"#00ffcc" 
+       			}, {
+       			  "value": 100-text2,
+       			  "fill":"#ffffff"
+       			}];
     	    }
     	}).done(function(){
-    		fnMakePieChart("chartdiv1", div1, text1 + "%");
-			fnMakePieChart("chartdiv2", div2, text2 + "%");  
-    		
-   	    	$('.counter_status').counterUp({
-   	            delay: 10,
-   	            time: 1000
-   	        });
+    		golfPieChart("chartdiv1", div1, text1 + "%");
+			golfPieChart("chartdiv2", div2, text2 + "%");  
 
     	});
     }
@@ -205,15 +228,21 @@
     	    }
     	    
    	    }).done(function(){
-   	    	fnMakeLineChart("chartdiv5", lineData);
-    	    fnMakeLineChart2("chartdiv6", lineData2);
+   	    	golfLineChart("chartdiv5", lineData);
+    	    golfLineChart2("chartdiv6", lineData2);
+    		
+    		$('.counter_status').counterUp({
+   	            delay: 10,
+   	            time: 1000
+   	        });
    	    });
+
     }
 
  
  <!--지도액션추가 -->
 		
-	function fnMakePieChart(div, data, txt){
+	function golfPieChart(div, data, txt){
 		// Create chart instance
 		var chart = am4core.create(div, am4charts.PieChart);
 
@@ -260,7 +289,7 @@
 		})  
 	}
   
-	function fnMakeLineChart(div, data){
+	function golfLineChart(div, data){
 		// Create chart instance
 		var chart = am4core.create(div, am4charts.XYChart);
 		// Add data
@@ -288,7 +317,7 @@
 		chart.cursor.xAxis = categoryAxis;  
 	 }
 	
-	function fnMakeLineChart2(div, data){
+	function golfLineChart2(div, data){
 		// Create chart instance
 		var chart = am4core.create(div, am4charts.XYChart);
 		// Add data

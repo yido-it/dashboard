@@ -28,5 +28,17 @@
 		height: 250px !important;
 		font-size: 11px !important
 	}
+	g[fill][aria-label] text tspan{
+		display:none;
+	}
+	g[shape-rendering]{
+	display:none;
+	}
+	
 	</style>
 </head>
+<script>
+	window.onload = function(){
+		$(document).find("g text tspan").remove();
+	}
+	</script>

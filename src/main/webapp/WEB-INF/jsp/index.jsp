@@ -15,6 +15,7 @@
 <!-- <script src="/resource/js/main.js"></script> -->
 <script>
 var dashboard;
+var dashboard2;
 $(document).ready(function(){
 	href("main");
 	
@@ -29,6 +30,7 @@ $(document).ready(function(){
 	
 function href(path){
 	clearInterval(dashboard);
+	clearInterval(dashboard2);
 	$("body").removeClass("modal-open");
 	
 	$(".content").load("/load/"+path, function (){
