@@ -81,27 +81,12 @@
 <!--3번째컨텐츠-->
 <div class="content_03">
 	<!--클릭시 Video-->
-	<ul id="sudoe_gongjong" class="fl" style="margin-top: 200px">
+	<ul id="sudoe_gongjong" class="fl" style="margin-top:10%">
 		<!--계근 -->
-		<li id="sudoe_gongjong01" class="mt30 tc" style="position: relative">
-			<h3 class="sudoe_pop_title">건설폐기물- 계근</h3> <img src="resource/images/env/video/c1.jpg" alt=""> <!--btn1 -->
-			<div class="popupVideo sudoe_pop_position01" style="background: url(resource/images/env/video/video_c1_1.jpg) no-repeat 0 0; background-size: cover;">
-				<a data-video="<video muted='true' autoplay='1' loop='loop' controls='' id='bgvid' width='100%'><source src='resource/images/env/video/video_c1_1.mp4' type='video/mp4'></video> 
-  					<div class='video_close' onClick='closevideo()'>
-						<span >X</span>
-					</div>"> <i class="far fa-play-circle colorwhite"></i>
-				</a>
-			</div> <!--btn2 -->
-			<div class="popupVideo sudoe_pop_position02" style="background: url(resource/images/env/video/video_c1_2.jpg) no-repeat 0 0; background-size: cover;">
-				<a data-video="<video muted='true' autoplay='1' loop='loop' controls=''	id='bgvid' width='100%'><source src='resource/images/env/video/video_c1_2.mp4' type='video/mp4'></video>
-					<div class='video_close' onClick='closevideo()'>
-						<span >X</span>
-					</div>"> <i class="far fa-play-circle colorwhite"></i>
-				</a>
-			</div> <!--//클릭시 Video --> <!-- video 팝업 보여지는곳-->
-			<div class="video-popup">
-				<div class="video-popup-closer"></div>
-			</div> <!-- //video 팝업 -->
+		<li id="sudoe_gongjong01" class="mt30 tc" style="position: relative;">
+			<h3 class="sudoe_pop_title">건설폐기물- 계근</h3> 
+				<video style="width: 100%;height: 350px" autoplay="" loop="" muted="" playsinline="" preload="" src="resource/images/env/video/video_c1_1.mp4"></video>				 
+				<video style="width: 100%;height: 350px;margin-top:30px" autoplay="" loop="" muted="" playsinline="" preload="" src="resource/images/env/video/video_c1_2.mp4"></video>		  
 		</li>
 		<!--//계근 -->
 		<!--건폐하차 -->
@@ -111,56 +96,30 @@
 		<!--//건폐하차 -->
 		<!--선별 -->
 		<li id="sudoe_gongjong03" class="mt30" style="position: relative">
-			<h3 class="sudoe_pop_title">건설폐기물- 선별</h3> <img src="resource/images/env/video/c4.jpg" alt=""> <!--btn1 -->
-			<div class="popupVideo sudoe_pop_position03">
-				<a data-video="<video muted='true' autoplay='1' loop='loop' controls='' 
-												
-												 id='bgvid' width='100%'>
-												 <source src='resource/images/env/video/video_c4_1.mp4' type='video/mp4'>
-												 </video> 
-												 
-													  <div class='video_close' onClick='closevideo()'>
-													 <span >X</span>
-												 </div>"> <i class="far fa-play-circle colorwhite"></i>
-				</a>
-			</div> <!--btn2 -->
+			<h3 class="sudoe_pop_title">건설폐기물- 선별</h3> 
+			<video style="width: 47%;height: 260px;margin:0 10px 10px 0px" autoplay="" loop="" muted="" playsinline="" preload="" src="resource/images/env/video/video_c4_1.mp4"></video>
+			<video style="width: 47%;height: 260px;margin:0 10px 10px 0px" autoplay="" loop="" muted="" playsinline="" preload="" src="resource/images/env/video/video_c4_2.mp4"></video>
+			<video style="width: 47%;height: 260px;margin:0 10px 10px 0px" autoplay="" loop="" muted="" playsinline="" preload="" src="resource/images/env/video/video_c4_4.mp4"></video>
+			<video style="width: 47%;height: 260px;margin:0 10px 10px 0px" autoplay="" loop="" muted="" playsinline="" preload="" src="resource/images/env/video/video_c4_5.mp4"></video>
+			
+			 
+			 
+	<!-- 		<div class="popupVideo sudoe_pop_position03">
+				<i class="far fa-play-circle colorwhite"></i> 
+			</div> 
+		 
 			<div class="popupVideo sudoe_pop_position04">
-				<a data-video="<video muted='true' autoplay='1' loop='loop' controls='' 
-												
-												 id='bgvid' width='100%'>
-												 <source src='resource/images/env/video/video_c4_2.mp4' type='video/mp4'>
-												</video>
-												 <div class='video_close' onClick='closevideo()'>
-													 <span >X</span>
-												 </div>"> <i class="far fa-play-circle colorwhite"></i>
-				</a>
-			</div> <!--btn3 -->
+				 <i class="far fa-play-circle colorwhite"></i>
+			</div> 
+		 
 			<div class="popupVideo sudoe_pop_position03_1">
-				<a data-video="<video muted='true' autoplay='1' loop='loop' controls='' 
-												
-												 id='bgvid' width='100%'>
-												 <source src='resource/images/env/video/video_c4_4.mp4' type='video/mp4'>
-												 </video> 
-												 
-													  <div class='video_close' onClick='closevideo()'>
-													 <span >X</span>
-												 </div>"> <i class="far fa-play-circle colorwhite"></i>
-				</a>
-			</div> <!--btn4 -->
+			 <i class="far fa-play-circle colorwhite"></i> 
+			</div>
+		 
 			<div class="popupVideo sudoe_pop_position04_1">
-				<a data-video="<video muted='true' autoplay='1' loop='loop' controls='' 
-												
-												 id='bgvid' width='100%'>
-												 <source src='resource/images/env/video/video_c4_5.mp4' type='video/mp4'>
-												</video>
-												 <div class='video_close' onClick='closevideo()'>
-													 <span >X</span>
-												 </div>"> <i class="far fa-play-circle colorwhite"></i>
-				</a>
-			</div> <!--//클릭시 Video --> <!-- video 팝업 보여지는곳-->
-			<div class="video-popup">
-				<div class="video-popup-closer"></div>
-			</div> <!-- //video 팝업 -->
+				<i class="far fa-play-circle colorwhite"></i> 
+			</div>   -->
+			 
 		</li>
 		<!--//선별 -->
 		<!--파쇄 -->
@@ -185,33 +144,10 @@
 		<!--//혼폐선별1-->
 		<!--혼폐선별2 -->
 		<li id="sudoe_gongjong08" class="mt30" style="position: relative">
-			<h3 class="sudoe_pop_title">혼합폐기물- 선별</h3> <img src="resource/images/env/video/m3.jpg" alt=""> <!--btn1 -->
-			<div class="popupVideo sudoe_pop_position05">
-				<a data-video="<video muted='true' autoplay='1' loop='loop' controls='' 
-										 
-										  id='bgvid' width='100%'>
-										  <source src='resource/images/env/video/video_m3_1.mp4' type='video/mp4'>
-										  </video> 
-										  
-										 	  <div class='video_close' onClick='closevideo()'>
-											  <span >X</span>
-										  </div>"> <i class="far fa-play-circle colorwhite"></i>
-				</a>
-			</div> <!--btn2 -->
-			<div class="popupVideo sudoe_pop_position06">
-				<a data-video="<video muted='true' autoplay='1' loop='loop' controls='' 
-										 
-										  id='bgvid' width='100%'>
-										  <source src='resource/images/env/video/video_m3_2.mp4' type='video/mp4'>
-										 </video>
-										  <div class='video_close' onClick='closevideo()'>
-											  <span >X</span>
-										  </div>"> <i class="far fa-play-circle colorwhite"></i>
-				</a>
-			</div> <!--//클릭시 Video --> <!-- video 팝업 보여지는곳-->
-			<div class="video-popup">
-				<div class="video-popup-closer"></div>
-			</div> <!-- //video 팝업 -->
+			<h3 class="sudoe_pop_title">혼합폐기물- 선별</h3> 
+			<video style="width: 100%;height: 350px" autoplay="" loop="" muted="" playsinline="" preload="" src="resource/images/env/video/video_m3_1.mp4"></video>				 
+		    <video style="width: 100%;height: 350px;margin-top:30px" autoplay="" loop="" muted="" playsinline="" preload="" src="resource/images/env/video/video_m3_2.mp4"></video>	  
+  	 
 		</li>
 		<!--//혼폐선별2 -->
 		<!--반출 -->
