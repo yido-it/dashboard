@@ -223,7 +223,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#437dab', end
 
 .section_data li{width:23%;padding:1%;float:left;    color: white;    font-size: 25px;    text-shadow: 3px 3px 3px #333;  font-weight: bold;}
 .section_data2 li{padding: 1% 4% !important;}
-.section_data li span{font-size:30px;font-weight:bold;color:yellow;letter-spacing: -2px;       text-shadow: 3px 2px 2px #111; 
+.section_data li span.counter{font-size:30px;font-weight:bold;color:yellow;letter-spacing: -2px;       text-shadow: 3px 2px 2px #111; 
+  width: 63.5%;  text-align: right;  /*display: inline-block;*/}
+.section_data li span.counter_status{font-size:30px;font-weight:bold;color:yellow;letter-spacing: -2px;       text-shadow: 3px 2px 2px #111; 
   width: 63.5%;  text-align: right;  /*display: inline-block;*/}
 .section_data li p{display: inline-block; width: 33%;font-size:21px;}
   

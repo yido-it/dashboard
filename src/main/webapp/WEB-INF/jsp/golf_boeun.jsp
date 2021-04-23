@@ -221,14 +221,14 @@
 		
 	});
 	
-	var sUrl1 = "http://101.101.160.40:8080/dash/getDashboardInfo.do";
-	var sUrl2 = "http://101.101.160.40:8080/dash/getDashboardCart.do";
-	var sUrl3 = "http://101.101.160.40:8080/dash/getDashboardStatus.do";
-	var sUrl4 = "http://101.101.160.40:8080/dash/getDashboardLine.do";
-// 	var sUrl1 = "http://10.10.85.83:8080/dash/getDashboardInfo.do";
-// 	var sUrl2 = "http://10.10.85.83:8080/dash/getDashboardCart.do";
-// 	var sUrl3 = "http://10.10.85.83:8080/dash/getDashboardStatus.do";
-// 	var sUrl4 = "http://10.10.85.83:8080/dash/getDashboardLine.do";
+// 	var sUrl1 = "http://101.101.160.40:8080/dash/getDashboardInfo.do";
+// 	var sUrl2 = "http://101.101.160.40:8080/dash/getDashboardCart.do";
+// 	var sUrl3 = "http://101.101.160.40:8080/dash/getDashboardStatus.do";
+// 	var sUrl4 = "http://101.101.160.40:8080/dash/getDashboardLine.do";
+	var sUrl1 = "http://10.10.85.83:8080/dash/getDashboardInfo.do";
+	var sUrl2 = "http://10.10.85.83:8080/dash/getDashboardCart.do";
+	var sUrl3 = "http://10.10.85.83:8080/dash/getDashboardStatus.do";
+	var sUrl4 = "http://10.10.85.83:8080/dash/getDashboardLine.do";
 	var sParams = {};
 	var arr = [];
 	
@@ -266,31 +266,52 @@
     		var data = JSON.parse(result)
 			var d = new Date();
     	    if(data.resultCode == "0000") {
-    	    	if(data.rows.length != arr.length){
-    	    		arr = [];
+//     	    	var temp = [];
+//     	    	var uniqueArr = [];
+//     	    	var uniqueArr2 = [];
+//     	    	data.rows.forEach(function(item, index){
+// 	    			var dataCart = item.CURRENTCOURSE + item.CURRENTHOLE + item.CURRENTPAR;
+// 	    			temp.push(dataCart);
+// 	    		})
+//     	    	if(data.rows.length != arr.length){
+//     	    		arr = [];
     	    		$(".cart_map p, .cart_map img").hide();
     	    		data.rows.forEach(function(item, index){
     	    			var dataCart = item.CURRENTCOURSE + item.CURRENTHOLE + item.CURRENTPAR;
-    	    			arr.push(dataCart);
+//     	    			arr.push(dataCart);
    	    	     		
     	    			$(".cart_map ."+dataCart).html(item.CART_NO).show().next().show();
     	    		})
-    	    	}else{
-	    	        data.rows.forEach(function(item, index){
-	    	        	var dataCart = item.CURRENTCOURSE + item.CURRENTHOLE + item.CURRENTPAR;
+//     	    	}else{
+//     	    		$.each(arr.sort(), function(i, el){
+// 	        		    if($.inArray(el, uniqueArr) === -1) uniqueArr.push(el);
+// 	        		});
+// 	        		$.each(temp.sort(), function(i, el){
+// 	        		    if($.inArray(el, uniqueArr2) === -1) uniqueArr2.push(el);
+// 	        		});
+					
+// 	        		console.log(uniqueArr);
+// 	        		console.log(uniqueArr2);
+
+// 	        		data.rows.forEach(function(item, index){
+// 	    	        	var dataCart = item.CURRENTCOURSE + item.CURRENTHOLE + item.CURRENTPAR;
+// 	    	        	var idx = uniqueArr.indexOf(dataCart);
+// 	    	        	var idx2 = uniqueArr2.indexOf(dataCart);
 	    	        	
-	    	        	var idx = arr.indexOf(dataCart);
-	    	        	if(idx == -1 ){
-	    	        		//같은게 없을때
-	    	        		var removed = arr.splice(index, 1, dataCart);
-	    	        		$(".cart_map ."+removed).html("0").hide().next().hide();
-	    	        		$(".cart_map ."+dataCart).html(item.CART_NO).show().next().show();
-	    	        	}else{
+// 	    	        	console.log(arr[index], data.rows[index].CURRENTCOURSE+data.rows[index].CURRENTHOLE+data.rows[index].CURRENTPAR);
+	    	        	
+// 	    	        	if(idx == -1 ){
+// 	    	        		//같은게 없을때
+// 	    	        		var removed = uniqueArr.splice(idx2, 1, dataCart);
+// 	    	        		$(".cart_map ."+removed).html("0").hide().next().hide();
+// 	    	        		$(".cart_map ."+dataCart).html(item.CART_NO).show().next().show();
+// 	    	        		arr = uniqueArr;
+// 	    	        	}else{
 	    	        		
-	    	        	}
+// 	    	        	}
 	    	        	
-	    	        })
-    	    	}
+// 	    	        })
+//     	    	}
 
     	    }
     	    

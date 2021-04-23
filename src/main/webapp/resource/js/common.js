@@ -3,7 +3,7 @@ $(document).ready(function() {
 		delay : 15,
 		time : 2500
 	});
-
+	
 	// 전체: param=0
 	// 환경: param=1
 	// 인프라: param=2
@@ -29,28 +29,31 @@ $(document).ready(function() {
 		// Themes begin
 		am4core.useTheme(am4themes_dark);
 		// 이도 첫화면 상단 실적
-		fnMakePieChart("chartdiv1", div1, div1_text);
-		fnMakePieChart("chartdiv2", div2, div2_text);
-		fnMakePieChart("chartdiv3", div3, div3_text);
-		fnMakePieChart("chartdiv4", div4, div4_text);
+		pieChart("main_data1", main_data1, "yellow");
+		pieChart("main_data2", main_data2, "#00ccff");
+		pieChart2("main_data3", main_data3, "#ff8a00");
+		
+		pieChart("env_data1", env_data1, "yellow");
+		pieChart("env_data2", env_data2, "#00ccff");
+		pieChart2("env_data3", env_data3, "#ff8a00");
 
 		//월별 변화그래프
-		fnMakeLineChart("chartdiv5", div5);
-		fnMakeLineChart("chartdiv6", div6);
-		fnMakeLineChart("chartdiv7", div7);
-		fnMakeLineChart("chartdiv8", div8);
-		fnMakeLineChart("golf_s", golf_s);
-		fnMakeLineChart("golf_p", golf_p);
-		fnMakeLineChart("golf_c", golf_c);
-		fnMakeLineChart("env_s", env_s);
-		fnMakeLineChart("env_p", env_p);
-		fnMakeLineChart("env_c", env_c);
-		fnMakeLineChart("sudoe_s", sudoe_s);
-		fnMakeLineChart("sudoe_p", sudoe_p);
-		fnMakeLineChart("sudoe_c", sudoe_c);
-		fnMakeLineChart("ilsung_s", ilsung_s);
-		fnMakeLineChart("ilsung_p", ilsung_p);
-		fnMakeLineChart("ilsung_c", ilsung_c);
+		lineChart("main_line1", main_line1);
+		lineChart("main_line2", main_line2);
+		lineChart2("main_line3", main_line3);
+		
+		lineChart("golf_s", golf_s);
+		lineChart("golf_p", golf_p);
+		lineChart("golf_c", golf_c);
+		lineChart("env_s", env_s);
+		lineChart("env_p", env_p);
+		lineChart("env_c", env_c);
+		lineChart("sudoe_s", sudoe_s);
+		lineChart("sudoe_p", sudoe_p);
+		lineChart("sudoe_c", sudoe_c);
+		lineChart("ilsung_s", ilsung_s);
+		lineChart("ilsung_p", ilsung_p);
+		lineChart("ilsung_c", ilsung_c);
 		
 		/**************************  end *******************/
 
@@ -58,17 +61,62 @@ $(document).ready(function() {
 
 });
 
+function pieChart2(div, data, color) {
+	var reverseData = [data[1], data[0], "reverse"];
+	pieChart(div, reverseData, color);
+}
+
+function lineChart(div, data) {
+	var data1 = (data[data.length-1].value1/100).toFixed(0);
+	var data2 = (data[data.length-1].value2/100).toFixed(0);
+	
+	$("#"+div).siblings(".result").text(data2);
+	$("#"+div).siblings().find(".plan").text(data1);
+	
+	lineChartDefault(div, data);
+}
+
+function lineChart2(div, data) {
+	var data1 = data[data.length-1].value1;
+	var data2 = data[data.length-1].value2;
+	
+	$("#"+div).siblings(".result").text(data2);
+	$("#"+div).siblings().find(".plan").text(data1);
+	
+	lineChartDefault(div, data);
+}
+
 /* Chart code */
-function fnMakePieChart(div, data, txt) {
+function pieChart(div, data, color) {
+	var value1 = data[1] / data[0] * 100;  
+	var value2 = 100-(data[1] / data[0] * 100);
+	var rate = data[1] / data[0] * 100;
+	
+	if(data.length == 2){
+		$("#"+div).siblings(".result").text(data[1]);
+		$("#"+div).siblings().find(".plan").text(data[0]);	
+	}else{
+		$("#"+div).siblings(".result").text(data[0]);
+		$("#"+div).siblings().find(".plan").text(data[1]);
+	}
+	
+	value = [{ 
+		  "category": "달성",
+		  "value": value1,
+		  "fill": color
+		}, {
+		  "category": "미달성",
+		  "value": value2 < 0 ? 0 : value2 ,
+		  "fill":"#ffffff"
+		}];
 	// Create chart instance
 	var chart = am4core.create(div, am4charts.PieChart);
 
 	// Let's cut a hole in our Pie chart the size of 40% the radius
-	chart.innerRadius = am4core.percent(40);
 
 	chart.innerRadius = 100;
 	var label = chart.seriesContainer.createChild(am4core.Label);
-	label.text = txt;
+	label.text = rate > 100 ? rate.toFixed(0) +"%" : rate.toFixed(1) +"%";
 	label.horizontalCenter = "middle";
 	label.verticalCenter = "middle";
 	label.fontSize = 50;
@@ -87,8 +135,8 @@ function fnMakePieChart(div, data, txt) {
 	pieSeries.ticks.template.propertyFields.disabled = "labelDisabled";
 
 	// Add data
-	pieSeries.data = data;
-
+	pieSeries.data = value;
+	
 	// Disable sliding out of slices
 	pieSeries.slices.template.states.getKey("hover").properties.shiftRadius = 0;
 	pieSeries.slices.template.states.getKey("hover").properties.scale = 1;
@@ -102,7 +150,7 @@ function fnMakePieChart(div, data, txt) {
 	})
 }
 
-function fnMakeLineChart(div, data) {
+function lineChartDefault(div, data) {
 	// Create chart instance
 	var chart = am4core.create(div, am4charts.XYChart);
 
@@ -123,16 +171,16 @@ function fnMakeLineChart(div, data) {
 
 	// Create series
 	var series = chart.series.push(new am4charts.LineSeries());
-	series.dataFields.valueY = "value1";
+	series.dataFields.valueY = "value2";
 	series.dataFields.categoryX = "date";
 	series.strokeWidth = 2;
 	series.minBulletDistance = 10;
-	series.tooltipText = "[bold]매출:[/] {value1}\n[bold]목표:[/] {value2}";
+	series.tooltipText = "[bold]매출:[/] {value2}\n[bold]목표:[/] {value1}";
 	series.tooltip.pointerOrientation = "vertical";
 
 	// Create series
 	var series1 = chart.series.push(new am4charts.LineSeries());
-	series1.dataFields.valueY = "value2";
+	series1.dataFields.valueY = "value1";
 	series1.dataFields.categoryX = "date";
 	series1.strokeWidth = 2;
 	series1.strokeDasharray = "3,4";

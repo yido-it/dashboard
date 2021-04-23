@@ -6,21 +6,20 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=2.0 user-scalable=yes" />
 	<link rel="stylesheet" href="resource/css/style.css">
 	<link rel="stylesheet" href="resource/css/bootstrap.css">
-	<!-- <script type="text/javascript" src="resource/js/main.js"></script> -->
 	
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="resource/js/jquery-3.4.1.min.js"></script>
 	<!-- Bootstrap -->
 	<script type="text/javascript" src="resource/js/bootstrap.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+	<script src="resource/js/jquery.waypoints.min.js"></script>
 	<script src="resource/js/jquery.counterup.min.js"></script>
 	
 	<script type="text/javascript" src="resource/json/data.json"></script>
 
 	<!-- am차트1 -->
-	<script src="https://cdn.amcharts.com/lib/4/core.js"></script>
-	<script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
-	<script src="https://cdn.amcharts.com/lib/4/themes/dark.js"></script>
-	<script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+	<script src="resource/js/amcharts/core.js"></script>
+	<script src="resource/js/amcharts/charts.js"></script>
+	<script src="resource/js/amcharts/dark.js"></script>
+	<script src="resource/js/amcharts/animated.js"></script>
 
 	<style>
 	.chartDiv {
@@ -37,8 +36,3 @@
 	
 	</style>
 </head>
-<script>
-	window.onload = function(){
-		$(document).find("g text tspan").remove();
-	}
-	</script>
