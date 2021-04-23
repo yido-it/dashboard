@@ -36,24 +36,41 @@ $(document).ready(function() {
 		pieChart("env_data1", env_data1, "yellow");
 		pieChart("env_data2", env_data2, "#00ccff");
 		pieChart2("env_data3", env_data3, "#ff8a00");
+		
+		pieChart("sudoe_data1", sudoe_data1, "yellow");
+		pieChart("sudoe_data2", sudoe_data2, "#00ccff");
+		pieChart2("sudoe_data3", sudoe_data3, "#ff8a00");
+		
+		pieChart("ilsung_data1", ilsung_data1, "yellow");
+		pieChart("ilsung_data2", ilsung_data2, "#00ccff");
+		pieChart2("ilsung_data3", ilsung_data3, "#ff8a00");
+		
+		pieChart("golf_data1", golf_data1, "yellow");
+		pieChart("golf_data2", golf_data2, "#00ccff");
+		pieChart2("golf_data3", golf_data3, "#ff8a00");
+		
 
+		
 		//월별 변화그래프
 		lineChart("main_line1", main_line1);
 		lineChart("main_line2", main_line2);
 		lineChart2("main_line3", main_line3);
 		
-		lineChart("golf_s", golf_s);
-		lineChart("golf_p", golf_p);
-		lineChart("golf_c", golf_c);
-		lineChart("env_s", env_s);
-		lineChart("env_p", env_p);
-		lineChart("env_c", env_c);
-		lineChart("sudoe_s", sudoe_s);
-		lineChart("sudoe_p", sudoe_p);
-		lineChart("sudoe_c", sudoe_c);
-		lineChart("ilsung_s", ilsung_s);
-		lineChart("ilsung_p", ilsung_p);
-		lineChart("ilsung_c", ilsung_c);
+		lineChart("golf_line1", golf_line1);
+		lineChart("golf_line2", golf_line2);
+		lineChart2("golf_line3", golf_line3);
+		
+		lineChart("env_line1", env_line1);
+		lineChart("env_line2", env_line2);
+		lineChart2("env_line3", env_line3);
+		
+		lineChart("sudoe_line1", sudoe_line1);
+		lineChart("sudoe_line2", sudoe_line2);
+		lineChart2("sudoe_line3", sudoe_line3);
+		
+		lineChart("ilsung_line1", ilsung_line1);
+		lineChart("ilsung_line2", ilsung_line2);
+		lineChart2("ilsung_line3", ilsung_line3);
 		
 		/**************************  end *******************/
 
@@ -67,8 +84,28 @@ function pieChart2(div, data, color) {
 }
 
 function lineChart(div, data) {
-	var data1 = (data[data.length-1].value1/100).toFixed(0);
-	var data2 = (data[data.length-1].value2/100).toFixed(0);
+	var data1 = (data[data.length-1].value1/100);
+	var data2 = (data[data.length-1].value2/100);
+	
+	if(data1 < 100){
+		if(data1 < 10){
+			data1 = data1.toFixed(2);
+		}else{
+			data1 = data1.toFixed(1);
+		}
+	}else{
+		data1 = data1.toFixed(0);
+	}
+	if(data2 < 100){
+		if(data2 < 10){
+			data2 = data2.toFixed(2);	
+		} else{
+			data2 = data2.toFixed(1);
+		}
+	}else{
+		data2 = data2.toFixed(0);
+	}
+	
 	
 	$("#"+div).siblings(".result").text(data2);
 	$("#"+div).siblings().find(".plan").text(data1);

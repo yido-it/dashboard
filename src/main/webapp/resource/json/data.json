@@ -1,14 +1,30 @@
 
-//  [계획, 실적]
+// x월까지 누계  [계획, 실적] 
+// [data1=매출 data2=이익 data3=원가율]
+
 main_data1 = [372, 379];
-main_data2 = [8, 21];
+main_data2 = [8.1, 21.5];
 main_data3 = [97.8, 94.3];
 
 //환경 전체
 env_data1 = [128, 133];
-env_data2 = [1.4, 1.9];
+env_data2 = [1.43, 1.90];
 env_data3 = [98.9, 98.6];
 
+//골프 전체
+golf_data1 = [57.9, 65.5];
+golf_data2 = [-14.5, -4.20];
+golf_data3 = [125.1, 106.4];
+
+//수도권 전체
+sudoe_data1 = [93, 98];
+sudoe_data2 = [3.4, 3.4];
+sudoe_data3 = [96.5, 96.5];
+
+//일성 전체
+ilsung_data1 = [128, 133];
+ilsung_data2 = [-3, -3];
+ilsung_data3 = [155.2, 153.3];
 
 
 
@@ -32,64 +48,64 @@ main_line3=[ //원가
   {date:"3", value1:85.1,	value2:87.6 } 
 ];                                       
                                          
-golf_s=[ //골프매출                      
-  {date:"1", value1:117.1, 	value2:119.4},
-  {date:"2", value1:94.8,	value2:104.6},
-  {date:"3", value1:85.1,	value2:87.6 } 
+golf_line1=[ //골프매출                      
+  {date:"1", value1:8.5, 	value2:7.6},
+  {date:"2", value1:15.1,	value2:22.7},
+  {date:"3", value1:34.4,	value2:34.7} 
 ];                                       
-golf_p=[ //골프이익                      
-  {date:"1", value1:117.1, 	value2:119.4},
-  {date:"2", value1:94.8,	value2:104.6},
-  {date:"3", value1:85.1,	value2:87.6 } 
+golf_line2=[ //골프이익                      
+  {date:"1", value1:-14, 	value2:-14},
+  {date:"2", value1:-9.4,	value2:-1.7},
+  {date:"3", value1:9.3,	value2:12} 
 ];                                       
-golf_c=[ //골프원가                      
-  {date:"1", value1:117.1, 	value2:119.4},
-  {date:"2", value1:94.8,	value2:104.6},
-  {date:"3", value1:85.1,	value2:87.6 } 
+golf_line3=[ //골프원가                      
+  {date:"1", value1:284.5, 	value2: 301.6},
+  {date:"2", value1:163.5,	value2:107.5},
+  {date:"3", value1:72.8,	value2:64.5 } 
 ];                                       
                                          
-env_s=[ //환경매출                       
+env_line1=[ //환경매출                       
   {date:"1", value1:4164,	value2:4222 },
   {date:"2", value1:3721,	value2:4234 },
   {date:"3", value1:5088,	value2:4765 } 
 ];                                       
-env_p=[ //환경이익                       
+env_line2=[ //환경이익                       
   {date:"1", value1:608	,	value2:93 	},
   {date:"2", value1:-79	,	value2:14 	},
   {date:"3", value1:164	,	value2:215 	} 
 ];                                       
-env_c=[ //환경원가                       
+env_line3=[ //환경원가                       
   {date:"1", value1:100.4, 	value2:112.8},
   {date:"2", value1:102.1,	value2:99.7 },
   {date:"3", value1:96.8,	value2:95.5 } 
 ];                                       
-sudoe_s=[ //수도권매                     
+sudoe_line1=[ //수도권매                     
   {date:"1", value1:2906,	value2:3049 },
   {date:"2", value1:2703,	value2:3134 },
   {date:"3", value1:3750,	value2:3530 } 
 ];                                       
-sudoe_p=[ //수도권이                     
+sudoe_line2=[ //수도권이                     
   {date:"1", value1:193,	value2:193 	},
   {date:"2", value1:-25,	value2:-25 	},
   {date:"3", value1:173,	value2:173 	}
 ];                                       
-sudoe_c=[ //수도권원                     
+sudoe_line3=[ //수도권원                     
   {date:"1", value1:96.8,	value2:109.6},
   {date:"2", value1:102.3, 	value2:100.8},
   {date:"3", value1:93.9,	value2:95.1 }
 ];                                       
                                          
-ilsung_s=[ //일성매                     
+ilsung_line1=[ //일성매                     
   {date:"1", value1:172,	value2:148 	},
   {date:"2", value1:172,	value2:216 	},
   {date:"3", value1:285,	value2:287 	}
 ];                                       
-ilsung_p=[ //일성이                     
+ilsung_line2=[ //일성이                     
   {date:"1", value1:198,	value2:198 	},
   {date:"2", value1:-102,	value2:-102 },
   {date:"3", value1:-42,	value2:-42 	}
 ];                                       
-ilsung_c=[ //일성원                     
+ilsung_line3=[ //일성원                     
   {date:"1", value1:228.8, 	value2:246.9},
   {date:"2", value1:158.1, 	value2:147.4},
   {date:"3", value1:112.4, 	value2:114.9}

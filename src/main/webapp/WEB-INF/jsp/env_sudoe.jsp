@@ -165,19 +165,19 @@
 		</div>
 		<ul class="section_data section_data2">
 			<li>
-				<p>매출</p> <span class="counter">98</span>억 <br>
-				<div class="year_count">계획 93억</div>
-				<div id="chartdiv2" class="chartDiv"></div>
+				<p>매출</p> <span class="counter result"></span>억 <br>
+				<div class="year_count">계획  <span class="plan"></span>억</div>
+				<div id="sudoe_data1" class="chartDiv"></div>
 			</li>
 			<li>
-				<p>이익</p> <span class="counter">3.4</span>억 <br>
-				<div class="year_count">계획 -억</div>
-				<div id="chartdiv3" class="chartDiv"></div>
+				<p>이익</p> <span class="counter result"></span>억 <br>
+				<div class="year_count">계획  <span class="plan"></span>억</div>
+				<div id="sudoe_data2" class="chartDiv"></div>
 			</li>
 			<li>
-				<p>원가율</p> <span class="counter">96.5</span>% <br>
-				<div class="year_count">계획 96.5%</div>
-				<div id="chartdiv4" class="chartDiv"></div>
+				<p>원가율</p> <span class="counter result"></span>% <br>
+				<div class="year_count">계획  <span class="plan"></span>%</div>
+				<div id="sudoe_data3" class="chartDiv"></div>
 			</li>
 			
 		</ul>
@@ -189,19 +189,19 @@
 		<ul class="section_data section_data2">
 		
 			<li>
-				<p>매출</p> <span class="counter">35</span>억 <br>
-				<div class="year_count">계획 37억</div>
-				<div id="sudoe_s" class="chartDiv"></div>
+				<p>매출</p> <span class="counter result"></span>억 <br>
+				<div class="year_count">계획 <span class="plan"></span>억</div>
+				<div id="sudoe_line1" class="chartDiv"></div>
 			</li>
 			<li>
-				<p>이익</p> <span class="counter">1.7</span>억 <br>
-				<div class="year_count">계획 -억</div>
-				<div id="sudoe_p" class="chartDiv"></div>
+				<p>이익</p> <span class="counter result"></span>억 <br>
+				<div class="year_count">계획  <span class="plan"></span>억</div>
+				<div id="sudoe_line2" class="chartDiv"></div>
 			</li>
 			<li>
-				<p>원가율</p> <span class="counter">95.1</span>% <br>
-				<div class="year_count">계획 93.9%</div>
-				<div id="sudoe_c" class="chartDiv"></div>
+				<p>원가율</p> <span class="counter result"></span>% <br>
+				<div class="year_count">계획  <span class="plan"></span>%</div>
+				<div id="sudoe_line3" class="chartDiv"></div>
 			</li>
 		
 		</ul>

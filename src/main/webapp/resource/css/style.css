@@ -747,7 +747,11 @@ background: url(../images/env/video/video_m3_2.jpg) no-repeat 0 0;background-siz
   background:-o-linear-gradient(#c7717e, #ed1a3b);
   background:linear-gradient(#c7717e, #ed1a3b);
  }
+ 
  .SongnisanEast .triangle-right:after, .GeochangEast .triangle-right:after{border-color: #ed1a3b transparent;}
+ .SongnisanWest .triangle-right:after{border-color: #e82443 transparent;}
+.SongnisanEast .triangle-right:after{border-color: #a56300 transparent}
+.GeochangEast .triangle-right:after{border-color: #ed1a3b transparent;}
  /*//말풍선*/
 /*카트좌표 b=보은 s=속리산 g=금강 gc=거창, + w=WEST e=East, _숫자 = par
   be01_1 = 보은EAST 1홀-1번째

@@ -44,19 +44,19 @@
 		<div class="title_month">환경사업 2021년 3월 Chart</div>
 		<ul class="section_data section_data2">
 			<li>
-				<p>매출</p> <span class="counter">47.6</span>억 <br>
-				<div class="year_count">계획 50.8억</div>
-				<div id="chartdiv6" class="chartDiv"></div>
+				<p>매출</p> <span class="counter result"></span>억 <br>
+				<div class="year_count">계획 <span class="plan"></span>억</div>
+				<div id="env_line1" class="chartDiv"></div>
 			</li>
 			<li>
-				<p>이익</p> <span class="counter">2.1</span>억 <br>
-				<div class="year_count">계획 1.6억</div>
-				<div id="chartdiv7" class="chartDiv"></div>
+				<p>이익</p> <span class="counter result"></span>억 <br>
+				<div class="year_count">계획 <span class="plan"></span>억</div>
+				<div id="env_line2" class="chartDiv"></div>
 			</li>
 			<li>
-				<p>원가율</p> <span class="counter">95.5</span>% <br>
-				<div class="year_count">계획 96.8%</div>
-				<div id="chartdiv8" class="chartDiv"></div>
+				<p>원가율</p> <span class="counter result"></span>% <br>
+				<div class="year_count">계획 <span class="plan"></span>%</div>
+				<div id="env_line3" class="chartDiv"></div>
 			</li>
 	
 		</ul>
