@@ -100,7 +100,7 @@ ilsung_line1=[ //일성매
   {date:"2", value1:172,	value2:216 	},
   {date:"3", value1:285,	value2:287 	}
 ];                                       
-ilsung_line2=[ //일성이                     
+ilsung_line2=[ //일성이익                    
   {date:"1", value1:198,	value2:198 	},
   {date:"2", value1:-102,	value2:-102 },
   {date:"3", value1:-42,	value2:-42 	}
