@@ -32,7 +32,7 @@
 					<p class="bold" style="color: #153459;">
 						<i class="fas fa-truck-moving" style="color: #153459;"></i>건설폐기물
 					</p>
-					<button id="btn_gongjong01" class="btn btn-default colorwhite boldnone label  on">계근</button>
+					<button id="btn_gongjong01" class="btn btn-default colorwhite boldnone label">계근</button>
 					<div class="arrow2">
 						<span class="gongjong_arrow"></span>
 					</div>
@@ -82,6 +82,13 @@
 <div class="content_03">
 	<!--클릭시 Video-->
 	<ul id="sudoe_gongjong" class="fl" style="margin-top:10%">
+		<!--전경 -->
+		<li id="sudoe_gongjong00" class="mt30 tc" style="position: relative;">
+			<h3 class="sudoe_pop_title">수도권환경 전경</h3> 
+				<video style="width: 100%;height: 540px" autoplay="" loop="" muted="" playsinline="" preload="" src="resource/images/env/video/sudoe_view.mp4"></video>				 		  
+		</li>
+		<!--//전경 -->
+	
 		<!--계근 -->
 		<li id="sudoe_gongjong01" class="mt30 tc" style="position: relative;">
 			<h3 class="sudoe_pop_title">건설폐기물- 계근</h3> 
@@ -101,25 +108,7 @@
 			<video style="width: 47%;height: 260px;margin:0 10px 10px 0px" autoplay="" loop="" muted="" playsinline="" preload="" src="resource/images/env/video/video_c4_2.mp4"></video>
 			<video style="width: 47%;height: 260px;margin:0 10px 10px 0px" autoplay="" loop="" muted="" playsinline="" preload="" src="resource/images/env/video/video_c4_4.mp4"></video>
 			<video style="width: 47%;height: 260px;margin:0 10px 10px 0px" autoplay="" loop="" muted="" playsinline="" preload="" src="resource/images/env/video/video_c4_5.mp4"></video>
-			
-			 
-			 
-	<!-- 		<div class="popupVideo sudoe_pop_position03">
-				<i class="far fa-play-circle colorwhite"></i> 
-			</div> 
 		 
-			<div class="popupVideo sudoe_pop_position04">
-				 <i class="far fa-play-circle colorwhite"></i>
-			</div> 
-		 
-			<div class="popupVideo sudoe_pop_position03_1">
-			 <i class="far fa-play-circle colorwhite"></i> 
-			</div>
-		 
-			<div class="popupVideo sudoe_pop_position04_1">
-				<i class="far fa-play-circle colorwhite"></i> 
-			</div>   -->
-			 
 		</li>
 		<!--//선별 -->
 		<!--파쇄 -->

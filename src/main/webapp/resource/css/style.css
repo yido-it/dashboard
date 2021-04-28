@@ -215,7 +215,8 @@ background: linear-gradient(to bottom,  #437dab 50%,#192f40 89%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#437dab', endColorstr='#192f40',GradientType=0 );  
   } */
   .ul_main_select{margin-left: 80px;    margin-top: 30px;}
-  .ul_main_select li{ width:30%; float: left; text-align: center;}
+  .ul_main_select li{ /*width:30%;*/width:200px; float: left; text-align: center;    margin: 5px 20px;}
+  .ul_main_select li:active{opacity:0.7}
 
 /*데이타 차트섹션*/
 .section_data{margin-top:50px}
@@ -454,7 +455,7 @@ img.wow.display.fade-in.one {display: none;}
 }
 
 #sudoe_gongjong01, #sudoe_gongjong02, #sudoe_gongjong03, #sudoe_gongjong04, #sudoe_gongjong05, #sudoe_gongjong06, #sudoe_gongjong07, #sudoe_gongjong08, #sudoe_gongjong09,#sudoe_gongjong10 {display:none;}
-#sudoe_gongjong01{display:block;transition: all 0.3s ease-in-out;
+#sudoe_gongjong00{display:block;transition: all 0.3s ease-in-out;
     transition-property: all;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
@@ -985,9 +986,15 @@ background: url(../images/env/video/video_m3_2.jpg) no-repeat 0 0;background-siz
 .content01_env_ilsung{background: url(/resource/images/ilsung/ilsung_textbg.jpg) no-repeat 50% 50%; background-size: 100%}
 .content02_env_ilsung{background: url(/resource/images/ilsung/ilsung_gongjong.jpg) no-repeat 50% 50%; background-size: 100%;width:900px;height:533px}
 
-
 .content01_golf{background: url(/resource/images/golf/bg_boeun.jpg) no-repeat 100% 0%; background-size: 100%}
 .content01_golf_boeun{background: url(/resource/images/golf/bg_boeun.jpg) no-repeat 100% 0%; background-size: 100%}
 .content01_golf_songnisan{background: url(/resource/images/golf/bg_songnisan.jpg) no-repeat 100% 0%; background-size: 100%}
 .content01_golf_geumgang{background: url(/resource/images/golf/bg_geumgang.jpg) no-repeat 100% 0%; background-size: 100%}
 .content01_golf_geochang{background: url(/resource/images/golf/bg_geochang.jpg) no-repeat 100% 0%; background-size: 100%}
+
+.navi_yido{background: url(/resource/images/main/btn01.png) no-repeat 100% 0%; background-size: 100%;height: 200px;}
+.navi_env{background: url(/resource/images/main/btn02.png) no-repeat 100% 0%; background-size: 100%;height: 200px;}
+.navi_infra{background: url(/resource/images/main/btn03.png) no-repeat 100% 0%; background-size: 100%;height: 200px;}
+.navi_asset{background: url(/resource/images/main/btn04.png) no-repeat 100% 0%; background-size: 100%;height: 200px;}
+.navi_golf{background: url(/resource/images/main/btn05.png) no-repeat 100% 0%; background-size: 100%;height: 200px;}
+.navi_be{background: url(/resource/images/main/btn06.png) no-repeat 100% 0%; background-size: 100%;height: 200px;}
