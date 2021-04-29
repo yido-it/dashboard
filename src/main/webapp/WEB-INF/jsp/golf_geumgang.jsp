@@ -14,9 +14,9 @@
 <!--50%컨텐츠-->
 <div class="content_50">
 	<div class="container tc" style="position: relative">
-		<img class="" style="width: 100%; height: 977px" src="resource/images/golf/map_geumgang.png" style="visibility: visible;">
+		<img class="" style="width: 100%; height: 1000px" src="resource/images/golf/map_geumgang.png" style="visibility: visible;">
 		<!--일일현황보고서-->
-		<div class="golfday_wrap">
+		<div class="golfday_wrap" style="left:inherit;right:3%">
 			<div class="div_box">
 				<div class="top_txt">
 					<h1 class="colorwhite">
