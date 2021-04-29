@@ -17,7 +17,7 @@ golf_data2 = [-14.5, -4.20];
 golf_data3 = [125.1, 106.4];
 
 //수도권 전체
-sudoe_data1 = [93, 98];
+sudoe_data1 = [93.6, 98.7];
 sudoe_data2 = [3.4, 3.4];
 sudoe_data3 = [96.5, 96.5];
 
