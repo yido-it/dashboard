@@ -11,18 +11,15 @@
 		<h2 class="tc colorwhite fs18"  style="margin-top: 15px; font-weight: bold;">
 			18Hole / Par 72 (6,163m)
 		</h2>
-		<!-- <div class="mt20">
-			<video style="width:33%" autoplay="" loop="" muted="" playsinline="" preload="" src="resource/images/env/video/video_c1_2.mp4"></video>
-			<video style="width:33%" autoplay="" loop="" muted="" playsinline="" preload="" src="resource/images/env/video/video_c1_1.mp4"></video>
-			<video style="width:33%" autoplay="" loop="" muted="" playsinline="" preload="" src="resource/images/env/video/video_c2_2.mp4"></video>
-		 </div> -->
+		
+		 
 	</div>
 	<%@include file="content01/golf.jsp"%>
 </div>
 <!--50%컨텐츠-->
-<div class="content_50" style="background: url(resource/images/bg.jpg) no-repeat 0% 0;">
-	<!-- <div class="title_month" style="padding:1%">YIDO 사업장</div> -->
-	<div class="container tc" style="position: relative">
+<div class="content_50" style="background: url(resource/images/bg.jpg) no-repeat 0% 0;"> 
+	<div class="container tc" style="position: relative;">
+		<!-- <div style="background: url(/resource/images/golf/map_boeun.png) no-repeat 100% 0%;width: 100%; height: 1000px; background-size: 100%;"></div> -->
 		<img class="" style="width: 100%; height: 1000px" src="resource/images/golf/map_boeun.png" style="visibility: visible;">
 		<!--보은eaST-->
 		<div class="BoeunEast cart_map">
@@ -164,6 +161,12 @@
 			</div>
 		</div>
 		<!--//일일현황보고서-->
+		<!--전경영상 -->
+		<div class="mt20" style="position: absolute;left:44%;top: 12%;">
+			<video style="height:220px" autoplay="" loop="" muted="" playsinline="" preload="" src="resource/images/golf/boeun_view.mp4"></video>
+		 </div>
+		 <!--//전경영상 -->
+		 
 	</div>
 </div>
 <!--//50%컨텐츠-->

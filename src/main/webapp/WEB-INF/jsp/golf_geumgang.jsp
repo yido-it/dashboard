@@ -41,6 +41,11 @@
 			</div>
 		</div>
 		<!--//일일현황보고서-->
+		 <!--전경영상 -->
+		<div class="mt20" style="position: absolute;left: 2%; bottom: 4%;">
+			<video style="height:220px" autoplay="" loop="" muted="" playsinline="" preload="" src="resource/images/golf/geumgang_view.mp4"></video>
+		 </div>
+		 <!--//전경영상 -->
 	</div>
 </div>
 <!--//50%컨텐츠-->

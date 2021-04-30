@@ -97,6 +97,13 @@
 			</div>
 		</div>
 		<!--//일일현황보고서-->
+			<!--전경영상 -->
+		<div class="mt20" style="position: absolute;right: 5%;top: 1%;">
+			<video style="height:220px" autoplay="" loop="" muted="" playsinline="" preload="" src="resource/images/golf/songnisan_view.mp4"></video>
+		 </div>
+		 <!--//전경영상 -->
+		 
+		 
 		<!--속리산WEST-->
 		<div class="SongnisanWest cart_map">
 			<p class="triangle-right sw01_1 B10"></p>
