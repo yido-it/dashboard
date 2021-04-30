@@ -127,7 +127,8 @@ function lineChart2(div, data) {
 function pieChart(div, data, color) {
 	var value1 = data[1] / data[0] * 100;  
 	var value2 = 100-(data[1] / data[0] * 100);
-	var rate = data[1] / data[0] * 100;
+//	var rate = data[1] / data[0] * 100;
+	var rate = ((data[1] - data[0]) / Math.abs(data[0])+1) * 100 ;
 	
 	if(data.length == 2){
 		$("#"+div).siblings(".result").text(data[1]);
@@ -135,6 +136,14 @@ function pieChart(div, data, color) {
 	}else{
 		$("#"+div).siblings(".result").text(data[0]);
 		$("#"+div).siblings().find(".plan").text(data[1]);
+	}
+	
+	if(rate > 100){
+		value1 = rate;
+		value2 = 0;
+	}else if (rate < 0){
+		value1 = 0
+		value2 = 100;
 	}
 	
 	value = [{ 
