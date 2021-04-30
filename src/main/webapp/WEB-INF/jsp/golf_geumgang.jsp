@@ -194,16 +194,16 @@
         			  "value": text1,
         			  "fill":"yellow" 
         			}, {
-        			  "value": 100-text1,
+        			  "value": 100-text1 < 0 ? 0 : 100-text1,
         			  "fill":"#ffffff"
         			}];
-       			div2 = [{ 
-       			  "value": text2,
-       			  "fill":"#00ffcc" 
-       			}, {
-       			  "value": 100-text2,
-       			  "fill":"#ffffff"
-       			}];
+        			div2 = [{ 
+        			  "value": text2,
+        			  "fill":"#00ffcc" 
+        			}, {
+        			  "value": 100-text2 < 0 ? 0 : 100-text2,
+        			  "fill":"#ffffff"
+        			}];
     	    }
     	}).done(function(){
     		golfPieChart("chartdiv1", div1, text1 + "%");

@@ -365,19 +365,19 @@
     	    	text2 = (item.BOOK_TEEUP / item.ALL_TEEUP * 100).toFixed(1);
     	    	
     	    	div1 = [{ 
-      			  "value": text1,
-      			  "fill":"yellow" 
-      			}, {
-      			  "value": 100-text1,
-      			  "fill":"#ffffff"
-      			}];
-     			div2 = [{ 
-     			  "value": text2,
-     			  "fill":"#00ffcc" 
-     			}, {
-     			  "value": 100-text2,
-     			  "fill":"#ffffff"
-     			}];
+        			  "value": text1,
+        			  "fill":"yellow" 
+        			}, {
+        			  "value": 100-text1 < 0 ? 0 : 100-text1,
+        			  "fill":"#ffffff"
+        			}];
+        			div2 = [{ 
+        			  "value": text2,
+        			  "fill":"#00ffcc" 
+        			}, {
+        			  "value": 100-text2 < 0 ? 0 : 100-text2,
+        			  "fill":"#ffffff"
+        			}];
     	    }
     	}).done(function(){
     		golfPieChart("chartdiv1", div1, text1 + "%");
