@@ -84,7 +84,7 @@
 	<ul id="sudoe_gongjong" class="fl" style="margin-top:10%">
 		<!--전경 -->
 		<li id="sudoe_gongjong00" class="mt30 tc" style="position: relative;">
-			<h3 class="sudoe_pop_title">수도권환경 전경</h3> 
+			<h3 class="sudoe_pop_title"></h3> 
 				<video style="width: 100%;height: 540px" autoplay="" loop="" muted="" playsinline="" preload="" src="resource/images/env/video/sudoe_view.mp4"></video>				 		  
 		</li>
 		<!--//전경 -->
@@ -250,26 +250,5 @@
 	});
 
 	//	클릭시 동영상 팝업새창 
-	$(".popupVideo a").click(
-			function() {
-				$(".video-popup").addClass("reveal");
-				$(".video-popup .video-wrapper").remove(), $(".video-popup")
-						.append(
-								"<div class='video-wrapper'>"
-										+ $(this).data("video") + " </div>")
-			});
-
-	$(".video-popup-closer").click(function() {
-		$(".video-popup .video-wrapper").remove();
-		$(".video-popup").removeClass("reveal");
-	});
-
-	/* X버튼클릭시 닫힘 */
-	function closevideo() {
-		$(".video-popup .video-wrapper").remove();
-		$(".video-popup").removeClass("reveal");
-	}
-
-	<!--
-// 클릭시 동영상 팝업새창 -->
+  
 </script>
