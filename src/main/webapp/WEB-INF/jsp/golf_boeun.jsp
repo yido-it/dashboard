@@ -210,7 +210,7 @@
 		</ul>
 	</div>
 	<div class="content_04-2" style="background: url(resource/images/bg.jpg) no-repeat 0% 88%;">
-		<video style="width: 100%; position: relative; height: 489px;" autoplay="" loop="" muted="" playsinline="" preload="" src="resource/images/golf/boeun.mp4"></video>
+		<a style="padding: 185px 200px;display: block;background-color: gray; text-align: center;" href="https://remotedesktop.google.com/access/session/97d3f8d1-39a7-1f36-f352-d041fa99591d" target="_blank">CCTV영역</a>
 	</div>
 </div>
 <!--//4번째컨텐츠-->
