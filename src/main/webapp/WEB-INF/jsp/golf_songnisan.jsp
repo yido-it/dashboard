@@ -96,9 +96,9 @@
 				<div class="cb"></div>
 			</div>
 		</div>
-		<!--//일일현황보고서-->
+		<!--//일일현황보고서-->	
 			<!--전경영상 -->
-		<div class="mt20" style="position: absolute;right: 5%;top: 1%;">
+		<div class="mt20" style="position: absolute;right: 2%;top: 1%;">
 			<video style="height:220px" autoplay="" loop="" muted="" playsinline="" preload="" src="resource/images/golf/songnisan_view.mp4"></video>
 		 </div>
 		 <!--//전경영상 -->
