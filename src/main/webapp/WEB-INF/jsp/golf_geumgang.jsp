@@ -43,7 +43,7 @@
 		<!--//일일현황보고서-->
 		 <!--전경영상 -->
 		<div class="mt20" style="position: absolute;left: 2%; bottom: 4%;">
-			<video style="height:220px" autoplay="" loop="" muted="" playsinline="" preload="" src="resource/images/golf/geumgang_view.mp4"></video>
+			<video style="height:180px;border-radius:20px" autoplay="" loop="" muted="" playsinline="" preload="" src="resource/images/golf/geumgang_view.mp4"></video>
 		 </div>
 		 <!--//전경영상 -->
 	</div>
@@ -88,8 +88,8 @@
 			</li>
 		</ul>
 	</div>
-	<div class="content_04-2" style="background: url(resource/images/bg.jpg) no-repeat 0% 88%;">
-		<video style="width: 100%; position: relative; height: 489px;" autoplay="" loop="" muted="" playsinline="" preload="" src="resource/images/golf/geumgang.mp4"></video>
+	<div class="content_04-2 tc" style="background: url(resource/images/bg.jpg) no-repeat 0% 88%;">
+		<iframe width="860" height="455" src="https://www.youtube.com/embed/-Obk7leZyV8?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</div>
 </div>
 <!--//4번째컨텐츠-->

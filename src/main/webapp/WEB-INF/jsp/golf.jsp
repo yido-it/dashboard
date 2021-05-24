@@ -28,7 +28,7 @@
 			<li>
 				<p>매출</p> <span class="counter result"></span>억 <br>
 				<div class="year_count">계획 <span class="plan"></span>억</div>
-				<div id=golf_data1 class="chartDiv"></div>
+				<div id="golf_data1" class="chartDiv"></div>
 			</li>
 			<li>
 				<p>이익</p> <span class="counter result"></span>억 <br>

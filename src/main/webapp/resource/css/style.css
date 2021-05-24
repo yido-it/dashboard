@@ -992,6 +992,12 @@ background: url(../images/env/video/video_m3_2.jpg) no-repeat 0 0;background-siz
 .content01_golf_geumgang{background: url(/resource/images/golf/bg_geumgang.jpg) no-repeat 100% 0%; background-size: 100%}
 .content01_golf_geochang{background: url(/resource/images/golf/bg_geochang.jpg) no-repeat 100% 0%; background-size: 100%}
 
+.content01_infra_ulsan{background: url(/resource/images/infra/bg_ulsan.jpg) no-repeat 100% 0%; background-size: 100%}
+.content01_infra_kyungki{background: url(/resource/images/infra/bg_kyungki.jpg) no-repeat 100% 0%; background-size: 100%}
+.content01_infra_yongseo{background: url(/resource/images/infra/bg_yongseo.jpg) no-repeat 100% 0%; background-size: 100%}
+.content01_infra_chunnon{background: url(/resource/images/infra/bg_chunnon.jpg) no-repeat 100% 0%; background-size: 100%}
+.content01_infra_sujeong{background: url(/resource/images/infra/bg_sujeong.jpg) no-repeat 100% 0%; background-size: 100%}
+
 .navi_yido{background: url(/resource/images/main/btn01.png) no-repeat 100% 0%; background-size: 100%;height: 200px;}
 .navi_env{background: url(/resource/images/main/btn02.png) no-repeat 100% 0%; background-size: 100%;height: 200px;}
 .navi_infra{background: url(/resource/images/main/btn03.png) no-repeat 100% 0%; background-size: 100%;height: 200px;}

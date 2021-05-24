@@ -262,8 +262,9 @@
 			</li>
 		</ul>
 	</div>
-	<div class="content_04-2" style="background: url(resource/images/bg.jpg) no-repeat 0% 88%;">
-		<video style="width: 100%; position: relative; height: 489px;" autoplay="" loop="" muted="" playsinline="" preload="" src="resource/images/golf/geochang.mp4"></video>
+	<div class="content_04-2 tc" style="background: url(resource/images/bg.jpg) no-repeat 0% 88%;">
+		<iframe width="860" height="455" src="https://www.youtube.com/embed/MAa6DlSSV3c?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		
 	</div>
 </div>
 <!--//4번째컨텐츠-->

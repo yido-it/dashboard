@@ -6,11 +6,11 @@
 	<div class="section01_1">
 		<ul class="ul_main_select">
 			<li class="navi" data-href="main"><img src="resource/images/main/btn01.png"></li>
-			<li><img src="resource/images/infra/infra_btn01.png"></li>
-			<li><img src="resource/images/infra/infra_btn02.png"></li>
-			<li><img src="resource/images/infra/infra_btn03.png"></li>
-			<li><img src="resource/images/infra/infra_btn04.png"></li>
-			<li><img src="resource/images/infra/infra_btn05.png"></li>
+			<li class="navi" data-href="infra_ulsan" ><img src="resource/images/infra/infra_btn01.png"></li>
+			<li class="navi" data-href="infra_kyungki"><img src="resource/images/infra/infra_btn02.png"></li>
+			<li class="navi" data-href="infra_yongseo"><img src="resource/images/infra/infra_btn03.png"></li>
+			<li class="navi" data-href="infra_chunnon"><img src="resource/images/infra/infra_btn04.png"></li>
+			<li class="navi" data-href="infra_sujeong"><img src="resource/images/infra/infra_btn05.png"></li>
 		</ul>
 	</div>
 </div>

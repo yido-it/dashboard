@@ -162,8 +162,8 @@
 		</div>
 		<!--//일일현황보고서-->
 		<!--전경영상 -->
-		<div class="mt20" style="position: absolute;left:44%;top: 12%;">
-			<video style="height:220px" autoplay="" loop="" muted="" playsinline="" preload="" src="resource/images/golf/boeun_view.mp4"></video>
+		<div class="mt20" style="position: absolute;left:46%;top: 12%;">
+			<video style="height:180px;border-radius: 20px;" autoplay="" loop="" muted="" playsinline="" preload="" src="resource/images/golf/boeun_view.mp4"></video>
 		 </div>
 		 <!--//전경영상 -->
 		 
@@ -209,8 +209,12 @@
 			</li>
 		</ul>
 	</div>
-	<div class="content_04-2" style="background: url(resource/images/bg.jpg) no-repeat 0% 88%;">
-		<a style="padding: 185px 200px;display: block;background-color: gray; text-align: center;" href="https://remotedesktop.google.com/access/session/97d3f8d1-39a7-1f36-f352-d041fa99591d" target="_blank">CCTV영역</a>
+	<div class="content_04-2 tc" style="background: url(resource/images/bg.jpg) no-repeat 0% 88%;">
+
+<iframe width="860" height="455" src="https://www.youtube.com/embed/3r1-lHtv3f4?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 
+ 
+	<!-- 	<a style="padding: 185px 200px;display: block;background-color: gray; text-align: center;" href="https://remotedesktop.google.com/access/session/97d3f8d1-39a7-1f36-f352-d041fa99591d" target="_blank">CCTV영역</a> -->
 	</div>
 </div>
 <!--//4번째컨텐츠-->

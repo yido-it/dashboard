@@ -610,9 +610,6 @@
 					<ul class="modal_map_ul">
 						<li class="title">수정산터널</li>
 						<li>부산광역시 부산진구 가야대로 552번길 136</li>
-						<li>수정산터널 영업 및 시설관리업무 용역</li>
-						<li>운영분야: 영업, 도로, 시설, ITS, 교통</li>
-						<li>길이 - 2.4km</li>
 					</ul>
 					<button type="button" class="btn btn-primary mt10" onclick="href('infra')">
 						사업소개 바로가기 <i class="fas fa-arrow-circle-right"></i>
