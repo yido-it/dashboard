@@ -968,16 +968,23 @@ background: url(../images/env/video/video_m3_2.jpg) no-repeat 0 0;background-siz
 .content_01, .content_02, .content_03, .content_04{float:none;width:100%;height:inherit}
 .content_01-1, .content_01-2, .content_02-1, .content_02-2{clear:both}
 .content_01-1, .content_01-2, .content_02-1, .content_02-2, .content_03-1, .content_03-2, .content_04-1, .content_04-2{height:100%;}
-
 /*차트*/
 .section_data li{width:95%;}
 }
+
 
 .po {display:none;}
 #content_04{height: 100%;}
 .chartDiv {width: 100% !important;height: 250px !important;font-size:11px !important}
 .cart_map p {display:none;}
 .cart_map img {display:none;}
+.txt_live{color: #dcdcdc;
+    padding: 0;
+    text-align: left;
+    margin: 3px;
+    margin-left: 55px;
+    font-weight: bold;
+    font-size: 19px;}
 
 .content01_main{background: url(/resource/images/main/environment1.jpg) no-repeat 100% 0%; background-size: 110%}
 .content01_env{background: url(/resource/images/main/environment.jpg) no-repeat 86% 53%; background-size: 110%}

@@ -217,7 +217,7 @@
 		<!--//일일현황보고서-->
 		 <!--전경영상 -->
 		<div class="mt20" style="position: absolute;left: 3%;top: 1%;">
-			<video style="height:220px" autoplay="" loop="" muted="" playsinline="" preload="" src="resource/images/golf/geochang_view.mp4"></video>
+			<video style="height:180px;border-radius:15px" autoplay="" loop="" muted="" playsinline="" preload="" src="resource/images/golf/geochang_view.mp4"></video>
 		 </div>
 		 <!--//전경영상 -->
 	</div>
@@ -263,7 +263,8 @@
 		</ul>
 	</div>
 	<div class="content_04-2 tc" style="background: url(resource/images/bg.jpg) no-repeat 0% 88%;">
-		<iframe width="860" height="455" src="https://www.youtube.com/embed/MAa6DlSSV3c?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<p class="txt_live">LIVE</p>
+		<iframe width="810" height="455" src="https://www.youtube.com/embed/v1j_8k8iQ6Y?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		
 	</div>
 </div>
