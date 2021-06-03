@@ -15,9 +15,9 @@ $(document).ready(function() {
 	if (param == "main") {
 		$('.div_record').find('span.po').show();
 	} else if (param == "env") {
-		$('.div_record').find('span.po[class*=e]').show(); // 전체: param=0
+		$('.div_record').find('span.po[class*=env]').show(); // 전체: param=0
 	} else if (param == "infra") { // 환경: param=1
-		$('.div_record').find('span.po[class*=i]').show(); // 인프라: param=2
+		$('.div_record').find('span.po[class*=inf]').show(); // 인프라: param=2
 	} else if (param == "golf") { // 골프: param=3
 		$('.div_record').find('span.po[class*=g]').show(); // 부동산: param=4
 	} else if (param == "r") {

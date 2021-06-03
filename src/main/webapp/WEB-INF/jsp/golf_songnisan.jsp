@@ -99,7 +99,7 @@
 		<!--//일일현황보고서-->	
 			<!--전경영상 -->
 		<div class="mt20" style="position: absolute;right: 2%;top: 1%;">
-			<video style="height:220px" autoplay="" loop="" muted="" playsinline="" preload="" src="resource/images/golf/songnisan_view.mp4"></video>
+			<video style="height:200px;border-radius:15px" autoplay="" loop="" muted="" playsinline="" preload="" src="resource/images/golf/songnisan_view.mp4"></video>
 		 </div>
 		 <!--//전경영상 -->
 		 

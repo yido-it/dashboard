@@ -4,12 +4,12 @@
 	<div class="content_01-2" style="background: url(resource/images/main/infra.jpg) no-repeat 100% 0%; background-size: 100%">
 		<!-- <div class="title_month">YIDO 매출비율</div> -->
 		<div class="tc mt100">
-			<h1 style="font-size: 33px; font-weight: bold; color: white; text-shadow: 3px 3px 3px #404040;">인프라 사업</h1>
-			<h2 class="tc fs18" style="margin-top: 15px; font-weight: bold;color: #feffc8;">
+			<h1 class="wow flipInY" style="font-size: 33px; font-weight: bold; color: white; text-shadow: 3px 3px 3px #404040;">인프라 사업</h1>
+			<h2 class="wow flipInY tc fs18" style="margin-top: 15px; font-weight: bold;color: #feffc8;">
 			도로(Road), 교량(Bridge), 터널(Tunnel), 철도(Rail)
 			</h2>
 		</div>
-		<h2 class="tc colorwhite fs16" style="line-height: 29px; margin-top: 30px">
+		<h2 class="wow fadeInDown tc colorwhite fs16" style="line-height: 29px; margin-top: 30px">
 			이도는 국내 민자 도로 통합운영관리, Value-Up 플랫폼 기업으로서 <br /> 신교통 분야 및 관광 인프라 분야 운영을 아우르는 차별화 된 통합운영 서비스를 제공할 것입니다. <br /> <br /> 이와 함께 민간제안 사업 추진 등을 통한 수익구조의 개선으로 미래 성장 동력을 확보하고, <br />해외 인프라 시장 진출과 이를 통한 인재 육성을 통해 글로벌 톱티어(Top-Tier) 기업으로 도약할 것입니다. <br />
 		</h2>
 	</div>
@@ -67,3 +67,4 @@
 		</ul>
 	</div>
 </div>
+

@@ -283,37 +283,41 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#437dab', end
 .business_score{width:60%;margin-top:25px;text-align:right;color:white;}
 .business_score .counter {font-weight: bold;  font-size: 51px;text-shadow: 4px 4px 4px #111;}
 .totalcounter span{color: #b2cbff;  font-weight: bold;    font-size: 32px;}
-.modal_map_ul li{font-family: 'Noto Sans KR';list-style: square !important;    list-style: none !important;  font-size: 14px;  line-height: 28px;}
-.modal_map_ul li.title{color:#153456;font-weight:bold;font-size:17px;border-bottom:1px solid #e7e7e7}
+.modal_map_ul li{font-family: 'Noto Sans KR';list-style: square !important;    list-style: none !important;  font-size: 13px;  line-height: 27px;}
+.modal_map_ul li.title{color:#153456;font-weight:bold;font-size:16px;border-bottom:1px solid #e7e7e7;margin-bottom:5px}
 /*국문*/
 .po {position: absolute;}
-.e1 {top: 172px; left: 45px;}
-.e2 {top: 191px; left: 46px;}
-.e2_2 {top: 210px; left: 47px;}
-.e3 {top: 99px; left: 246px;}
-.e4 {top: 413px; left: 482px;}
-.e5 {top: 518px; left: 158px;}
-.e6 {top: 615px;left: 347px;}
-.e7 {top: 656px; left: 482px;}
-.e7 .po_photo {margin-top: 42px !important;}
-.e8 {top: 573px; left: 574px;}
-.e8 .po_photo {margin-top: 31px !important;}
-.e10 {top: 280px; left: 131px;}
-.i1 {top: 181px; left: 209px;}
-.i1 .po_photo {margin-top: 60px !important;}
-.i2 {top: 197px;    left: 188px;}
-.i2 .po_photo {margin-top: 78px !important;}
-.i3 {top: 323px; left: 156px;}
-.i3 .po_photo {margin-top: 101px !important;}
-.i4 {top: 641px; left: 544px;}
-.i4 .po_photo {margin-top: 32px !important;}
-.i5 {top: 631px; left: 405px;}
-.i5 .po_photo {margin-top: 34px !important;}
-.i6 {top: 605px; left: 610px;}
-.i7 {top: 342px; left: 85px;}
-.i7 .po_photo {margin-top: 45px !important;}
-.i8 {top: 673px;    left: 291px;}
-.i8 .po_photo {margin-top: 45px !important;}
+.env1 {top: 172px; left: 45px;}
+.env2 {top: 191px; left: 46px;}
+.env2_2 {top: 210px; left: 47px;}
+.env3 {top: 99px; left: 246px;}
+.env4 {top: 413px; left: 482px;}
+.env5 {top: 518px; left: 158px;}
+.env6 {top: 615px;left: 347px;}
+.env7 {top: 656px; left: 482px;}
+.env7 .po_photo {margin-top: 42px !important;}
+.env8 {top: 573px; left: 574px;}
+.env8 .po_photo {margin-top: 31px !important;}
+.env10 {top: 280px; left: 131px;}
+.env11 { top: 325px;  left: 56px;}
+.env12 {     top: 857px;  left: 5px;}
+.env13 {    top: 845px;  left: 195px;}
+.env14{    top: 886px;  left: 2px;}
+.inf1 {top: 181px; left: 209px;}
+.inf1 .po_photo {margin-top: 60px !important;}
+.inf2 {top: 197px;    left: 188px;}
+.inf2 .po_photo {margin-top: 78px !important;}
+.inf3 {top: 323px; left: 156px;}
+.inf3 .po_photo {margin-top: 101px !important;}
+.inf4 {top: 641px; left: 544px;}
+.inf4 .po_photo {margin-top: 32px !important;}
+.inf5 {top: 631px; left: 405px;}
+.inf5 .po_photo {margin-top: 34px !important;}
+.inf6 {top: 605px; left: 610px;}
+.inf7 {top: 342px; left: 85px;}
+.inf7 .po_photo {margin-top: 45px !important;}
+.inf8 {top: 673px;    left: 291px;}
+.inf8 .po_photo {margin-top: 45px !important;}
 .g1 {top: 216px; left: 70px;}
 .g1 .po_photo {margin-top: 37px !important;}
 .g2 {top: 325px; left: 249px;}
@@ -341,12 +345,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#437dab', end
 .r8 .po_photo {margin-top: 39px !important;}
 .r12 {top: 691px;  left: 695px;}
 .r14 {top: 629px;    left: 580px;}
-.r15{top: 246px;    left: 69px;} 
-.e11 { top: 325px;  left: 56px;}
+.r15{top: 246px;    left: 69px;}  
 .r16 {  top: 548px;  left: 153px;}
-.e12 {     top: 857px;  left: 5px;}
-.e13 {    top: 845px;  left: 195px;}
-.e14{    top: 886px;  left: 2px;}
 
 .po_photo {display: none;}
 .po_photo button{margin:0 auto;font-size:13px;margin-top:5px;}
