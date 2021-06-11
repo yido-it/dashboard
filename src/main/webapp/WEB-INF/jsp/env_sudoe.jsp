@@ -5,9 +5,9 @@
 	<div class="content_01-2 content01_env_sudoe" style="">
 		<!-- <div class="title_month">YIDO 매출비율</div> -->
 		<div class="tc mt100">
-			<h1 style="font-size: 30px; font-weight: bold; color: white; text-shadow: 3px 3px 3px #404040;">4차 산업 혁명을 리드하는 친환경 플랫폼의 대표주자 "수도권환경"</h1>
+			<h1 class="wow flipInX"  style="font-size: 30px; font-weight: bold; color: white; text-shadow: 3px 3px 3px #404040;">4차 산업 혁명을 리드하는 친환경 플랫폼의 대표주자 "수도권환경"</h1>
 		</div>
-		<h2 class="tc colorwhite fs16" style="line-height: 29px; margin-top: 30px">
+		<h2 class="tc colorwhite fs16 wow fadeInUp" style="line-height: 29px; margin-top: 30px">
 			YIDO 수도권환경은 보다 나은 삶의 질을 위한 노력의 일환으로 환경 문제 해결을 위한<br /> ‘Eco Solution 구축’을 기업의 사명과 비전으로 규정하고 있습니다. <br />
 			<br /> 작업장을 최첨단 현대화 시설로 탈바꿈 시켜 비산먼지와 소음을 최소화 하였고, <br />골재 생산 능력을 극대화 하여 자원 재생 능력이 효율적으로 탈바꿈하였습니다.<br /> 건설 폐기물을 친환경적으로 처리하는 동시에 버려지는 쓰레기들을 품질 좋은 자원으로 재생산 해 내고 있습니다.
 		</h2>
@@ -19,7 +19,7 @@
 		<div class="tab_content" style="margin-left: 60px">
 			<div class="title_month tl" style="padding: 1%">수도권환경 │ 작업 공종도</div>
 			<!--공종도 이미지 -->
-			<div class="fl div_gongjong_left" style="position: relative">
+			<div class="fl div_gongjong_left wow fadeInUp" style="position: relative">
 				<div class="content02_env_sudoe"> </div>
 				<div class="gongjong_area area1" id="btn_gongjong01"></div>
 				<div class="gongjong_area area2"></div>
@@ -27,7 +27,7 @@
 				<div class="gongjong_area area4"></div>
 				<div class="gongjong_area area5"></div>
 			</div>
-			<div class="div_gongjong tc">
+			<div class="div_gongjong tc wow fadeInUp">
 				<div class="fl div_gongjong_right">
 					<p class="bold" style="color: #153459;">
 						<i class="fas fa-truck-moving" style="color: #153459;"></i>건설폐기물
@@ -70,9 +70,9 @@
 				</div>
 			</div>
 			<!--  <map name="gongjong_map">
-    <area class="" id="btn_gongjong01" shape="rect" coords="210,200,70,130"  href="">
-    <area class="" id="btn_gongjong01" shape="rect" coords="90,60,180,130"  >
-</map>
+			    <area class="" id="btn_gongjong01" shape="rect" coords="210,200,70,130"  href="">
+			    <area class="" id="btn_gongjong01" shape="rect" coords="90,60,180,130"  >
+			</map>
 				 -->
 		</div>
 	</div>

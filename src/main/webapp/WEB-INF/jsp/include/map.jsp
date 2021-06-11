@@ -39,7 +39,7 @@
 		<img class="wow fadeInUp" src="resource/images/main/map.png" style="visibility: visible;">
 		<!-- 팔룡터널 -->
 		<span class="po inf5 wow fadeInUp"> <img src="resource/images/main/map/i5.png">
-			<ul class="po_photo" style="">
+			<ul class="po_photo" style="position: relative; margin-top: -84% !important">
 				<li><img src="resource/images/performance/palyong.jpg"></li>
 				<li>
 					<ul class="modal_map_ul">
@@ -130,7 +130,7 @@
 		</span>
 		<!-- 울산대교 -->
 		<span class="po inf6 wow fadeInUp" data-wow-delay="0.7s"> <img src="resource/images/main/map/i6.png">
-			<ul class="po_photo" style="">
+			<ul class="po_photo" style="position: relative; margin-top: -84% !important">
 				<li><img src="resource/images/performance/ulsan.jpg"></li>
 				<li>
 					<ul class="modal_map_ul">
@@ -333,7 +333,7 @@
 		<!-- //클럽디거창 -->
 		<!-- 수정산터널 -->
 		<span class="po inf4  wow fadeInUp"> <img src="resource/images/main/map/i4.png">
-			<ul class="po_photo" style="">
+			<ul class="po_photo" style="position: relative;margin-top:-84% !important ">
 				<li><img src="resource/images/performance/4.jpg"></li>
 				<li>
 					<ul class="modal_map_ul">

@@ -4,11 +4,11 @@
 <div class="content_01">
 	<div class="content_01-2 content01_golf_boeun" >
 		<!-- <div class="title_month">YIDO 매출비율</div> -->
-		<div class="tc mt50" style="font-size: 40px; color: #fff; font-weight: bold;">CLUBD BOEUN Country Club</div>
-		<h2 class="tc colorwhite fs18"  style="line-height:29px;margin-top:30px">
+		<div class="tc mt50 wow flipInX" style="font-size: 40px; color: #fff; font-weight: bold;">CLUBD BOEUN Country Club</div>
+		<h2 class="tc colorwhite fs18 wow fadeInUp"  style="line-height:29px;margin-top:30px">
 			 자연속에서 '최고의 휴식'을 만들어 내는 것입니다.<br/>보다 안전하고, 편리한 삶을 만들기 위해 노력하는 기업입니다.  
 		</h2>
-		<h2 class="tc colorwhite fs18"  style="margin-top: 15px; font-weight: bold;">
+		<h2 class="tc colorwhite fs18 wow fadeInUp"  style="margin-top: 15px; font-weight: bold;">
 			18Hole / Par 72 (6,163m)
 		</h2>
 		
@@ -136,7 +136,7 @@
 			<img class="img_cart bw09_3" src="resource/images/golf/cart.png" />
 		</div>
 		<!--일일현황보고서-->
-		<div class="golfday_wrap">
+		<div class="golfday_wrap  wow flipInX">
 			<div class="div_box">
 				<div class="top_txt">
 					<h1 class="colorwhite">
@@ -211,7 +211,7 @@
 	</div>
 	<div class="content_04-2 tc" style="background: url(resource/images/bg.jpg) no-repeat 0% 88%;">
 		<p class="txt_live">LIVE</p>
-		<iframe width="810" height="455" src="https://www.youtube.com/embed/3r1-lHtv3f4?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<iframe width="810" height="455" src="https://www.youtube.com/embed/3dnw25sjDdg?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</div>
 </div>
 <!--//4번째컨텐츠-->

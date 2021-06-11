@@ -178,14 +178,14 @@ table {
 .content_04{background-color:black;width:25%;height:94vh;float:left;}
 .content_50{background-color:white;width:50%;height:94vh;float:left;}/*50%차지하는컨텐츠*/
 
-.content_01-1{height:46%;padding: 2%;}
-.content_01-2{height:46%;background-color:#192f40;padding: 2%;}
+.content_01-1{height:48%;padding: 2%;}
+.content_01-2{height:44%;background-color:#192f40;padding: 2%;}
 .content_02-1{height:46%;padding: 2%;}
 .content_02-2{height:46%;padding: 2%;}
 .content_03-1{}
 .content_03-2{}
-.content_04-1{height:46%;padding: 2%;}
-.content_04-2{height:46%;padding: 2%;background-color:#153456;}
+.content_04-1{height:44%;padding: 2%;}
+.content_04-2{height:48%;padding: 2%;background-color:#153456;}
 
 
 /*차트*/
@@ -310,9 +310,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#437dab', end
 .inf3 {top: 323px; left: 156px;}
 .inf3 .po_photo {margin-top: 101px !important;}
 .inf4 {top: 641px; left: 544px;}
-.inf4 .po_photo {margin-top: 32px !important;}
 .inf5 {top: 631px; left: 405px;}
-.inf5 .po_photo {margin-top: 34px !important;}
 .inf6 {top: 605px; left: 610px;}
 .inf7 {top: 342px; left: 85px;}
 .inf7 .po_photo {margin-top: 45px !important;}
@@ -984,7 +982,11 @@ background: url(../images/env/video/video_m3_2.jpg) no-repeat 0 0;background-siz
     margin: 3px;
     margin-left: 55px;
     font-weight: bold;
-    font-size: 19px;}
+    font-size: 19px;
+    position: relative;    
+    left: -31px;
+    }
+.infra_iframe{width: 767px;position: relative;height: 460px;top: -42px;}
 
 .content01_main{background: url(/resource/images/main/environment1.jpg) no-repeat 100% 0%; background-size: 110%}
 .content01_env{background: url(/resource/images/main/environment.jpg) no-repeat 86% 53%; background-size: 110%}

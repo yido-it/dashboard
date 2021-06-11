@@ -3,12 +3,12 @@
 <div class="content_01">
 	<div class="content_01-2 content01_golf_geochang" >
 		<!-- <div class="title_month">YIDO 매출비율</div> -->
-		<div class="tc mt50" style="font-size: 40px; color: #fff; font-weight: bold;">CLUBD GEOCHANG Country Club</div>
-		<h2 class="tc colorwhite fs18"  style="line-height:29px;margin-top:30px">
+		<div class="tc mt50 wow flipInX" style="font-size: 40px; color: #fff; font-weight: bold;">CLUBD GEOCHANG Country Club</div>
+		<h2 class="tc colorwhite fs18 wow fadeInUp"  style="line-height:29px;margin-top:30px">
 			바람이 만든 낮은 언덕과도 같은 감악산 자락에 조성된 클럽디거창은,<br/>
 			3대 국립공원인 지리산, 덕유산, 가야산이 감싸고 있어 수려한 원경을 지니고 있습니다.
 		</h2>
-		<h2 class="tc colorwhite fs18"  style="margin-top: 15px; font-weight: bold;">
+		<h2 class="tc colorwhite fs18 wow fadeInU"  style="margin-top: 15px; font-weight: bold;">
 			27Hole / Par 72
 		</h2>
 	</div>
@@ -190,7 +190,7 @@
 			<img class="img_cart gcs09_3" src="resource/images/golf/cart.png" />
 		</div>
 		<!--일일현황보고서-->
-		<div class="golfday_wrap">
+		<div class="golfday_wrap  wow flipInX">
 			<div class="div_box">
 				<div class="top_txt">
 					<h1 class="colorwhite">
@@ -264,7 +264,7 @@
 	</div>
 	<div class="content_04-2 tc" style="background: url(resource/images/bg.jpg) no-repeat 0% 88%;">
 		<p class="txt_live">LIVE</p>
-		<iframe width="810" height="455" src="https://www.youtube.com/embed/v1j_8k8iQ6Y?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<iframe width="810" height="455" src="https://www.youtube.com/embed/kVcrFYIvN44?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		
 	</div>
 </div>

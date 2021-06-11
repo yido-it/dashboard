@@ -3,11 +3,11 @@
 <div class="content_01">
 	<div class="content_01-2 content01_golf_geumgang" >
 		<!-- <div class="title_month">YIDO 매출비율</div> -->
-		<div class="tc mt50" style="font-size: 40px; color: #fff; font-weight: bold;">CLUBD GEUMGANG Country Club</div>
-		<h2 class="tc colorwhite fs18" style="line-height: 29px; margin-top: 30px">
+		<div class="tc mt50 wow flipInX" style="font-size: 40px; color: #fff; font-weight: bold;">CLUBD GEUMGANG Country Club</div>
+		<h2 class="tc colorwhite fs18 wow fadeInUp" style="line-height: 29px; margin-top: 30px">
 			금강과 함라산의 혈맥이 만나 절경을 이루어낸 골프장 'CLUBD 금강' 입니다.<br /> CLUBD 금강은 국내 최장거리 7.777yd로 이뤄져 있으며 천혜의 환경 조건을 무너뜨리지 않고 부지 전체의 황토를 그대로 살려서 자연친화적 골프장으로 연중 따뜻한 기후와 적은 강수량으로 언제든 푸른 잔디 위에서 쾌적한 라운딩이 가능 합니다.
 		</h2>
-		<h2 class="tc colorwhite fs18" style="margin-top: 15px; font-weight: bold;">18Hole / Par 72 (7,777yd)</h2>
+		<h2 class="tc colorwhite fs18 wow fadeInUp" style="margin-top: 15px; font-weight: bold;">18Hole / Par 72 (7,777yd)</h2>
 	</div>
 	<%@include file="content01/golf.jsp"%>
 </div>
@@ -16,7 +16,7 @@
 	<div class="container tc" style="position: relative">
 		<img class="" style="width: 100%; height: 1000px" src="resource/images/golf/map_geumgang.png" style="visibility: visible;">
 		<!--일일현황보고서-->
-		<div class="golfday_wrap" style="left:inherit;right:3%">
+		<div class="golfday_wrap  wow flipInX" style="left:inherit;right:3%">
 			<div class="div_box">
 				<div class="top_txt">
 					<h1 class="colorwhite">
@@ -90,7 +90,7 @@
 	</div>
 	<div class="content_04-2 tc" style="background: url(resource/images/bg.jpg) no-repeat 0% 88%;">
 		<p class="txt_live">LIVE</p>
-		<iframe width="810" height="455" src="https://www.youtube.com/embed/-Obk7leZyV8?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<iframe width="810" height="455" src="https://www.youtube.com/embed/BrHc-PRVq7s?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</div>
 </div>
 <!--//4번째컨텐츠-->

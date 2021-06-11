@@ -30,17 +30,17 @@
 			<li>
 				<p>매출</p> <span class="counter result"></span>억 <br>
 				<div class="year_count">계획 <span class="plan"></span>억</div>
-				<div id="golf_data1" class="chartDiv"></div>
+				<div id="infra_data1" class="chartDiv"></div>
 			</li>
 			<li>
 				<p>이익</p> <span class="counter result"></span>억 <br>
 				<div class="year_count">계획 <span class="plan"></span>억</div>
-				<div id="golf_data2" class="chartDiv"></div>
+				<div id="infra_data2" class="chartDiv"></div>
 			</li>
 			<li>
 				<p>원가율</p> <span class="counter result"></span>% <br>
 				<div class="year_count">계획 <span class="plan"></span>%</div>
-				<div id="golf_data3" class="chartDiv"></div>
+				<div id="infra_data3" class="chartDiv"></div>
 			</li>
 
 		</ul>
@@ -51,17 +51,17 @@
 			<li>
 				<p>매출</p> <span class="counter result"></span>억 <br>
 				<div class="year_count">계획 <span class="plan"></span>억</div>
-				<div id="golf_line1" class="chartDiv"></div>
+				<div id="infra_line1" class="chartDiv"></div>
 			</li>
 			<li>
 				<p>이익</p> <span class="counter result"></span>억 <br>
 				<div class="year_count">계획 <span class="plan"></span>억</div>
-				<div id="golf_line2" class="chartDiv"></div>
+				<div id="infra_line2" class="chartDiv"></div>
 			</li>
 			<li>
 				<p>원가율</p> <span class="counter result"></span>% <br>
 				<div class="year_count">계획 <span class="plan"></span>%</div>
-				<div id="golf_line3" class="chartDiv"></div>
+				<div id="infra_line3" class="chartDiv"></div>
 			</li>
 
 		</ul>

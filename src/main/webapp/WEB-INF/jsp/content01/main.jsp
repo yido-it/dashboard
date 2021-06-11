@@ -7,9 +7,9 @@
 			<li class="navi_yido wow fadeInLeft"> </li>
 			<li class="navi navi_env wow fadeInDown" data-href="env"></li>
 			<li class="navi navi_infra wow fadeInRight" data-href="infra"></li>
-			<li class="navi navi_asset wow fadeInLeft"></li>
-			<li class="navi navi_golf wow fadeInUp" data-href="golf"></li>
-			<li class="navi navi_be wow fadeInRight"></li>
+		 	<li class="navi navi_golf wow fadeInUp" data-href="golf" style="margin-left: 260px;"></li>
+			<!-- <li class="navi navi_be wow fadeInRight"></li> -->
+		    <li class="navi navi_asset wow fadeInRight" data-href="asset"></li>
 		</ul>
 	</div>
 </div>

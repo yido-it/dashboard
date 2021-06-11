@@ -2,13 +2,12 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!--1번째컨텐츠-->
 <div class="content_01">
-	<div class="content_01-2 content01_infra_sujeong" >
-		<!-- <div class="title_month">YIDO 매출비율</div> -->
-		<div class="tc mt50" style="font-size: 40px; color: #fff; font-weight: bold;">수정산터널</div>
-		<h2 class="tc colorwhite fs18"  style="margin-top: 15px; font-weight: bold;">
+	<div class="content_01-2 content01_infra_sujeong" > 
+		<div class="tc mt50 wow flipInY" style="font-size: 40px; color: #fff; font-weight: bold;">수정산터널</div>
+		<h2 class="tc colorwhite fs18 wow flipInY"  style="margin-top: 15px; font-weight: bold;">
 			(장대터널 유지관리)
 		</h2>
-		<h2 class="tc colorwhite fs16"  style="line-height:29px;margin-top:30px">
+		<h2 class="tc colorwhite fs16 wow fadeInUp"  style="line-height:29px;margin-top:30px">
 			사고예방 차원의 유지관리 접근방법을 모색함으로써 위해요인을 사전에 제거하고 구조물의 안전성을 확보하고 있으며,<br/> 
 			체계적인 정기점검, 정밀점검 및 긴급점검을 진행하고 있습니다.
 
@@ -22,7 +21,7 @@
 <!--50%컨텐츠-->
 <div class="content_50" style="background: url(resource/images/bg.jpg) no-repeat 0% 0;"> 
 	<div class="container tc" style="position: relative;">
-	<div style="background: url(/resource/images/infra/main_sujeong.jpg) no-repeat 100% 0%;width: 100%; height: 1000px; background-size: 100%;"></div> 
+	<div class="wow fadeInUp" style="background: url(/resource/images/infra/main_sujeong.jpg) no-repeat 100% 0%;width: 100%; height: 1000px; background-size: 100%;"></div> 
 	<!-- 	<img class="" style="width: 100%; height: 1000px" src="resource/images/golf/map_boeun.png" style="visibility: visible;"> -->
 		 
 	  
@@ -40,17 +39,17 @@
 			<li>
 				<p>매출</p> <span class="counter result"></span>억 <br>
 				<div class="year_count">계획  <span class="plan"></span>억</div>
-				<div id="sudoe_data1" class="chartDiv"></div>
+				<div id="sujeong_data1" class="chartDiv"></div>
 			</li>
 			<li>
 				<p>이익</p> <span class="counter result"></span>억 <br>
 				<div class="year_count">계획  <span class="plan"></span>억</div>
-				<div id="sudoe_data2" class="chartDiv"></div>
+				<div id="sujeong_data2" class="chartDiv"></div>
 			</li>
 			<li>
 				<p>원가율</p> <span class="counter result"></span>% <br>
 				<div class="year_count">계획  <span class="plan"></span>%</div>
-				<div id="sudoe_data3" class="chartDiv"></div>
+				<div id="sujeong_data3" class="chartDiv"></div>
 			</li>
 			
 		</ul>

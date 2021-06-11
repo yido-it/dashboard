@@ -20,7 +20,7 @@ $(document).ready(function() {
 		$('.div_record').find('span.po[class*=inf]').show(); // 인프라: param=2
 	} else if (param == "golf") { // 골프: param=3
 		$('.div_record').find('span.po[class*=g]').show(); // 부동산: param=4
-	} else if (param == "r") {
+	} else if (param == "asset") {
 		$('.div_record').find('span.po[class*=r]').show();
 	}
 
@@ -49,6 +49,35 @@ $(document).ready(function() {
 		pieChart("golf_data2", golf_data2, "#00ccff");
 		pieChart2("golf_data3", golf_data3, "#ff8a00");
 		
+		pieChart("infra_data1", infra_data1, "yellow");
+		pieChart("infra_data2", infra_data2, "#00ccff");
+		pieChart2("infra_data3", infra_data3, "#ff8a00");
+		
+		pieChart("ulsan_data1", ulsan_data1, "yellow");
+		pieChart("ulsan_data2", ulsan_data2, "#00ccff");
+		pieChart2("ulsan_data3", ulsan_data3, "#ff8a00");
+		
+		pieChart("yongseo_data1", yongseo_data1, "yellow");
+		pieChart("yongseo_data2", yongseo_data2, "#00ccff");
+		pieChart2("yongseo_data3", yongseo_data3, "#ff8a00");
+		
+		pieChart("chunnon_data1", chunnon_data1, "yellow");
+		pieChart("chunnon_data2", chunnon_data2, "#00ccff");
+		pieChart2("chunnon_data3", chunnon_data3, "#ff8a00");
+		
+		pieChart("kyungki_data1", kyungki_data1, "yellow");
+		pieChart("kyungki_data2", kyungki_data2, "#00ccff");
+		pieChart2("kyungki_data3", kyungki_data3, "#ff8a00");
+		
+		pieChart("sujeong_data1", sujeong_data1, "yellow");
+		pieChart("sujeong_data2", sujeong_data2, "#00ccff");
+		pieChart2("sujeong_data3", sujeong_data3, "#ff8a00");
+		
+		pieChart("asset_data1", asset_data1, "yellow");
+		pieChart("asset_data2", asset_data2, "#00ccff");
+		pieChart2("asset_data3", asset_data3, "#ff8a00");
+		
+		
 
 		
 		//월별 변화그래프
@@ -64,6 +93,10 @@ $(document).ready(function() {
 		lineChart("env_line2", env_line2);
 		lineChart2("env_line3", env_line3);
 		
+		lineChart("infra_line1", infra_line1);
+		lineChart("infra_line2", infra_line2);
+		lineChart2("infra_line3", infra_line3);
+		
 		lineChart("sudoe_line1", sudoe_line1);
 		lineChart("sudoe_line2", sudoe_line2);
 		lineChart2("sudoe_line3", sudoe_line3);
@@ -71,6 +104,10 @@ $(document).ready(function() {
 		lineChart("ilsung_line1", ilsung_line1);
 		lineChart("ilsung_line2", ilsung_line2);
 		lineChart2("ilsung_line3", ilsung_line3);
+		
+		lineChart("asset_line1", ilsung_line1);
+		lineChart("asset_line2", ilsung_line2);
+		lineChart2("asset_line3", ilsung_line3);
 		
 		/**************************  end *******************/
 
