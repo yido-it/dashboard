@@ -105,9 +105,9 @@ $(document).ready(function() {
 		lineChart("ilsung_line2", ilsung_line2);
 		lineChart2("ilsung_line3", ilsung_line3);
 		
-		lineChart("asset_line1", ilsung_line1);
-		lineChart("asset_line2", ilsung_line2);
-		lineChart2("asset_line3", ilsung_line3);
+		lineChart("asset_line1", asset_line1);
+		lineChart("asset_line2", asset_line2);
+		lineChart2("asset_line3", asset_line3);
 		
 		/**************************  end *******************/
 

@@ -33,7 +33,7 @@
 <div class="content_04">
 	 <div class="content_04-1">
 		<div class="title_month">
-			<i class="fas fa-circle-notch"></i> 수정산터널 2021년 3월 누적 Business Status
+			<i class="fas fa-circle-notch"></i> 수정산터널 2021년 5월 누적 Business Status
 		</div>
 		<ul class="section_data section_data2">
 			<li>
@@ -57,7 +57,6 @@
 	
 	<div class="content_04-2 tc" style="background: url(resource/images/bg.jpg) no-repeat 0% 88%;">
 		<img src="/resource/images/img_coming3.png">
-	<!-- 	<a style="padding: 185px 200px;display: block;background-color: gray; text-align: center;" href="https://remotedesktop.google.com/access/session/97d3f8d1-39a7-1f36-f352-d041fa99591d" target="_blank">CCTV영역</a> -->
 	</div>
 </div>
 <!--//4번째컨텐츠-->

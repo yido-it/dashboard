@@ -6,8 +6,8 @@
 	<div class="section01_1">
 		<ul class="ul_main_select">
 			<li class="navi wow fadeInLeft" data-href="main"><img src="resource/images/main/btn01.png"></li>
-			<li class="navi wow fadeInDown" data-href=""><img src="resource/images/asset/asset_core.png"></li>
-			<li class="navi wow fadeInRight" data-href=""><img src="resource/images/asset/asset_liv.png"></li>
+			<li class="navi wow fadeInDown" ><img src="resource/images/asset/asset_core.png"></li>
+			<li class="navi wow fadeInRight" ><img src="resource/images/asset/asset_liv.png"></li>
 		</ul>
 	</div>
 </div>

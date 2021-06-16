@@ -550,6 +550,7 @@ background: url(../images/env/video/video_m3_2.jpg) no-repeat 0 0;background-siz
     margin-bottom: 12px;
 }
 .design-process-content {
+	background-color: rgba(1,1,1,0.5);
     border:2px solid #4f709c;
     position: relative;
     padding: 16px 30px 30px 30px;
