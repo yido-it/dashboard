@@ -3,7 +3,7 @@
 <div class="content_01">
 	<div class="content_01-2 content01_golf_geochang" >
 		<!-- <div class="title_month">YIDO 매출비율</div> -->
-		<div class="tc mt50 wow flipInX" style="font-size: 40px; color: #fff; font-weight: bold;">CLUBD GEOCHANG Country Club</div>
+		<div class="tc mt50 wow flipInX" style="font-size: 40px; color: #fff; font-weight: bold;">CLUBD GEOCHANG</div>
 		<h2 class="tc colorwhite fs18 wow fadeInUp"  style="line-height:29px;margin-top:30px">
 			바람이 만든 낮은 언덕과도 같은 감악산 자락에 조성된 클럽디거창은,<br/>
 			3대 국립공원인 지리산, 덕유산, 가야산이 감싸고 있어 수려한 원경을 지니고 있습니다.

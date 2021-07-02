@@ -4,7 +4,7 @@
 <div class="content_01">
 	<div class="content_01-2 content01_golf_boeun" >
 		<!-- <div class="title_month">YIDO 매출비율</div> -->
-		<div class="tc mt50 wow flipInX" style="font-size: 40px; color: #fff; font-weight: bold;">CLUBD BOEUN Country Club</div>
+		<div class="tc mt50 wow flipInX" style="font-size: 40px; color: #fff; font-weight: bold;">CLUBD BOEUN</div>
 		<h2 class="tc colorwhite fs18 wow fadeInUp"  style="line-height:29px;margin-top:30px">
 			 자연속에서 '최고의 휴식'을 만들어 내는 것입니다.<br/>보다 안전하고, 편리한 삶을 만들기 위해 노력하는 기업입니다.  
 		</h2>

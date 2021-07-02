@@ -178,14 +178,14 @@ table {
 .content_04{background-color:black;width:25%;height:94vh;float:left;}
 .content_50{background-color:white;width:50%;height:94vh;float:left;}/*50%차지하는컨텐츠*/
 
-.content_01-1{height:48%;padding: 2%;}
-.content_01-2{height:44%;background-color:#192f40;padding: 2%;}
+.content_01-1{height:47%;padding: 2%;}
+.content_01-2{height:45%;background-color:#192f40;padding: 2%;}
 .content_02-1{height:46%;padding: 2%;}
 .content_02-2{height:46%;padding: 2%;}
 .content_03-1{}
 .content_03-2{}
-.content_04-1{height:44%;padding: 2%;}
-.content_04-2{height:48%;padding: 2%;background-color:#153456;}
+.content_04-1{height:45%;padding: 2%;}
+.content_04-2{height:47%;padding: 2%;background-color:#153456;}
 
 
 /*차트*/
