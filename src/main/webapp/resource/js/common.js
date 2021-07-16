@@ -77,7 +77,9 @@ $(document).ready(function() {
 		pieChart("asset_data2", asset_data2, "#00ccff");
 		pieChart2("asset_data3", asset_data3, "#ff8a00");
 		
-		
+		pieChart("jeju_data1", jeju_data1, "yellow");
+		pieChart("jeju_data2", jeju_data2, "#00ccff");
+		pieChart2("jeju_data3", jeju_data3, "#ff8a00");
 
 		
 		//월별 변화그래프

@@ -149,28 +149,7 @@
 	</div>
 	<div class="content_04-2" style="background: url(resource/images/bg.jpg) no-repeat 0% 88%;">
 		<img src="/resource/images/img_coming3.png">
-		<!-- <div class="title_month">
-			<i class="fas fa-chart-line"></i> 일성 2021년 변화 Chart
-		</div>
-		<ul class="section_data section_data2">
-		
-			<li>
-				<p>매출</p> <span class="counter result"></span>억 <br>
-				<div class="year_count">계획  <span class="plan"></span>억</div>
-				<div id="ilsung_line1" class="chartDiv"></div>
-			</li>
-			<li>
-				<p>이익</p><span class="counter result"></span>억 <br>
-				<div class="year_count">계획  <span class="plan"></span>억</div>
-				<div id="ilsung_line2" class="chartDiv"></div>
-			</li>
-			<li>
-				<p>원가율</p> <span class="counter result"></span>% <br>
-				<div class="year_count">계획 <span class="plan"></span>%</div>
-				<div id="ilsung_line3" class="chartDiv"></div>
-			</li>
-		
-		</ul> -->
+	 
 	</div>
 </div>
 <!--//4번째컨텐츠-->

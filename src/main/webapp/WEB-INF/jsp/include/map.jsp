@@ -397,7 +397,7 @@
 			</ul>
 		</span>
 		<!-- 함안 -->
-		<span class="po env6  wow fadeInUp"><a href="env_sudoe.html"> <img src="resource/images/main/map/e6.png"></a> </span>
+		<span class="po env6  wow fadeInUp"><a href="env.html"> <img src="resource/images/main/map/e6.png"></a> </span>
 		<!-- 울산 스팀폐수 -->
 		<span class="po env8  wow fadeInUp" data-wow-delay="0.5s"> <img src="resource/images/main/map/e8.png">
 			<ul class="po_photo" style="display: none; padding-top: 10px; margin-top: 31px; padding-bottom: 10px; margin-bottom: 0px;">
@@ -463,7 +463,7 @@
 						<li>레미콘 제조/판매, 아스콘 제조/판매</li>
 						<li>시설용량: 레미콘 1,680톤/일, 아스콘 640톤/일</li>
 					</ul>
-					<button type="button" class="btn btn-primary mt10" onclick="href('env_sudoe')">
+					<button type="button" class="btn btn-primary mt10" onclick="href('env_jeju')">
 						사업소개 바로가기 <i class="fas fa-arrow-circle-right"></i>
 					</button>
 				</li>
@@ -481,7 +481,7 @@
 						<li>건설폐기물처리, 유제판매, 건설장비임대</li>
 						<li>시설용량: 건폐 1,200톤/일</li>
 					</ul>
-					<button type="button" class="btn btn-primary mt10" onclick="href('env_sudoe')">
+					<button type="button" class="btn btn-primary mt10" onclick="href('env_jeju')">
 						사업소개 바로가기 <i class="fas fa-arrow-circle-right"></i>
 					</button>
 				</li>
@@ -499,7 +499,7 @@
 						<li>아스콘 제조/판매, 건설폐기물처리</li>
 						<li>시설용량: 아스콘 720톤/일, 건폐 1,600톤/일</li>
 					</ul>
-					<button type="button" class="btn btn-primary mt10" onclick="href('env_sudoe')">
+					<button type="button" class="btn btn-primary mt10" onclick="href('env_jeju')">
 						사업소개 바로가기 <i class="fas fa-arrow-circle-right"></i>
 					</button>
 				</li>
