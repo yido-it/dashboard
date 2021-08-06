@@ -8,7 +8,7 @@
 			<li class="navi wow fadeInDown" data-href="env_sudoe"><img src="resource/images/env/env_btn01.png"></li>
 			<li class="navi wow fadeInRight" data-href="env_ilsung"><img src="resource/images/env/env_btn02.png"></li>
 			<li class="navi wow fadeInUp" data-href="env_osan"><img src="resource/images/env/env_btn03.png"></li>
-			<li class="navi wow fadeInRight"><img src="resource/images/env/env_btn04.png"></li>
+			<li class="navi wow fadeInRight" data-href="env_jeonju"><img src="resource/images/env/env_btn04.png"></li>
 			<li class="navi wow fadeInRight" data-href="env_jeju"><img src="resource/images/env/env_btn05.png"></li>
 		</ul>
 	</div>

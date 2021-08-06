@@ -80,7 +80,14 @@ $(document).ready(function() {
 		pieChart("jeju_data1", jeju_data1, "yellow");
 		pieChart("jeju_data2", jeju_data2, "#00ccff");
 		pieChart2("jeju_data3", jeju_data3, "#ff8a00");
-
+		
+		pieChart("jeonju_data1", jeju_data1, "yellow");
+		pieChart("jeonju_data2", jeju_data2, "#00ccff");
+		pieChart2("jeonju_data3", jeju_data3, "#ff8a00");
+		
+		pieChart("osan_data1", jeju_data1, "yellow");
+		pieChart("osan_data2", jeju_data2, "#00ccff");
+		pieChart2("osan_data3", jeju_data3, "#ff8a00");
 		
 		//월별 변화그래프
 		lineChart("main_line1", main_line1);

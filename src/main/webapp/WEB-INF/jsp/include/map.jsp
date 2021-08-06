@@ -7,13 +7,13 @@
 			<div class="totalcounter wow flipInX">
 				<span class="">TOTAL</span>
 			</div>
-			<span class="counter">104</span>개
+			<span class="counter">106</span>개
 		</div>
 		<div class="fl  business_score e">
 			<div class="totalcounter wow flipInX" data-wow-delay="0.4s">
 				<img class="wow fade-in one" src="resource/images/main/enviro_dot.png"> <span class="">친환경</span>
 			</div>
-			<span class="counter">11</span>개
+			<span class="counter">13</span>개
 		</div>
 		<div class="fl  business_score i">
 			<div class="totalcounter wow flipInX"  data-wow-delay="0.8s">
@@ -55,7 +55,6 @@
 				</li>
 			</ul>
 		</span>
-	
 		<!-- //팔룡터널 -->
 		<!-- 천논 -->
 		<span class="po inf3 wow fadeInUp" data-wow-delay="0.7s"> <img src="resource/images/main/map/i3.png">
@@ -113,7 +112,7 @@
 			</ul>
 		</span>
 	
-		<!-- 용서 -->
+		<!--// 용서 -->
 		<!-- 봉강황전터널 -->
 		<span class="po inf8 wow fadeInUp" data-wow-delay="0.3s"> <img src="resource/images/main/map/i_bonggang.png">
 			<ul class="po_photo" style="display: none; padding-top: 10px; margin-top: 60px; padding-bottom: 10px; margin-bottom: 0px;">
@@ -425,7 +424,7 @@
 						<li>전라북도 전주시 덕진구 원만성로55</li>
 						<li>폐기물 소각/스팀 공급</li>
 					</ul>
-					<button type="button" class="btn btn-primary mt10" onclick="href('env_sudoe')">
+					<button type="button" class="btn btn-primary mt10" onclick="href('env_jeonju')">
 						사업소개 바로가기 <i class="fas fa-arrow-circle-right"></i>
 					</button>
 				</li>
@@ -506,6 +505,46 @@
 			</ul>
 		</span>
 		<!-- //유창토건  -->
+			<!-- 진천매립  -->
+		<span class="po env_jinchun wow fadeInUp" data-wow-delay="0.5s"> <img src="resource/images/main/map/e_jinchun.png">
+			<ul class="po_photo" style="position: relative;z-index:9999999999">
+				<li><img src="resource/images/performance/jinchun.jpg"></li>
+				<li>
+					<ul class="modal_map_ul">
+						<li class="title">진천매립</li>
+						 <li>충북 진천군 이월면 삼용리 1296번지 일원</li>  
+						 <li>발 주 처: 주식회사 맑음</li>
+						<li>매립용량 : 약1,065,000㎥(지정 및 일반)</li>
+						<li>매립형식 : 준호기성 위생매립(에어돔형)</li>
+						<li>매립높이 : 약50m(지하35m, 지상15m)</li>
+					</ul>
+					<button type="button" class="btn btn-primary mt10" onclick="href('env')">
+						사업소개 바로가기 <i class="fas fa-arrow-circle-right"></i>
+					</button>
+				</li>
+			</ul>
+		</span>
+		<!-- //진천매립  -->
+	 <!-- 중부환경  -->
+		<span class="po env_joongbu wow fadeInUp" data-wow-delay="0.5s"> <img src="resource/images/main/map/e_joongbu.png">
+			<ul class="po_photo" style="position: relative; margin-top: -84% !important">
+				<li><img src="resource/images/performance/joongbu.jpg"></li>
+				<li>
+					<ul class="modal_map_ul">
+						<li class="title">중부환경</li>
+					 <li> 충북 청주시 흥덕구 옥산면 환희2길 100-16번지 </li>  
+					<li>  건설폐기물 중간처리(1,200톤/일)</li>  
+					 <li>  폐기물 종합재활용(35톤/일)</li>  
+					 <li>폐기물 중간처분(28톤/일</li>  
+					</ul>
+					<button type="button" class="btn btn-primary mt10" onclick="href('env')">
+						사업소개 바로가기 <i class="fas fa-arrow-circle-right"></i>
+					</button>
+				</li>
+			</ul>
+		</span>
+		<!-- //중부환경  -->
+		
 		<!-- 괌 -->
 		<span class="po r12 wow fadeInUp" data-wow-delay="0.5s"> <img src="resource/images/main/map/p12.png">
 			<ul class="po_photo" style="position: relative; margin-top: -84% !important">

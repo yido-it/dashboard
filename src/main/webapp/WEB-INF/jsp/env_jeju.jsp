@@ -54,12 +54,10 @@
 	</div>
 	
 	<div class="content_04-2 tc" style="background: url(resource/images/bg.jpg) no-repeat 0% 88%;">
+ 
 
-		 <img src="/resource/images/img_coming3.png">  
-
-		 <!-- <p class="txt_live" >LIVE</p>
-		   	 <iframe class="infra_iframe" src="http://ionm.yido.co.kr/iOnM/cctvView02_.html"  scrolling="no" frameborder="0"></iframe>
-		 -->	 
+	  <p class="txt_live" >LIVE</p>
+   	<iframe width="810" height="455" src="https://www.youtube.com/embed/vEfTp5KE2eg?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>		 
 		 
 	</div>
 </div>

@@ -20,10 +20,7 @@
 <div class="content_50" style="background: url(resource/images/bg.jpg) no-repeat 0% 0;"> 
 	<div class="container tc" style="position: relative;">
 	<div class="wow fadeInUp" style="background: url(/resource/images/infra/main_kyungki.jpg) no-repeat 100% 0%;width: 100%; height: 1000px; background-size: 100%;"></div> 
-	<!-- 	<img class="" style="width: 100%; height: 1000px" src="resource/images/golf/map_boeun.png" style="visibility: visible;"> -->
-		 
 	  
-		 
 	</div>
 </div>
 <!--//50%컨텐츠-->

@@ -23,7 +23,7 @@
 <!--4번째컨텐츠-->
 <div class="content_04">
 	<div class="content_04-1">
-		<div class="title_month">골프사업 2021년 5월 누적 Business Status</div>
+		<div class="title_month">골프사업 2021년 6월 누적 Business Status</div>
 		<ul class="section_data section_data2">
 			<li>
 				<p>매출</p> <span class="counter result"></span>억 <br>
