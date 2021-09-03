@@ -228,7 +228,7 @@
 	var sUrl1 = "http://101.101.160.40:8080/dash/getDashboardInfo.do";
 	var sUrl2 = "http://101.101.160.40:8080/dash/getDashboardCart.do";
 	var sUrl3 = "http://101.101.160.40:8080/dash/getDashboardStatus.do";
-	var sUrl4 = "http://101.101.160.40:8080/dash/getDashboardLine.do";
+	var sUrl4 = "http://101.101.160.40:8080/dash/getDashboardLine.do";   
 // 	var sUrl1 = "http://10.10.85.83:8080/dash/getDashboardInfo.do";
 // 	var sUrl2 = "http://10.10.85.83:8080/dash/getDashboardCart.do";
 // 	var sUrl3 = "http://10.10.85.83:8080/dash/getDashboardStatus.do";
