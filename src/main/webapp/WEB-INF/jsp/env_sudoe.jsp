@@ -150,7 +150,7 @@
 <div class="content_04">
 	<div class="content_04-1">
 		<div class="title_month">
-			<i class="fas fa-circle-notch"></i> 수도권환경 2021년 5월 누적 Business Status
+			<i class="fas fa-circle-notch"></i> 수도권환경 2021년 9월 누적 Business Status
 		</div>
 		<ul class="section_data section_data2">
 			<li>
@@ -173,32 +173,13 @@
 	</div>
 	<div class="content_04-2" style="background: url(resource/images/bg.jpg) no-repeat 0% 88%;">
 		
-		<p class="txt_live">LIVE</p> 
-			<iframe width="810" height="455" src="https://www.youtube.com/embed/Z_qMOLr7FDQ?autoplay=1&mute=1"
-			title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		
-	<!-- 	<div class="title_month">
-			<i class="fas fa-chart-line"></i> 수도권환경 2021년 변화 Chart
-		</div>
-		<ul class="section_data section_data2">
-		
-			<li>
-				<p>매출</p> <span class="counter result"></span>억 <br>
-				<div class="year_count">계획 <span class="plan"></span>억</div>
-				<div id="sudoe_line1" class="chartDiv"></div>
-			</li>
-			<li>
-				<p>이익</p> <span class="counter result"></span>억 <br>
-				<div class="year_count">계획  <span class="plan"></span>억</div>
-				<div id="sudoe_line2" class="chartDiv"></div>
-			</li>
-			<li>
-				<p>원가율</p> <span class="counter result"></span>% <br>
-				<div class="year_count">계획  <span class="plan"></span>%</div>
-				<div id="sudoe_line3" class="chartDiv"></div>
-			</li>
-		
-		</ul> -->
+		<!-- 	<img src="/resource/images/img_coming3.png"> -->
+			<p class="txt_live">LIVE</p>		
+			<iframe width="810" height="455" src="https://www.youtube.com/embed/1WS3f-TK2OY?autoplay=1&mute=1"
+			title="YouTube video player" frameborder="0" 
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+			allowfullscreen></iframe>
+		 
 	</div>
 </div>
 <!--//4번째컨텐츠-->

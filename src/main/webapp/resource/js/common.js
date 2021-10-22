@@ -19,7 +19,7 @@ $(document).ready(function() {
 	} else if (param == "infra") { // 환경: param=1
 		$('.div_record').find('span.po[class*=inf]').show(); // 인프라: param=2
 	} else if (param == "golf") { // 골프: param=3
-		$('.div_record').find('span.po[class*=g]').show(); // 부동산: param=4
+		$('.div_record').find('span.po[class*=golf]').show(); // 부동산: param=4
 	} else if (param == "asset") {
 		$('.div_record').find('span.po[class*=r]').show();
 	}

@@ -28,7 +28,7 @@
 <div class="content_04">
 	<div class="content_04-1">
 		<div class="title_month">
-			<i class="fas fa-circle-notch"></i> 전주소각장 2021년 5월 누적 Business Status
+			<i class="fas fa-circle-notch"></i> 전주소각장 2021년 9월 누적 Business Status
 		</div>
 		<ul class="section_data section_data2">
 			

@@ -146,7 +146,7 @@
 		</span> 
 		<!-- //울산대교 -->
 		<!--클럽디천안-->
-		<span class="po g2 wow fadeInUp"> <img src="resource/images/main/map/g2.png">
+		<span class="po golf2 wow fadeInUp"> <img src="resource/images/main/map/g2.png">
 			<ul class="po_photo" style="">
 				<!-- 					<li><a href="golf_boeun.html">골프장 사업소개 <i -->
 				<li><a href="javascript:parent.parentalert(a)">골프장 사업소개 <i class="fas fa-arrow-circle-right"></i></a></li>
@@ -255,7 +255,7 @@
 		</span>
 		<!-- //리브앳디 -->
 		<!-- 클럽디속리 -->
-		<span class="po g4  wow fadeInUp" data-wow-delay="0.7s"> <img src="resource/images/main/map/g4.png">
+		<span class="po golf4  wow fadeInUp" data-wow-delay="0.7s"> <img src="resource/images/main/map/g4.png">
 			<ul class="po_photo" style="display: none; padding-top: 10px; margin-top: 20px; padding-bottom: 10px; margin-bottom: 0px;">
 				<li><img src="resource/images/performance/songnisan.jpg"></li>
 				<li>
@@ -274,7 +274,7 @@
 		
 		<!-- //클럽디속리 -->
 		<!-- 클럽디보은 -->
-		<span class="po g3  wow fadeInUp"> <img src="resource/images/main/map/g3.png">
+		<span class="po golf3  wow fadeInUp"> <img src="resource/images/main/map/g3.png">
 			<ul class="po_photo" style="display: none; padding-top: 10px; margin-top: 20px; padding-bottom: 10px; margin-bottom: 0px;">
 				<li><img src="resource/images/performance/clubd.jpg"></li>
 				<li>
@@ -293,7 +293,7 @@
 	 
 		<!-- //클럽디보은 -->
 		<!-- 클럽디금강 -->
-		<span class="po g5  wow fadeInUp" data-wow-delay="0.3s"> <img src="resource/images/main/map/g5.png">
+		<span class="po golf5  wow fadeInUp" data-wow-delay="0.3s"> <img src="resource/images/main/map/g5.png">
 			<ul class="po_photo" style="">
 				<li><img src="resource/images/performance/geumgang.jpg"></li>
 				<li>
@@ -312,7 +312,7 @@
 	 
 		<!-- //클럽디금강 -->
 		<!-- 클럽디거창 -->
-		<span class="po g6  wow fadeInUp" data-wow-delay="0.3s"> <img src="resource/images/main/map/g6.png">
+		<span class="po golf6  wow fadeInUp" data-wow-delay="0.3s"> <img src="resource/images/main/map/g6.png">
 			<ul class="po_photo" style="display: none; padding-top: 10px; margin-top: 20px; padding-bottom: 10px; margin-bottom: 0px;">
 				<li><img src="resource/images/performance/geochang.jpg"></li>
 				<li>
