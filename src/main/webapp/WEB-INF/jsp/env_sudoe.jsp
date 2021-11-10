@@ -150,7 +150,7 @@
 <div class="content_04">
 	<div class="content_04-1">
 		<div class="title_month">
-			<i class="fas fa-circle-notch"></i> 수도권환경 2021년 9월 누적 Business Status
+			<i class="fas fa-circle-notch"></i> 수도권환경 2021년 10월 누적 Business Status
 		</div>
 		<ul class="section_data section_data2">
 			<li>
@@ -175,7 +175,7 @@
 		
 		<!-- 	<img src="/resource/images/img_coming3.png"> -->
 			<p class="txt_live">LIVE</p>		
-			<iframe width="810" height="455" src="https://www.youtube.com/embed/tJbmcR89aYw?autoplay=1&mute=1"
+			<iframe width="810" height="455" src="https://www.youtube.com/embed/gtLHvR-kF7I?autoplay=1&mute=1"
 			title="YouTube video player" frameborder="0" 
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
 			allowfullscreen></iframe>
