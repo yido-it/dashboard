@@ -24,7 +24,7 @@
 <!--4번째컨텐츠-->
 <div class="content_04">
 	<div class="content_04-1">
-		<div class="title_month wow flipInX">YIDO 2021년 10월 누적 Business Status</div>
+		<div class="title_month wow flipInX">YIDO 2021년 11월 누적 Business Status</div>
 		<ul class="section_data section_data2">
 			<li>
 				<p>매출</p> <span class="counter result"></span>억 <br>
@@ -45,7 +45,7 @@
 		</ul>
 	</div>
 	<div class="content_04-2" style="background: url(resource/images/bg.jpg) no-repeat 0% 88%;">
-		<div class="title_month wow flipInX">YIDO 2021년 10월 Chart</div>
+		<div class="title_month wow flipInX">YIDO 2021년 11월 Chart</div>
 		<ul class="section_data section_data2">
 			<li>
 				<p>매출</p> <span class="counter result"></span>억 <br>

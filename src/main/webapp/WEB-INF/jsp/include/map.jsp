@@ -7,7 +7,7 @@
 			<div class="totalcounter wow flipInX">
 				<span class="">TOTAL</span>
 			</div>
-			<span class="counter">106</span>개
+			<span class="counter">105</span>개
 		</div>
 		<div class="fl  business_score e">
 			<div class="totalcounter wow flipInX" data-wow-delay="0.4s">
@@ -25,7 +25,7 @@
 			<div class="totalcounter wow flipInX"  data-wow-delay="1.2s">
 				<img class="wow fade-in one" src="resource/images/main/golf_dot.png"> <span class="">골프장</span>
 			</div>
-			<span class="counter">5</span>개
+			<span class="counter">4</span>개
 		</div>
 		<div class="fl  business_score e">
 			<div class="totalcounter wow flipInX"  data-wow-delay="1.5s">
@@ -146,12 +146,13 @@
 		</span> 
 		<!-- //울산대교 -->
 		<!--클럽디천안-->
-		<span class="po golf2 wow fadeInUp"> <img src="resource/images/main/map/g2.png">
+	<!-- 	<span class="po golf2 wow fadeInUp"> <img src="resource/images/main/map/g2.png">
 			<ul class="po_photo" style="">
-				<!-- 					<li><a href="golf_boeun.html">골프장 사업소개 <i -->
 				<li><a href="javascript:parent.parentalert(a)">골프장 사업소개 <i class="fas fa-arrow-circle-right"></i></a></li>
 			</ul>
-		</span> 
+		</span>  -->
+		
+		
 		<span class="po r7 wow fadeInUp" data-wow-delay="0.3s"> <img src="resource/images/main/map/p7.png">
 		</span> 
 		<span class="po r8 wow fadeInUp"> <img src="resource/images/main/map/p8.png">
