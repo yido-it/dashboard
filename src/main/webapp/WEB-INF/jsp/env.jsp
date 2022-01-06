@@ -41,7 +41,7 @@
 		</ul>
 	</div>
 	<div class="content_04-2" style="background: url(resource/images/bg.jpg) no-repeat 0% 88%;">
-		<div class="title_month">환경사업 2021년 10월  Chart</div>
+		<div class="title_month">환경사업 2021년 11월  Chart</div>
 		<ul class="section_data section_data2">
 			<li>
 				<p>매출</p> <span class="counter result"></span>억 <br>

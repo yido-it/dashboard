@@ -7,7 +7,7 @@
 			<div class="totalcounter wow flipInX">
 				<span class="">TOTAL</span>
 			</div>
-			<span class="counter">105</span>개
+			<span class="counter">106</span>개
 		</div>
 		<div class="fl  business_score e">
 			<div class="totalcounter wow flipInX" data-wow-delay="0.4s">
@@ -19,7 +19,7 @@
 			<div class="totalcounter wow flipInX"  data-wow-delay="0.8s">
 				<img class="wow fade-in one" src="resource/images/main/infra_dot.png"> <span class="">인프라</span>
 			</div>
-			<span class="counter">8</span>개
+			<span class="counter">9</span>개
 		</div>
 		<div class="fl  business_score g">
 			<div class="totalcounter wow flipInX"  data-wow-delay="1.2s">
@@ -94,6 +94,37 @@
 		</span>
 	
 		<!--//경기서부 -->
+			<!-- 매송휴게소 -->
+		<span class="po r15"> <img src="resource/images/main/map/p15.png"> <!-- 	<ul class="po_photo">
+							<li><img src="resource/images/performance/ptower.jpg"></li>
+							<li>
+							<p class="portfolio-item-paragraph">서울시 서초구 남부순환로 2620
+												<br></p>
+							 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModaPtower">
+								상세보기
+							 </button> 				
+						 </ul> -->
+		</span>
+			<!-- 평택시흥 -->
+		<span class="po inf_pyungtaek wow fadeInUp"> <img src="resource/images/main/map/i_pyungtaek.png">
+			<ul class="po_photo" style="display: none; padding-top: 10px; margin-top: 60px; padding-bottom: 10px; margin-bottom: 0px;">
+				<li><img src="resource/images/performance/pyungtaek.jpg"></li>
+				<li>
+					<ul class="modal_map_ul">
+								<li class="title">평택시흥 고속도로</li>
+								<li>경기도 화성시 마도면 평택시흥고속도로 21</li>
+								<li>평택~시흥 고속도로 민간투자시설사업 관리운영</li>
+								<li>운영분야: 영업, 도로, 시설, ITS, 교통, 안전</li> 
+							</ul>
+							<button type="button" class="btn btn-primary mt10 mb10" onclick="href('infra')">
+								사업소개 바로가기 <i class="fas fa-arrow-circle-right"></i>
+							</button>
+				</li>
+			</ul>
+		</span>
+	
+		<!--// 평택시흥 -->
+		
 		<!-- 용서 -->
 		<span class="po inf1 wow fadeInUp"> <img src="resource/images/main/map/i1.png">
 			<ul class="po_photo" style="display: none; padding-top: 10px; margin-top: 60px; padding-bottom: 10px; margin-bottom: 0px;">
@@ -666,17 +697,7 @@
 		</span>
 		 
 		<!-- 오산소각장 -->
-		<!-- 매송휴게소 -->
-		<span class="po r15"> <img src="resource/images/main/map/p15.png"> <!-- 	<ul class="po_photo">
-							<li><img src="resource/images/performance/ptower.jpg"></li>
-							<li>
-							<p class="portfolio-item-paragraph">서울시 서초구 남부순환로 2620
-												<br></p>
-							 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModaPtower">
-								상세보기
-							 </button> 				
-						 </ul> -->
-		</span>
+	
 		<!-- 씨티스퀘어 -->
 		<span class="po r1 wow fadeInUp"  data-wow-delay="0.5s"> <img src="resource/images/main/map/p1.png">
 			<ul class="po_photo" style="display: none; padding-top: 10px; margin-top: 20px; padding-bottom: 10px; margin-bottom: 0px;">
