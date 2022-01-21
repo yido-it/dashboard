@@ -31,7 +31,7 @@
 <div class="content_04">
 	 <div class="content_04-1">
 		<div class="title_month">
-			<i class="fas fa-circle-notch"></i> 제주사업장 2021년 11월 누적 Business Status
+			<i class="fas fa-circle-notch"></i> 제주사업장 2021년 12월 누적 Business Status
 		</div>
 		<ul class="section_data section_data2">
 			<li>
@@ -48,16 +48,14 @@
 				<p>원가율</p> <span class="counter result"></span>% <br>
 				<div class="year_count">계획  <span class="plan"></span>%</div>
 				<div id="jeju_data3" class="chartDiv"></div>
-			</li>
-			
+			</li> 
 		</ul>
 	</div>
 	
 	<div class="content_04-2 tc" style="background: url(resource/images/bg.jpg) no-repeat 0% 88%;">
- 
 
 	  <p class="txt_live" >LIVE</p>
-   	<iframe width="810" height="455" src="https://www.youtube.com/embed/HPTrjqPJ4bQ?autoplay=1&mute=1" 
+   	<iframe width="810" height="455" src="https://www.youtube.com/embed/JJhFIsvxfEs?autoplay=1&mute=1" 
    	title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>		 
 		 
 	</div>
