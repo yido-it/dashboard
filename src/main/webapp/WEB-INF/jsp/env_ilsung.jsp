@@ -125,7 +125,7 @@
 <div class="content_04">
 	<div class="content_04-1">
 		<div class="title_month">
-			<i class="fas fa-circle-notch"></i> 일성 2021년 12월 누적 Business Status
+			<i class="fas fa-circle-notch"></i> 일성 2022년 2월 누적 Business Status
 		</div>
 		<ul class="section_data section_data2">
 			
