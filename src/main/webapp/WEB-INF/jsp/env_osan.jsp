@@ -52,11 +52,10 @@
 	</div>
 	<div class="content_04-2" style="background: url(resource/images/bg.jpg) no-repeat 0% 88%;">
 		<!-- <img src="/resource/images/img_coming3.png"> -->
-			<p class="txt_live">LIVE</p>		
-			<iframe width="810" height="455" src="https://www.youtube.com/embed/Uxj161-ZrIk?autoplay=1&mute=1"
-			title="YouTube video player" frameborder="0" 
-			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-			allowfullscreen></iframe>
+			<p class="txt_live">LIVE</p>	
+			<iframe width="820" height="456" src="https://cctv.yido.com:8443/player.php?murl=osan/test03" 
+		  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		   
 	 
 	</div>
 </div>

@@ -1,5 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+
+<style>
+#player{width:100% !important}
+</style>
+
 <div class="content_01">
 	<div class="content_01-2 content01_golf_geochang" >
 		<!-- <div class="title_month">YIDO 매출비율</div> -->
@@ -264,7 +269,8 @@
 	</div>
 	<div class="content_04-2 tc" style="background: url(resource/images/bg.jpg) no-repeat 0% 88%;">
 		<p class="txt_live">LIVE</p>
-		<iframe width="810" height="455" src="https://www.youtube.com/embed/Tfixe_ikEck?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<iframe width="820" height="456" src="https://cctv.yido.com:8443/player.php?murl=ClubD_geochang/test02" 
+		  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 	</div>
 </div>
@@ -534,4 +540,9 @@
 		}
 	}
 
+</script>
+<script>
+$(document).ready(function () {
+	  $('#player').css("width", "100%");
+});
 </script>
