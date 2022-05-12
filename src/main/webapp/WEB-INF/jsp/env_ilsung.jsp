@@ -125,10 +125,9 @@
 <div class="content_04">
 	<div class="content_04-1">
 		<div class="title_month">
-			<i class="fas fa-circle-notch"></i> 일성 2022년 2월 누적 Business Status
+			<i class="fas fa-circle-notch"></i> 일성 2022년 3월 누적 Business Status
 		</div>
-		<ul class="section_data section_data2">
-			
+		<ul class="section_data section_data2"> 
 			<li>
 				<p>매출</p> <span class="counter result"></span>억 <br>
 				<div class="year_count">계획 <span class="plan"></span>억</div>
@@ -148,12 +147,16 @@
 		</ul>
 	</div>
 	<div class="content_04-2" style="background: url(resource/images/bg.jpg) no-repeat 0% 88%;">
-		<img src="/resource/images/img_coming3.png">
+			
+			<p class="txt_live">LIVE</p> 
+ <iframe width="820" height="456" src="https://cctv.yido.com:8443/player.php?murl=ilsung/test09" 
+ frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 
+ 
 		<!-- <div class="title_month">
 			<i class="fas fa-chart-line"></i> 일성 2021년 변화 Chart
 		</div>
-		<ul class="section_data section_data2">
-		
+		<ul class="section_data section_data2"> 
 			<li>
 				<p>매출</p> <span class="counter result"></span>억 <br>
 				<div class="year_count">계획  <span class="plan"></span>억</div>

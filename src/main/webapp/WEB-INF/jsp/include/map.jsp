@@ -7,7 +7,7 @@
 			<div class="totalcounter wow flipInX">
 				<span class="">TOTAL</span>
 			</div>
-			<span class="counter">107</span>개
+			<span class="counter">109</span>개
 		</div>
 		<div class="fl  business_score e">
 			<div class="totalcounter wow flipInX" data-wow-delay="0.4s">
@@ -31,7 +31,7 @@
 			<div class="totalcounter wow flipInX"  data-wow-delay="1.5s">
 				<img class="wow fade-in one" src="resource/images/main/project_dot.png"> <span class="">부동산</span>
 			</div>
-			<span class="counter">80</span>개
+			<span class="counter">82</span>개
 		</div>
 	</div>
 	<!-- 지도시작 -->
@@ -75,6 +75,26 @@
 			</ul>
 		</span>
 		<!-- //산성 -->
+		 <!-- 백양 -->
+		<span class="po inf_baekyang wow fadeInUp"> <img src="resource/images/main/map/i_baekyang.png">
+			<ul class="po_photo" style="position: relative; margin-top: -84% !important">
+				<li><img src="resource/images/performance/baekyang.jpg"></li>
+				<li>
+					<ul class="modal_map_ul">
+								<li class="title">백양터널</li>
+								<li>용역명 : 백양터널 관리운영위탁</li>
+								<li>사업장: 부산광역시 사상구 모라로 199</li>
+								<li>영업관리, 도로/시설관리, 교통관리, 시스템관리</li>
+								<li>발주처 : 백양터널 유한회사</li>
+							</ul>
+							<button type="button" class="btn btn-primary mt10 mb10" onclick="href('infra')">
+								인프라사업소개 <i class="fas fa-arrow-circle-right"></i>
+							</button>
+				</li>
+			</ul>
+		</span>
+		<!-- //백양 -->
+		
 		<!-- 천논 -->
 		<span class="po inf3 wow fadeInUp" data-wow-delay="0.7s"> <img src="resource/images/main/map/i3.png">
 			<ul class="po_photo" style="">
