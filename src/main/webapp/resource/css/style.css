@@ -300,11 +300,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#437dab', end
 .env8 .po_photo {margin-top: 31px !important;}
 .env10 {top: 280px; left: 131px;}
 .env11 { top: 325px;  left: 56px;}
-.env12 {     top: 857px;  left: 5px;}
-.env13 {    top: 845px;  left: 195px;}
-.env14{    top: 886px;  left: 2px;}
+.env12 {top: 857px;  left: 5px;}
+.env13 {top: 845px;  left: 195px;}
+.env14{top: 886px;  left: 2px;}
 .env_jinchun{top: 300px; left: 309px;}
 .env_joongbu{top: 350px; left: 299px;}
+.env_goksung{top: 611px; left: 179px;}
 
 .inf1 {top: 181px; left: 215px;}
 .inf1 .po_photo {margin-top: 60px !important;}
@@ -320,6 +321,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#437dab', end
 .inf8 {top: 673px;    left: 291px;}
 .inf8 .po_photo {margin-top: 45px !important;}
 .inf_pyungtaek {top: 204px;    left: 84px;}
+.inf_kimpo {top: 148px;    left: 62px;}
 .inf_sansung {top: 677px; left: 544px;}
 .inf_baekyang {top: 697px; left: 544px;}
 .golf1 {top: 216px; left: 70px;}
@@ -351,6 +353,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#437dab', end
 .r14 {top: 629px;    left: 580px;}
 .r15{top: 246px;    left: 69px;}  
 .r16 {  top: 548px;  left: 153px;}
+.r_geochang{top: 567px;left: 385px;}
 
 .po_photo {display: none;}
 .po_photo button{margin:0 auto;font-size:13px;margin-top:5px;}

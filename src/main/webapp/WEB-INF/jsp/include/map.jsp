@@ -7,19 +7,19 @@
 			<div class="totalcounter wow flipInX">
 				<span class="">TOTAL</span>
 			</div>
-			<span class="counter">109</span>개
+			<span class="counter">111</span>개
 		</div>
 		<div class="fl  business_score e">
 			<div class="totalcounter wow flipInX" data-wow-delay="0.4s">
 				<img class="wow fade-in one" src="resource/images/main/enviro_dot.png"> <span class="">친환경</span>
 			</div>
-			<span class="counter">13</span>개
+			<span class="counter">14</span>개
 		</div>
 		<div class="fl  business_score i">
 			<div class="totalcounter wow flipInX"  data-wow-delay="0.8s">
 				<img class="wow fade-in one" src="resource/images/main/infra_dot.png"> <span class="">인프라</span>
 			</div>
-			<span class="counter">10</span>개
+			<span class="counter">11</span>개
 		</div>
 		<div class="fl  business_score g">
 			<div class="totalcounter wow flipInX"  data-wow-delay="1.2s">
@@ -114,6 +114,24 @@
 			</ul>
 		</span>
 		<!-- //천논 -->
+		<!--인천김포 -->
+		<span class="po inf_kimpo wow fadeInUp" data-wow-delay="0.3s"> <img src="resource/images/main/map/i_kimpo.png">
+			<ul class="po_photo" style="display: none;  padding-top: 10px; margin-top: 78px; padding-bottom: 10px; margin-bottom: 0px;">
+				<li><img src="resource/images/performance/kimpo.jpg"></li>
+				<li>
+					<ul class="modal_map_ul">
+								<li class="title">인천김포고속도로</li>
+								<li>인천광역시 서구 로봇랜드로 120-60(청라동)</li>
+								 <li>용역명 : 인천~김포고속도로 민간투자사업 관리운영위탁</li>
+								 <li>용역수행 : 영업관리, 도로관리, 시설관리, ITS관리, 교통관리</li>
+					 </ul>
+						<button type="button" class="btn btn-primary mt10" onclick="href('infra')">
+						사업소개 바로가기 <i class="fas fa-arrow-circle-right"></i>
+					</button>
+				</li>
+			</ul>
+		</span> 
+		<!--//인천김포 -->
 		<!--경기서부 -->
 		<span class="po inf2 wow fadeInUp" data-wow-delay="0.3s"> <img src="resource/images/main/map/i2.png">
 			<ul class="po_photo" style="display: none;  padding-top: 10px; margin-top: 78px; padding-bottom: 10px; margin-bottom: 0px;">
@@ -134,7 +152,9 @@
 	
 		<!--//경기서부 -->
 			<!-- 매송휴게소 -->
-		<span class="po r15"> <img src="resource/images/main/map/p15.png"> <!-- 	<ul class="po_photo">
+		<span class="po r15"> 
+			<img src="resource/images/main/map/p15.png"> 
+					<!-- 	<ul class="po_photo">
 							<li><img src="resource/images/performance/ptower.jpg"></li>
 							<li>
 							<p class="portfolio-item-paragraph">서울시 서초구 남부순환로 2620
@@ -383,6 +403,10 @@
 	 
 		<!-- //클럽디금강 -->
 		<!-- 클럽디거창 -->
+		<span class="po r_geochang wow fadeInUp" data-wow-delay="0.5s">
+				<img src="/resource/images/main/map/g7.png">
+			</span> 
+				
 		<span class="po golf6  wow fadeInUp" data-wow-delay="0.3s"> <img src="resource/images/main/map/g6.png">
 			<ul class="po_photo" style="display: none; padding-top: 10px; margin-top: 20px; padding-bottom: 10px; margin-bottom: 0px;">
 				<li><img src="resource/images/performance/geochang.jpg"></li>
@@ -503,6 +527,26 @@
 		</span>
 	 
 		<!-- //전주소각 -->
+			<!-- 곡성 -->
+		<span class="po env_goksung wow fadeInUp"> <img src="resource/images/main/map/e_goksung.png">
+			<ul class="po_photo" style="">
+				<li><img src="resource/images/performance/goksung.jpg"></li>
+				<li>
+					<ul class="modal_map_ul">
+						<li class="title">곡성가이아</li>
+						<li>전라남도 곡성군 겸면 상덕리 515 및 515 5</li>
+						 <li>사업분야 : 소각, 재활용, 발전</li>
+						 <li>면적 : 7,180평</li>
+						 
+					</ul>
+					<button type="button" class="btn btn-primary mt10" onclick="href('env')">
+						사업소개 바로가기 <i class="fas fa-arrow-circle-right"></i>
+					</button>
+				</li>
+			</ul>
+		</span> 
+		<!-- //곡성 -->
+		
 		<!-- 수도권환경 -->
 		<span class="po env1 wow fadeInUp"> <img src="resource/images/main/map/e1.png">
 			<ul class="po_photo">
