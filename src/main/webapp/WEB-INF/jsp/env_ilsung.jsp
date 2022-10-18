@@ -4,9 +4,9 @@
 <div class="content_01">
 	<div class="content_01-2 content01_env_ilsung" style="">
 		<div class="tc mt100">
-			<h1 style="font-size: 30px; font-weight: bold; color: white; text-shadow: 3px 3px 3px #404040;">YIDO "일성"은 Water Solution의 시대적 소명을 다 하겠습니다.</h1>
+			<h1 class="wow flipInX" style="font-size: 30px; font-weight: bold; color: white; text-shadow: 3px 3px 3px #404040;">YIDO "일성"은 Water Solution의 시대적 소명을 다 하겠습니다.</h1>
 		</div>
-		<h2 class="tc colorwhite fs16" style="line-height: 29px; margin-top: 30px">
+		<h2 class="tc colorwhite fs16 wow fadeInUp" style="line-height: 29px; margin-top: 30px">
 			물은 만물의 기원으로 인류-생존과 국가-안전에 필수 요소이자 모든 산업의 생산재가 되어주는 경제활동의 근간 입니다.<br /> 반면, 급속한 인구증가와 산업 활동에 따른 수자원 오.남용은 지구 온난화 및 기상이변 등 환경 재난을 가속화 시키고 있습니다.<br /> <br /> YIDO 일성은 이러한 시대적 사명을 바탕으로 탄생하여 지난 20년간 폐수처리를 통한 깨끗하고<br /> 안전한 물-환경 조성에 앞장서고 있습니다. <br />
 		</h2> 
 	</div>
@@ -17,9 +17,9 @@
 	<div class="container tc">
 		<div class="tab_content" style="margin-left: 60px">
 			<div class="title_month tl" style="padding: 1%">일성 │ 작업 공종도</div>
-				<div class="content02_env_ilsung"> </div>
+				<div class="content02_env_ilsung wow fadeInUp"> </div>
 			<!-- 공종도 NEw-->
-			<div class="row mt50">
+			<div class="row mt50 wow fadeInUp">
 				<div class="col-xs-12">
 					<!-- design process steps-->
 					<!-- Nav tabs -->
@@ -125,10 +125,9 @@
 <div class="content_04">
 	<div class="content_04-1">
 		<div class="title_month">
-			<i class="fas fa-circle-notch"></i> 일성 2021년 3월 누적 Business Status
+			<i class="fas fa-circle-notch"></i> 일성 2022년 9월 누적 Business Status
 		</div>
-		<ul class="section_data section_data2">
-			
+		<ul class="section_data section_data2"> 
 			<li>
 				<p>매출</p> <span class="counter result"></span>억 <br>
 				<div class="year_count">계획 <span class="plan"></span>억</div>
@@ -148,11 +147,16 @@
 		</ul>
 	</div>
 	<div class="content_04-2" style="background: url(resource/images/bg.jpg) no-repeat 0% 88%;">
-		<div class="title_month">
-			<i class="fas fa-chart-line"></i> 일성 2021년 3월 Chart
+			
+			<p class="txt_live">LIVE</p> 
+ <iframe width="820" height="456" src="https://cctv.yido.com:8443/player.php?murl=ilsung/test09" 
+ frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 
+ 
+		<!-- <div class="title_month">
+			<i class="fas fa-chart-line"></i> 일성 2021년 변화 Chart
 		</div>
-		<ul class="section_data section_data2">
-		
+		<ul class="section_data section_data2"> 
 			<li>
 				<p>매출</p> <span class="counter result"></span>억 <br>
 				<div class="year_count">계획  <span class="plan"></span>억</div>
@@ -169,7 +173,7 @@
 				<div id="ilsung_line3" class="chartDiv"></div>
 			</li>
 		
-		</ul>
+		</ul> -->
 	</div>
 </div>
 <!--//4번째컨텐츠-->

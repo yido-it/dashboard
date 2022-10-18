@@ -3,9 +3,9 @@
 <div class="content_01">
 	<div class="content_01-2 content01_golf_songnisan" >
 		<!-- <div class="title_month">YIDO 매출비율</div> -->
-		<div class="tc mt50" style="font-size: 40px; color: #fff; font-weight: bold;">CLUBD SONGNISAN Country Club</div>
-		<h2 class="tc colorwhite fs18" style="line-height: 29px; margin-top: 30px">CLUBD 속리산 으로 '레저문화의 새로운 장'을 열겠습니다.</h2>
-		<h2 class="tc colorwhite fs18" style="margin-top: 15px; font-weight: bold;">18Hole / Par 72 (6,367m)</h2>
+		<div class="tc mt50 wow flipInX" style="font-size: 40px; color: #fff; font-weight: bold;">CLUBD SONGNISAN</div>
+		<h2 class="tc colorwhite fs18 wow fadeInUp" style="line-height: 29px; margin-top: 30px">CLUBD 속리산 으로 '레저문화의 새로운 장'을 열겠습니다.</h2>
+		<h2 class="tc colorwhite fs18 wow fadeInUp" style="margin-top: 15px; font-weight: bold;">18Hole / Par 72 (6,367m)</h2>
 	</div>
 	<%@include file="content01/golf.jsp"%>
 </div>
@@ -72,7 +72,7 @@
 			<img class="img_cart se09_3" src="resource/images/golf/cart.png" />
 		</div>
 		<!--일일현황보고서-->
-		<div class="golfday_wrap">
+		<div class="golfday_wrap wow flipInX">
 			<div class="div_box">
 				<div class="top_txt">
 					<h1 class="colorwhite">
@@ -96,7 +96,14 @@
 				<div class="cb"></div>
 			</div>
 		</div>
-		<!--//일일현황보고서-->
+		<!--//일일현황보고서-->	
+			<!--전경영상 -->
+		<div class="mt20" style="position: absolute;right: 2%;top: 1%;">
+			<video style="height:200px;border-radius:15px" autoplay="" loop="" muted="" playsinline="" preload="" src="resource/images/golf/songnisan_view.mp4"></video>
+		 </div>
+		 <!--//전경영상 -->
+		 
+		 
 		<!--속리산WEST-->
 		<div class="SongnisanWest cart_map">
 			<p class="triangle-right sw01_1 B10"></p>
@@ -195,8 +202,11 @@
 			</li>
 		</ul>
 	</div>
-	<div class="content_04-2" style="background: url(resource/images/bg.jpg) no-repeat 0% 88%;">
-		<video style="width: 100%; position: relative; height: 489px;" autoplay="" loop="" muted="" playsinline="" preload="" src="resource/images/golf/songnisan.mp4"></video>
+	<div class="content_04-2 tc" style="background: url(resource/images/bg.jpg) no-repeat 0% 88%;">
+		<p class="txt_live">LIVE</p>
+			<iframe width="820" height="456" src="https://cctv.yido.com:8443/player.php?murl=ClubD_songnisan/test05" 
+ frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			
 	</div>
 </div>
 <!--//4번째컨텐츠-->
@@ -220,7 +230,7 @@
 	var sUrl1 = "http://101.101.160.40:8080/dash/getDashboardInfo.do";
 	var sUrl2 = "http://101.101.160.40:8080/dash/getDashboardCart.do";
 	var sUrl3 = "http://101.101.160.40:8080/dash/getDashboardStatus.do";
-	var sUrl4 = "http://101.101.160.40:8080/dash/getDashboardLine.do";
+	var sUrl4 = "http://101.101.160.40:8080/dash/getDashboardLine.do";   
 // 	var sUrl1 = "http://10.10.85.83:8080/dash/getDashboardInfo.do";
 // 	var sUrl2 = "http://10.10.85.83:8080/dash/getDashboardCart.do";
 // 	var sUrl3 = "http://10.10.85.83:8080/dash/getDashboardStatus.do";

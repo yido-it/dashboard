@@ -1,14 +1,19 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+
+<style>
+#player{width:100% !important}
+</style>
+
 <div class="content_01">
 	<div class="content_01-2 content01_golf_geochang" >
 		<!-- <div class="title_month">YIDO 매출비율</div> -->
-		<div class="tc mt50" style="font-size: 40px; color: #fff; font-weight: bold;">CLUBD GEOCHANG Country Club</div>
-		<h2 class="tc colorwhite fs18"  style="line-height:29px;margin-top:30px">
+		<div class="tc mt50 wow flipInX" style="font-size: 40px; color: #fff; font-weight: bold;">CLUBD GEOCHANG</div>
+		<h2 class="tc colorwhite fs18 wow fadeInUp"  style="line-height:29px;margin-top:30px">
 			바람이 만든 낮은 언덕과도 같은 감악산 자락에 조성된 클럽디거창은,<br/>
 			3대 국립공원인 지리산, 덕유산, 가야산이 감싸고 있어 수려한 원경을 지니고 있습니다.
 		</h2>
-		<h2 class="tc colorwhite fs18"  style="margin-top: 15px; font-weight: bold;">
+		<h2 class="tc colorwhite fs18 wow fadeInU"  style="margin-top: 15px; font-weight: bold;">
 			27Hole / Par 72
 		</h2>
 	</div>
@@ -190,7 +195,7 @@
 			<img class="img_cart gcs09_3" src="resource/images/golf/cart.png" />
 		</div>
 		<!--일일현황보고서-->
-		<div class="golfday_wrap">
+		<div class="golfday_wrap  wow flipInX">
 			<div class="div_box">
 				<div class="top_txt">
 					<h1 class="colorwhite">
@@ -215,6 +220,11 @@
 			</div>
 		</div>
 		<!--//일일현황보고서-->
+		 <!--전경영상 -->
+		<div class="mt20" style="position: absolute;left: 3%;top: 1%;">
+			<video style="height:180px;border-radius:15px" autoplay="" loop="" muted="" playsinline="" preload="" src="resource/images/golf/geochang_view.mp4"></video>
+		 </div>
+		 <!--//전경영상 -->
 	</div>
 </div>
 <!--//50%컨텐츠-->
@@ -257,8 +267,11 @@
 			</li>
 		</ul>
 	</div>
-	<div class="content_04-2" style="background: url(resource/images/bg.jpg) no-repeat 0% 88%;">
-		<video style="width: 100%; position: relative; height: 489px;" autoplay="" loop="" muted="" playsinline="" preload="" src="resource/images/golf/geochang.mp4"></video>
+	<div class="content_04-2 tc" style="background: url(resource/images/bg.jpg) no-repeat 0% 88%;">
+		<p class="txt_live">LIVE</p>
+		<iframe width="820" height="456" src="https://cctv.yido.com:8443/player.php?murl=ClubD_geochang/test02" 
+		  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 	</div>
 </div>
 <!--//4번째컨텐츠-->
@@ -527,4 +540,9 @@
 		}
 	}
 
+</script>
+<script>
+$(document).ready(function () {
+	  $('#player').css("width", "100%");
+});
 </script>

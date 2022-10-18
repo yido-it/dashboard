@@ -6,12 +6,32 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=2.0 user-scalable=yes" />
 	<link rel="stylesheet" href="resource/css/style.css">
 	<link rel="stylesheet" href="resource/css/bootstrap.css">
+	<link rel="stylesheet" href="resource/css/animate.css">
+	<link rel="stylesheet" href="resource/css/site.css">
 	
 	<script src="resource/js/jquery-3.4.1.min.js"></script>
 	<!-- Bootstrap -->
 	<script type="text/javascript" src="resource/js/bootstrap.js"></script>
 	<script src="resource/js/jquery.waypoints.min.js"></script>
 	<script src="resource/js/jquery.counterup.min.js"></script>
+	<script src="resource/js/wow.js"></script>
+	<script>//애니메이션wow.js
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
 	
 	<script type="text/javascript" src="resource/json/data.json"></script>
 

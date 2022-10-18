@@ -4,25 +4,22 @@
 <div class="content_01">
 	<div class="content_01-2 content01_golf_boeun" >
 		<!-- <div class="title_month">YIDO 매출비율</div> -->
-		<div class="tc mt50" style="font-size: 40px; color: #fff; font-weight: bold;">CLUBD BOEUN Country Club</div>
-		<h2 class="tc colorwhite fs18"  style="line-height:29px;margin-top:30px">
+		<div class="tc mt50 wow flipInX" style="font-size: 40px; color: #fff; font-weight: bold;">CLUBD BOEUN</div>
+		<h2 class="tc colorwhite fs18 wow fadeInUp"  style="line-height:29px;margin-top:30px">
 			 자연속에서 '최고의 휴식'을 만들어 내는 것입니다.<br/>보다 안전하고, 편리한 삶을 만들기 위해 노력하는 기업입니다.  
 		</h2>
-		<h2 class="tc colorwhite fs18"  style="margin-top: 15px; font-weight: bold;">
+		<h2 class="tc colorwhite fs18 wow fadeInUp"  style="margin-top: 15px; font-weight: bold;">
 			18Hole / Par 72 (6,163m)
 		</h2>
-		<!-- <div class="mt20">
-			<video style="width:33%" autoplay="" loop="" muted="" playsinline="" preload="" src="resource/images/env/video/video_c1_2.mp4"></video>
-			<video style="width:33%" autoplay="" loop="" muted="" playsinline="" preload="" src="resource/images/env/video/video_c1_1.mp4"></video>
-			<video style="width:33%" autoplay="" loop="" muted="" playsinline="" preload="" src="resource/images/env/video/video_c2_2.mp4"></video>
-		 </div> -->
+		
+		 
 	</div>
 	<%@include file="content01/golf.jsp"%>
 </div>
 <!--50%컨텐츠-->
-<div class="content_50" style="background: url(resource/images/bg.jpg) no-repeat 0% 0;">
-	<!-- <div class="title_month" style="padding:1%">YIDO 사업장</div> -->
-	<div class="container tc" style="position: relative">
+<div class="content_50" style="background: url(resource/images/bg.jpg) no-repeat 0% 0;"> 
+	<div class="container tc" style="position: relative;">
+		<!-- <div style="background: url(/resource/images/golf/map_boeun.png) no-repeat 100% 0%;width: 100%; height: 1000px; background-size: 100%;"></div> -->
 		<img class="" style="width: 100%; height: 1000px" src="resource/images/golf/map_boeun.png" style="visibility: visible;">
 		<!--보은eaST-->
 		<div class="BoeunEast cart_map">
@@ -139,7 +136,7 @@
 			<img class="img_cart bw09_3" src="resource/images/golf/cart.png" />
 		</div>
 		<!--일일현황보고서-->
-		<div class="golfday_wrap">
+		<div class="golfday_wrap  wow flipInX">
 			<div class="div_box">
 				<div class="top_txt">
 					<h1 class="colorwhite">
@@ -164,6 +161,12 @@
 			</div>
 		</div>
 		<!--//일일현황보고서-->
+		<!--전경영상 -->
+		<div class="mt20" style="position: absolute;left:46%;top: 12%;">
+			<video style="height:180px;border-radius: 20px;" autoplay="" loop="" muted="" playsinline="" preload="" src="resource/images/golf/boeun_view.mp4"></video>
+		 </div>
+		 <!--//전경영상 -->
+		 
 	</div>
 </div>
 <!--//50%컨텐츠-->
@@ -206,8 +209,11 @@
 			</li>
 		</ul>
 	</div>
-	<div class="content_04-2" style="background: url(resource/images/bg.jpg) no-repeat 0% 88%;">
-		<video style="width: 100%; position: relative; height: 489px;" autoplay="" loop="" muted="" playsinline="" preload="" src="resource/images/golf/boeun.mp4"></video>
+	<div class="content_04-2 tc" style="background: url(resource/images/bg.jpg) no-repeat 0% 88%;">
+		<p class="txt_live">LIVE</p>
+		<iframe width="820" height="456" src="https://cctv.yido.com:8443/player.php?murl=ClubD_boeun/test04" 
+ frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		
 	</div>
 </div>
 <!--//4번째컨텐츠-->
