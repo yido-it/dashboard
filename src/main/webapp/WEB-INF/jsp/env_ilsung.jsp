@@ -13,7 +13,7 @@
 	<%@include file="content01/env.jsp"%>
 </div>
 <!--2번째 컨텐츠-->
-<div class="content_02">
+<div class="content_02"> 
 	<div class="container tc">
 		<div class="tab_content" style="margin-left: 60px">
 			<div class="title_month tl" style="padding: 1%">일성 │ 작업 공종도</div>
