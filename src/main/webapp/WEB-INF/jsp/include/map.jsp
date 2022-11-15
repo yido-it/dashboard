@@ -7,31 +7,31 @@
 			<div class="totalcounter wow flipInX">
 				<span class="">TOTAL</span>
 			</div>
-			<span class="counter">111</span>개
+			<span class="counter">124</span>개
 		</div>
 		<div class="fl  business_score e">
 			<div class="totalcounter wow flipInX" data-wow-delay="0.4s">
 				<img class="wow fade-in one" src="resource/images/main/enviro_dot.png"> <span class="">친환경</span>
 			</div>
-			<span class="counter">14</span>개
+			<span class="counter">12</span>개
 		</div>
 		<div class="fl  business_score i">
 			<div class="totalcounter wow flipInX"  data-wow-delay="0.8s">
 				<img class="wow fade-in one" src="resource/images/main/infra_dot.png"> <span class="">인프라</span>
 			</div>
-			<span class="counter">11</span>개
+			<span class="counter">14</span>개
 		</div>
 		<div class="fl  business_score g">
 			<div class="totalcounter wow flipInX"  data-wow-delay="1.2s">
 				<img class="wow fade-in one" src="resource/images/main/golf_dot.png"> <span class="">골프장</span>
 			</div>
-			<span class="counter">4</span>개
+			<span class="counter">5</span>개
 		</div>
 		<div class="fl  business_score e">
 			<div class="totalcounter wow flipInX"  data-wow-delay="1.5s">
 				<img class="wow fade-in one" src="resource/images/main/project_dot.png"> <span class="">부동산</span>
 			</div>
-			<span class="counter">82</span>개
+			<span class="counter">93</span>개
 		</div>
 	</div>
 	<!-- 지도시작 -->
@@ -148,9 +148,57 @@
 					</button>
 				</li>
 			</ul>
-		</span>
-	
+		</span> 
 		<!--//경기서부 -->
+		
+			<!-- 광주원주 -->
+		<span class="po inf_kwangju wow fadeInUp" data-wow-delay="0.7s"> <img src="resource/images/main/map/i_kwangju.png">
+			<ul class="po_photo" style="">
+				<li><img src="resource/images/performance/kwangju.jpg"></li>
+				<li>
+					<ul class="modal_map_ul">
+								<li class="title">광주~원주고속도로</li>
+								<li>광주원주(제2영동)고속도로 요금징수 용역</li>
+								<li>경기도 광주시 초월읍 선동리(초월IC) ~ 강원도 원주시 가현동(원주분기점)</li>
+								<li>길이: 56.95km (왕복 4차로 고속도로)</li> 
+								<li>영업소: 6개소(초월,동곤지암,흥천이포,대신,동양평,서원주)</li>
+							</ul>
+							
+
+
+					<button type="button" class="btn btn-primary mt10" onclick="href('infra')">
+						사업소개 바로가기 <i class="fas fa-arrow-circle-right"></i>
+					</button>
+				</li>
+			</ul>
+		</span>
+		<!-- //광주원주 -->
+		
+		 <!-- 비봉매송 -->
+		<span class="po inf_bibong wow fadeInUp" data-wow-delay="0.7s" style="z-index: 99999;"> <img src="resource/images/main/map/i_bibong2.png">
+			<ul class="po_photo" style="">
+				<li><img src="resource/images/performance/bibong.jpg" style="z-index:99"></li>
+				<li>
+					<ul class="modal_map_ul">
+								<li class="title">비봉매송고속도로</li>
+								<li>경기도 화성시 비봉면 양노리(양노IC)~천천IC</li>
+								<li>연장 : 8.9km (왕복 4차로)</li>
+								<li>영업소 : 1개소(화성비봉영업소)</li> 
+								<li>진출입로 : 5개소(양노, 백학, 내리, 수영, 천천)</li>						 
+
+							</ul>
+					<button type="button" class="btn btn-primary mt10" onclick="href('infra')">
+						사업소개 바로가기 <i class="fas fa-arrow-circle-right"></i>
+					</button>
+				</li>
+			</ul>
+		</span>
+		<!-- //비봉매송 -->
+		
+		
+		
+		
+		
 			<!-- 매송휴게소 -->
 		<span class="po r15"> 
 			<img src="resource/images/main/map/p15.png"> 
@@ -242,6 +290,8 @@
 			</ul>
 		</span>  -->
 		
+		<span class="po g_golfeng wow fadeInUp" data-wow-delay="0.3s"> <img src="resource/images/main/map/g_golfeng.png">
+		</span> 
 		
 		<span class="po r7 wow fadeInUp" data-wow-delay="0.3s"> <img src="resource/images/main/map/p7.png">
 		</span> 

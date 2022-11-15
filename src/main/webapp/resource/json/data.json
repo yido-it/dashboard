@@ -5,64 +5,64 @@
 //	spot_data3=원가율]
 
 //-----------이도 누적전체------------
-main_data1 = [2392.64, 2086.05];
-main_data2 = [471.13, 329.91];  
-main_data3 = [80.3, 84.2];
+main_data1 = [2767.60, 2364.89];
+main_data2 = [577.71, 390.01];  
+main_data3 = [79.1, 83.5];
 
 //-----------환경 누적전체------------
-env_data1 = [1035.1, 886.9]; 
-env_data2 = [155.4, 76.5];  
-env_data3 = [85.3, 91.4];  
+env_data1 = [1176.1, 999.9]; 
+env_data2 = [185.4, 93.5];  
+env_data3 = [84.3, 90.4];  
 
 //수도권 전체
-sudoe_data1 = [380.6, 387.3];
-sudoe_data2 = [87.5, 65.1];
-sudoe_data3 = [77.9, 83.8];
+sudoe_data1 = [425.6, 433.3];
+sudoe_data2 = [102.5, 77.1];
+sudoe_data3 = [76.9, 82.8];
 
 //일성 전체
-ilsung_data1 = [32.89, 19.76];
+ilsung_data1 = [37.89, 21.76];
 ilsung_data2 = [0.0, 0.0];
 ilsung_data3 = [114.8, 106.1];
 
 //제주현장 누적전체
-jeju_data1 = [247.0, 247.0];
+jeju_data1 = [282.0, 277.0];
 jeju_data2 = [0.0, 0.0];
-jeju_data3 = [109.4, 102.8];
+jeju_data3 = [101.4, 108.8];
 
 //전주소각현장 누적전체
-jeonju_data1 = [48.6, 45.6];
-jeonju_data2 = [8.9, 9.6];
-jeonju_data3 = [82.8, 79.8];
+jeonju_data1 = [54.6, 50.6];
+jeonju_data2 = [11.9, 10.6];
+jeonju_data3 = [79.8, 79.8];
 
 //오산소각현장 누적전체
-osan_data1 = [68.7, 70.9];
-osan_data2 = [24.94, 23.31];
-osan_data3 = [65.3, 67.8];
+osan_data1 = [77.7, 78.9];
+osan_data2 = [27.94, 28.11];
+osan_data3 = [68.3, 64.8];
 
 //----------인프라 누적전체-------------
-infra_data1 = [395.5, 416.5];  
-infra_data2 = [39.4, 44.1];  
-infra_data3 = [89.9, 89.3];  
+infra_data1 = [454.5, 463.5];  
+infra_data2 = [45.4, 46.1];  
+infra_data3 = [90.1, 89.3];  
 
 
 //울산대교 전체
-ulsan_data1 = [27.11, 27.31];
-ulsan_data2 = [3.6, 3.6];
+ulsan_data1 = [29.11, 29.31];
+ulsan_data2 = [4.1, 4.1];
 ulsan_data3 = [88.3, 87.9];
 
 //경기서부 전체
-kyungki_data1 = [81.1, 81.1];
-kyungki_data2 = [5.7, 5.7];
-kyungki_data3 = [92.6, 91.3];
+kyungki_data1 = [90.1, 90.1];
+kyungki_data2 = [5.7, 9.1];
+kyungki_data3 = [94.6, 90.3];
 
 //용서고속 전체
-yongseo_data1 = [76.4, 78.7];
-yongseo_data2 = [6.6, 6.7];
+yongseo_data1 = [84.4, 87.7];
+yongseo_data2 = [8.6, 8.1];
 yongseo_data3 = [91.7, 91.1];
 
 //천논고속 전체
-chunnon_data1 = [96.7, 96.7];
-chunnon_data2 = [13.2, 15.5 ];
+chunnon_data1 = [107.7, 107.7];
+chunnon_data2 = [15.2, 17.5 ];
 chunnon_data3 = [86.9, 83.5];
 
 
@@ -72,14 +72,14 @@ sujeong_data2 = [3.5, 3.7];
 sujeong_data3 = [86.7, 85.5];
  
 //----------골프 누적전체--------------
-golf_data1 = [612.3, 498.2];  
-golf_data2 = [231.6, 164.0];  
-golf_data3 = [62.3, 66.9];   
+golf_data1 = [729.3, 585.2];  
+golf_data2 = [292.6, 203.0];  
+golf_data3 = [59.9, 65.3];   
 
 //----------부동산 누적전체--------------
-asset_data1 = [336.9, 249.9];  
-asset_data2 = [43.9, 21.2];   
-asset_data3 = [87.2, 91.4];    
+asset_data1 = [393.9, 280.9];  
+asset_data2 = [53.9, 23.2];   
+asset_data3 = [86.2, 91.4];    
 
 
 
@@ -87,8 +87,7 @@ asset_data3 = [87.2, 91.4];
 
 /////////////////////////이도 하단 월별 변화그래프///////////////////////
                                          
-main_line1=[ //이도매출                            
-     
+main_line1=[ //이도매출                                 
 
   {date:"11", value1:21342,	value2:20751},
   {date:"12", value1:23880,	value2:17449},
@@ -100,7 +99,8 @@ main_line1=[ //이도매출
   {date:"6", value1:31342,	value2:27740},
   {date:"7", value1:32004,	value2:24660},
   {date:"8", value1:31538,	value2:24507},
-  {date:"9", value1:33050,	value2:25503}
+  {date:"9", value1:33050,	value2:25503},
+  {date:"10", value1:37522,	value2:27844}
 ];                                       
                                          
 main_line2=[ //이도이익                            
@@ -116,7 +116,8 @@ main_line2=[ //이도이익
    {date:"6", value1:8461,	value2:5901 },
    {date:"7", value1:7389,	 value2:3593},
    {date:"8", value1:7187, 	value2:3270},
-   {date:"9", value1:7658,	value2:4631}
+   {date:"9", value1:7658,	value2:4631},
+   {date:"10", value1:10664,	value2:6407}
 ];                                       
                                          
 main_line3=[ //이도원가                            
@@ -132,7 +133,8 @@ main_line3=[ //이도원가
   {date:"6", value1:73.1,	value2:78.3 },
    {date:"7", value1:77.0,	 value2:85.4},
    {date:"8", value1:77.2,	value2:86.7},
-   {date:"9",  value1:74.1,	value2:80.1}
+   {date:"9",  value1:74.1,	value2:80.1},
+   {date:"10", value1:71.6,	value2:77.0}
    
 ];                                       
                              
@@ -148,7 +150,8 @@ env_line1=[ //환경매출
   {date:"6", value1:13068,	value2:11165},
   {date:"7", value1:10526 ,	 value2:6065 },
   {date:"8", value1: 13435,	 value2: 10044},
-   {date:"9", value1:10190,	value2: 7631}
+   {date:"9", value1:10190,	value2: 7631},
+   {date:"10", value1:14132,	value2:11255}
   
    
 ];                                       
@@ -161,7 +164,8 @@ env_line2=[ //환경이익
   {date:"6", value1:2372,	value2:1908},
   {date:"7", value1:2312 ,	 value2:734 },
   {date:"8", value1:2887,	 value2:878 },
-   {date:"9", value1:2385,	value2:1536}
+   {date:"9", value1:2385,	value2:1536},
+   {date:"10", value1:2960,	value2:1753}
    
 ];                                       
 env_line3=[ //환경원가                       
@@ -173,7 +177,8 @@ env_line3=[ //환경원가
   {date:"6", value1:81.8,	value2:82.9},
     {date:"7", value1:78.0 , value2:87.9 },
     {date:"8", value1:78.8 , value2:91.3 },
-   {date:"9", value1:76.6 , value2:79.9 }
+   {date:"9", value1:76.6 , value2:79.9 },
+   {date:"10", value1:71.6,	value2:77.0}
 ];
                               
 /*아래 현장 매출이익은 사용안함*/
@@ -227,7 +232,8 @@ infra_line1=[ //인프라매출
   {date:"6", value1:4465,	value2:5251},
     {date:"7", value1:4467 , value2: 4896},
    {date:"8", value1:4467 , value2: 4846},
-   {date:"9", value1:4686,	value2:4693}      
+   {date:"9", value1:4686,	value2:4693},
+   {date:"10", value1:5885,	value2:4690}  
 ];                                       
 infra_line2=[ //인프라이익                       
   {date:"1", value1:575	,	value2:681	},
@@ -238,7 +244,8 @@ infra_line2=[ //인프라이익
   {date:"6", value1:496,	value2:509},
     {date:"7", value1: 581, value2: 333},
     {date:"8", value1:598 , value2:333},
-   {date:"9", value1:507,	value2:576}    
+   {date:"9", value1:507,	value2:576},
+   {date:"10", value1:531,	value2:428}   
 ];                                       
 infra_line3=[ //인프라원가                       
   {date:"1", value1:87.1, 	value2:84.8},
@@ -249,7 +256,8 @@ infra_line3=[ //인프라원가
   {date:"6", value1:88.9,	value2:90.2} ,
     {date:"7", value1: 87.1, value2: 93.2},
     {date:"8", value1: 86.6, value2: 93.1},
-   {date:"9", value1:89.6,	value2:87.1}         
+   {date:"9", value1:89.6,	value2:87.1},
+   {date:"10", value1:91.0,	value2:90.9}       
 ];                                       
 yongseo_line1=[ //                      
   {date:"1", value1:2906,	value2:3049 },
@@ -346,7 +354,8 @@ golf_line1=[ //골프매출
   {date:"6", value1:9945,	value2:7829},
    {date:"7", value1:9151 , value2:6792},
    {date:"8", value1:8933 , value2:6761},
-   {date:"9", value1:10285,	value2:7413}                 
+   {date:"9", value1:10285,	value2:7413},
+   {date:"10", value1:11649,	value2:8686}               
     
 ];                                       
 golf_line2=[ //골프이익                      
@@ -358,7 +367,8 @@ golf_line2=[ //골프이익
   {date:"6", value1:4984,	value2:3096},
    {date:"7", value1:3554, value2:2141},
    {date:"8", value1:3208, value2:1863 },
-   {date:"9", value1:4029,	value2:2231}           
+   {date:"9", value1:4029,	value2:2231},
+   {date:"10", value1:6134,	value2:3989}         
 ];                                       
 golf_line3=[ //골프원가                      
   {date:"1", value1:240.3, 	value2: 159.3},
@@ -369,7 +379,8 @@ golf_line3=[ //골프원가
   {date:"6", value1:49.7,	value2:60.3},
    {date:"7", value1:61.2, value2: 68.5},
    {date:"8", value1:64.1, value2:72.4 },
-   {date:"9", value1:60.8,	value2:69.9} 
+   {date:"9", value1:60.8,	value2:69.9},
+   {date:"10", value1:47.3,	value2:54.1} 
        
         
 ];
@@ -386,7 +397,8 @@ asset_line1=[ //부동산매출
   {date:"6", value1:3732,	value2:3309},
   {date:"7", value1:4580, value2:2736 },
   {date:"8", value1:4563 , value2:2717},
-   {date:"9", value1:5001,	value2:2701}        
+   {date:"9", value1:5001,	value2:2701},
+   {date:"10", value1:5711,	value2:3073}      
 ];                                       
 asset_line2=[ //부동산이익                      
   {date:"1", value1:89, 	value2:225},
@@ -397,7 +409,8 @@ asset_line2=[ //부동산이익
   {date:"6", value1:554,	value2:319},
   {date:"7", value1: 891, value2:335 },
   {date:"8", value1:517, value2:186 },
-   {date:"9", value1:907,	value2:119}        
+   {date:"9", value1:907,	value2:119},
+   {date:"10", value1:1010,	value2:252}        
 ];                                      
 asset_line3=[ //부동산원가                      
   {date:"1", value1:96.1, 	value2: 90.4},
@@ -408,7 +421,8 @@ asset_line3=[ //부동산원가
   {date:"6", value1:85.2,	value2:90.3},
   {date:"7", value1:80.6 , value2:87.8 },
   {date:"8", value1:83.4 , value2:92.5 },
-   {date:"9", value1:81.9,	value2:95.6}        
+   {date:"9", value1:81.9,	value2:95.6},
+   {date:"10", value1:82.3,	value2:91.8}        
 ];  
  
  
