@@ -7,7 +7,10 @@
 			<div class="totalcounter wow flipInX">
 				<span class="">TOTAL</span>
 			</div>
-			<span class="counter">124</span>개
+			<span class="counter">
+				125
+			</span>
+			개
 		</div>
 		<div class="fl  business_score e">
 			<div class="totalcounter wow flipInX" data-wow-delay="0.4s">
@@ -25,7 +28,7 @@
 			<div class="totalcounter wow flipInX"  data-wow-delay="1.2s">
 				<img class="wow fade-in one" src="resource/images/main/golf_dot.png"> <span class="">골프장</span>
 			</div>
-			<span class="counter">5</span>개
+			<span class="counter">6</span>개
 		</div>
 		<div class="fl  business_score e">
 			<div class="totalcounter wow flipInX"  data-wow-delay="1.5s">
@@ -395,6 +398,14 @@
 			</ul>
 		</span>
 		<!-- //리브앳디 -->
+		<!-- 동해 -->
+			<span class="po r_donghae  wow fadeInUp" data-wow-delay="0.3s" onclick="href('asset')"> <img src="resource/images/main/map/r_donghae.png" >
+			<ul class="po_photo" style="width: 336px; display: none; padding-top: 10px; margin-top: 24px; padding-bottom: 10px; margin-bottom: 0px;">
+				<li><a href="asset">부동산사업소개 <i class="fas fa-arrow-circle-right"></i></a></li>
+			</ul>
+		</span>
+		
+		
 		<!-- 클럽디속리 -->
 		<span class="po golf4  wow fadeInUp" data-wow-delay="0.7s"> <img src="resource/images/main/map/g4.png">
 			<ul class="po_photo" style="display: none; padding-top: 10px; margin-top: 20px; padding-bottom: 10px; margin-bottom: 0px;">
@@ -540,8 +551,10 @@
 				</li>
 			</ul>
 		</span>
+	
+		
 		<!-- 함안 -->
-		<span class="po env6  wow fadeInUp"><a href="env.html"> <img src="resource/images/main/map/e6.png"></a> </span>
+		<span class="po env6  wow fadeInUp" onclick="href('env')"><img src="resource/images/main/map/e6.png"></span>
 		<!-- 울산 스팀폐수 -->
 		<span class="po env8  wow fadeInUp" data-wow-delay="0.5s"> <img src="resource/images/main/map/e8.png">
 			<ul class="po_photo" style="display: none; padding-top: 10px; margin-top: 31px; padding-bottom: 10px; margin-bottom: 0px;">

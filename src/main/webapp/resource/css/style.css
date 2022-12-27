@@ -1,57 +1,39 @@
-/* @import url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/stylesheets/NotoSansKR-Hestia.css); */
+@font-face {
+	font-family: 'S-Core';
+	font-weight:400;
+	src:
+	url('../fonts/S-Core/S-CoreDream-4Regular.woff2') format('woff2'),
+    url('../fonts/S-Core/S-CoreDream-4Regular.woff') format('woff'),
+    url('../fonts/S-Core/S-CoreDream-4Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'S-Core';
+	font-weight:500;
+	src:
+	url('../fonts/S-Core/S-CoreDream-5Medium.woff2') format('woff2'),
+    url('../fonts/S-Core/S-CoreDream-5Medium.woff') format('woff'),
+    url('../fonts/S-Core/S-CoreDream-5Medium.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'S-Core';
+	font-weight:600;
+	src:
+	url('../fonts/S-Core/S-CoreDream-6Bold.woff2') format('woff2'),
+    url('../fonts/S-Core/S-CoreDream-6Bold.woff') format('woff'),
+    url('../fonts/S-Core/S-CoreDream-6Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'S-Core';
+	font-weight:700;
+	src:
+	url('../fonts/S-Core/S-CoreDream-7ExtraBold.woff2') format('woff2'),
+    url('../fonts/S-Core/S-CoreDream-7ExtraBold.woff') format('woff'),
+    url('../fonts/S-Core/S-CoreDream-7ExtraBold.ttf') format('truetype');
+}
 
-/* @import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css); */
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css); 
 
-/* @font-face { */
-/*   font-family: 'Noto Sans KR'; */
-/*   font-style: normal; */
-/*   font-weight: 100; */
-/*   src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff2) format('woff2'), */
-/*        url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff) format('woff'), */
-/*        url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.otf) format('opentype'); */
-/* } */
-/* @font-face { */
-/*   font-family: 'Noto Sans KR'; */
-/*   font-style: normal; */
-/*   font-weight: 300; */
-/*   src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2) format('woff2'), */
-/*        url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format('woff'), */
-/*        url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format('opentype'); */
-/* } */
-/* @font-face { */
-/*    font-family: 'Noto Sans KR'; */
-/*    font-style: normal; */
-/*    font-weight: 400; */
-/*    src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'), */
-/*         url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'), */
-/*         url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype'); */
-/*  } */
-/* @font-face { */
-/*    font-family: 'Noto Sans KR'; */
-/*    font-style: normal; */
-/*    font-weight: 500; */
-/*    src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff2) format('woff2'), */
-/*         url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff) format('woff'), */
-/*         url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.otf) format('opentype'); */
-/*  } */
-/* @font-face { */
-/*    font-family: 'Noto Sans KR'; */
-/*    font-style: normal; */
-/*    font-weight: 700; */
-/*    src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2) format('woff2'), */
-/*         url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff) format('woff'), */
-/*         url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format('opentype'); */
-/*  } */
-/* @font-face { */
-/*    font-family: 'Noto Sans KR'; */
-/*    font-style: normal; */
-/*    font-weight: 900; */
-/*    src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff2) format('woff2'), */
-/*         url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff) format('woff'), */
-/*         url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.otf) format('opentype'); */
-/*  } */
-/*  /*나눔스퀘어*/ */
- @import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+ 
  
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -72,8 +54,9 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	font-family: 'NanumSquare','Noto Sans KR',Nanumsquare, Malgun Gothic, "맑은고딕", arial, sans-serif;
+	font-family:'S-Core','Spoqa Han Sans', 'NanumSquare','Noto Sans KR',Nanumsquare, Malgun Gothic, "맑은고딕", arial, sans-serif;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -166,6 +149,7 @@ table {
     color: #ffffff;
     padding: 0px 0px 0 0px;
     z-index: 1;}
+
 
 .footer{ width: 100%;
     height: 4vh; background: #242729 }
@@ -357,6 +341,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#437dab', end
 .r15{top: 246px;    left: 69px;}  
 .r16 {  top: 548px;  left: 153px;}
 .r_geochang{top: 567px;left: 385px;}
+.r_donghae {top: 242px;left: 558px;}
 
 .po_photo {display: none;}
 .po_photo button{margin:0 auto;font-size:13px;margin-top:5px;}
@@ -1029,3 +1014,6 @@ background: url(../images/env/video/video_m3_2.jpg) no-repeat 0 0;background-siz
 .navi_asset{background: url(/resource/images/main/btn04.png) no-repeat 100% 0%; background-size: 100%;height: 200px;}
 .navi_golf{background: url(/resource/images/main/btn05.png) no-repeat 100% 0%; background-size: 100%;height: 200px;}
 .navi_be{background: url(/resource/images/main/btn06.png) no-repeat 100% 0%; background-size: 100%;height: 200px;}
+
+
+
