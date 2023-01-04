@@ -16,7 +16,7 @@
 			<div class="totalcounter wow flipInX" data-wow-delay="0.4s">
 				<img class="wow fade-in one" src="resource/images/main/enviro_dot.png"> <span class="">친환경</span>
 			</div>
-			<span class="counter">12</span>개
+			<span class="counter">13</span>개
 		</div>
 		<div class="fl  business_score i">
 			<div class="totalcounter wow flipInX"  data-wow-delay="0.8s">
@@ -28,7 +28,7 @@
 			<div class="totalcounter wow flipInX"  data-wow-delay="1.2s">
 				<img class="wow fade-in one" src="resource/images/main/golf_dot.png"> <span class="">골프장</span>
 			</div>
-			<span class="counter">6</span>개
+			<span class="counter">5</span>개
 		</div>
 		<div class="fl  business_score e">
 			<div class="totalcounter wow flipInX"  data-wow-delay="1.5s">
@@ -178,7 +178,7 @@
 		<!-- //광주원주 -->
 		
 		 <!-- 비봉매송 -->
-		<span class="po inf_bibong wow fadeInUp" data-wow-delay="0.7s" style="z-index: 99999;"> <img src="resource/images/main/map/i_bibong2.png">
+		<span class="po inf_bibong wow fadeInUp" data-wow-delay="0.7s" style=""> <img src="resource/images/main/map/i_bibong2.png">
 			<ul class="po_photo" style="">
 				<li><img src="resource/images/performance/bibong.jpg" style="z-index:99"></li>
 				<li>
@@ -523,17 +523,12 @@
 		</span>
 	 
 		<!-- //일성 -->
-		<!--청라 -->
+		<!--해상풍력 -->
 		<span class="po env2  wow fadeInUp" data-wow-delay="0.5s">  <img src="resource/images/main/map/e2.png">
 			<ul class="po_photo" style="display: none; padding-top: 10px; margin-top: 20px; padding-bottom: 10px; margin-bottom: 0px;">
-				<li><img src="resource/images/performance/chungra.jpg"></li>
-				<li>
-					<ul class="modal_map_ul">
-						<li class="title">청라 감량화</li>
-						<li>인천광역시 서구 원창동 427번지</li>
-						<li>청라5구역 및 남청라JCT구간 매립폐기물 정비</li>
-					</ul>
-					<button type="button" class="btn btn-primary mt10" onclick="href('env_sudoe')">
+						<li><img src="/resource/images/performance/wind.jpg"></li>
+					<li>
+					<button type="button" class="btn btn-primary mt10" onclick="href('env')">
 						사업소개 바로가기 <i class="fas fa-arrow-circle-right"></i>
 					</button>
 				</li>
@@ -741,47 +736,7 @@
 		</span>
  
 		<!-- //괌 -->
-		<!-- 피타워 -->
-		<span class="po r2 wow fadeInUp" data-wow-delay="0.5s"> <img src="resource/images/main/map/p_ptower.png">
-			<ul class="po_photo" style="display: none;  padding-top: 10px; margin-top: 20px; padding-bottom: 10px; margin-bottom: 0px;">
-				<li><img src="resource/images/performance/ptower.jpg"></li>
-				<li>
-					<p class="portfolio-item-paragraph">
-						서울시 서초구 남부순환로 2620 <br>
-					</p>
-					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModaPtower">상세보기</button>
-				</li>
-			</ul>
-		</span>
-		<div class="map">
-			<div class="modal fade" id="exampleModaPtower" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-				<div class="modal-dialog">
-					<div class="modal-content" style="width: 100%">
-						<div class="modal-footer">
-							<button type="button" data-dismiss="modal">
-								<img src="resource/images/recruit/btn_close.jpg">
-							</button>
-						</div>
-						<div class="fl">
-							<img class="img_map_modal" src="resource/images/performance/ptower.jpg">
-						</div>
-						<div class="fs15 fr" style="width: 30%;">
-							<span class="">강남P타워</span><br>
-							<ul class="modal_map_ul">
-								<li>서울시 서초구 남부순환로 2620</li>
-								<li>연면적 13349.0㎡</li>
-								<li>PM/FM 통합건물관리</li>
-							</ul>
-							<button type="button" class="btn btn-primary mt10" onclick="href('realasset')">
-								부동산 사업소개 <i class="fas fa-arrow-circle-right"></i>
-							</button>
-						</div>
-						<div class="cb"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- 피타워 -->
+		  
 		<!-- 해운대블루라인 -->
 		<span class="po r14 wow fadeInUp" data-wow-delay="0.5s"> <img src="resource/images/main/map/p14.png">
 			<ul class="po_photo" style="display: none; height: 269px; padding-top: 10px; margin-top: 20px; padding-bottom: 10px; margin-bottom: 0px;">
