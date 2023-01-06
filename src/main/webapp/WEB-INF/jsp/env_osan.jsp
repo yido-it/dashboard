@@ -4,7 +4,7 @@
 <div class="content_01">
 	<div class="content_01-2 content01_env_osan" style="">
 		<div class="tc mt100">
-			<h1 class="wow flipInX" style="font-size: 30px; font-weight: bold; color: white; text-shadow: 3px 3px 3px #404040;">오산소각장  </h1>
+			<h1 class="wow flipInX" style="font-size: 30px; font-weight: bold; color: white; text-shadow: 3px 3px 3px #404040;">이도 에코 오산 </h1>
 		</div>
 		<h2 class="tc colorwhite fs16 wow fadeInUp" style="line-height: 29px; margin-top: 30px">
 	 		  '온실가스 감축에  앞장서는 환경을  생각하는 회사' <br />
@@ -28,7 +28,7 @@
 <div class="content_04">
 	<div class="content_04-1">
 		<div class="title_month">
-			<i class="fas fa-circle-notch"></i> 오산소각장 2022년 11월 누적 Business Status
+			<i class="fas fa-circle-notch"></i> 이도 에코 오산 2022년 11월 누적 Business Status
 		</div>
 		<ul class="section_data section_data2">
 			

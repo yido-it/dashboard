@@ -4,11 +4,11 @@
 <div class="content_01">
 	<div class="content_01-2 content01_env_sudoe" style="">
 		<!-- <div class="title_month">YIDO 매출비율</div> -->
-		<div class="tc mt100">
-			<h1 class="wow flipInX"  style="font-size: 30px; font-weight: bold; color: white; text-shadow: 3px 3px 3px #404040;">4차 산업 혁명을 리드하는 친환경 플랫폼의 대표주자 "수도권환경"</h1>
+		<div class="tc mt50">
+			<h1 class="wow flipInX"  style="font-size: 30px; font-weight: bold; color: white; text-shadow: 3px 3px 3px #404040;">4차 산업 혁명을 리드하는<br>친환경 플랫폼의 대표주자 "이도 에코 인천"</h1>
 		</div>
 		<h2 class="tc colorwhite fs16 wow fadeInUp" style="line-height: 29px; margin-top: 30px">
-			YIDO 수도권환경은 보다 나은 삶의 질을 위한 노력의 일환으로 환경 문제 해결을 위한<br /> ‘Eco Solution 구축’을 기업의 사명과 비전으로 규정하고 있습니다. <br />
+			이도 에코 인천은 보다 나은 삶의 질을 위한 노력의 일환으로 환경 문제 해결을 위한<br /> ‘Eco Solution 구축’을 기업의 사명과 비전으로 규정하고 있습니다. <br />
 			<br /> 작업장을 최첨단 현대화 시설로 탈바꿈 시켜 비산먼지와 소음을 최소화 하였고, <br />골재 생산 능력을 극대화 하여 자원 재생 능력이 효율적으로 탈바꿈하였습니다.<br /> 건설 폐기물을 친환경적으로 처리하는 동시에 버려지는 쓰레기들을 품질 좋은 자원으로 재생산 해 내고 있습니다.
 		</h2>
 	</div>
@@ -17,7 +17,7 @@
 <div class="content_02">
 	<div class="container tc">
 		<div class="tab_content" style="margin-left: 60px">
-			<div class="title_month tl" style="padding: 1%">수도권환경 │ 작업 공종도</div>
+			<div class="title_month tl" style="padding: 1%">이도 에코 인천 │ 작업 공종도</div>
 			<!--공종도 이미지 -->
 			<div class="fl div_gongjong_left wow fadeInUp" style="position: relative">
 				<div class="content02_env_sudoe"> </div>
@@ -150,7 +150,7 @@
 <div class="content_04">
 	<div class="content_04-1">
 		<div class="title_month">
-			<i class="fas fa-circle-notch"></i> 수도권환경 2022년 11월 누적 Business Status
+			<i class="fas fa-circle-notch"></i> 이도 에코 인천 2022년 11월 누적 Business Status
 		</div>
 		<ul class="section_data section_data2">
 			<li>

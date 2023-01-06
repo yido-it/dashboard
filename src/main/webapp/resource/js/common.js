@@ -23,6 +23,18 @@ $(document).ready(function() {
 	} else if (param == "asset") {
 		$('.div_record').find('span.po[class*=r]').show();
 	}
+	
+	if (param == "main") {
+		$('.mapimg').find('span.po').show();
+	} else if (param == "env") {
+		document.getElementById("mapimg").src = "/resource/images/main/map/map_env.png"; 
+	} else if (param == "infra") { // 환경: param=1
+		document.getElementById("mapimg").src = "/resource/images/main//map/map_infa.png"; 
+	} else if (param == "golf") { // 골프: param=3
+		document.getElementById("mapimg").src = "/resource/images/main/map/map_golf.png"; 
+	} else if (param == "asset") {
+		document.getElementById("mapimg").src = "/resource/images/main/map/map_r.png"; 
+	}
 
 	am4core.ready(function() {
 

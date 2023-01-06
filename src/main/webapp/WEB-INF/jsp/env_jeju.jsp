@@ -4,7 +4,7 @@
 <div class="content_01">
 	<div class="content_01-2 content01_env_jeju" >
 		<!-- <div class="title_month">YIDO 매출비율</div> -->
-		<div class="tc mt50 wow flipInY" style="font-size: 40px; color: #fff; font-weight: bold;">제주사업장</div>
+		<div class="tc mt100 wow flipInY" style="font-size: 40px; color: #fff; font-weight: bold;">제주사업장</div>
 		 
 			<h2 class="tc colorwhite fs16 wow fadeInUp"  style="line-height:29px;margin-top:30px">
 			이도 환경사업은 앞으로 전국적인 사업장 운영으로 환경 사업 풀 밸류체인을 구성하고,<br/>
