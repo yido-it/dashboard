@@ -8,7 +8,7 @@
 			<div class="totalcounter wow flipInX">
 				<span class="">TOTAL</span>
 			</div>
-			<span class="counter"> 126 </span> 개
+			<span class="counter"> 127</span> 개
 		</div>
 		<div class="fl  business_score e">
 			<div class="totalcounter wow flipInX" data-wow-delay="0.4s">
@@ -22,7 +22,7 @@
 				<img class="wow fade-in one"
 					src="resource/images/main/infra_dot.png"> <span class="">인프라</span>
 			</div>
-			<span class="counter">14</span>개
+			<span class="counter">15</span>개
 		</div>
 		<div class="fl  business_score g">
 			<div class="totalcounter wow flipInX" data-wow-delay="1.2s">
@@ -768,6 +768,23 @@
 		</span>
 		<!-- //일성 -->
 		
+		<!-- 이도에코윈드 -->
+		<span class="po env15  wow fadeInUp" data-wow-delay="0.5s">
+			<b class="colorwhite"><img src="/resource/images/main/map/evr.png"> 이도에코윈드</b>
+			<ul class="po_photo">
+				<li><img src="/resource/images/performance/wind.jpg"></li>
+				<li>
+					<ul class="modal_map_ul">
+						<li class="title">이도에코윈드</li>
+					</ul>
+					<button type="button" class="btn btn-primary mt10"
+						onclick="href('env_ilsung')">
+						환경 사업소개 <i class="fas fa-arrow-circle-right"></i>
+					</button>
+				</li>
+			</ul>
+		</span>
+		
 		<!-- 이도에코윈드옹진 -->
 		<span class="po env2  wow fadeInUp" data-wow-delay="0.5s">
 			<b class="colorwhite"><img src="/resource/images/main/map/evr.png"> 이도에코윈드옹진</b>
@@ -787,11 +804,11 @@
 
 		<!-- 당진태양광 -->
 		<span class="po env11  wow fadeInUp">
-			<b class="colorwhite"><img src="/resource/images/main/map/evr.png"> 당진 염해농지<br>　&nbsp;&nbsp;1,000MW 태양광</b>
+			<b class="colorwhite"><img src="/resource/images/main/map/evr.png"> 당진 염해농지<br>　&nbsp;&nbsp;100MW 태양광</b>
 			<ul class="po_photo">
 				<li>
 					<ul class="modal_map_ul">
-						<li class="title">당진 염해농지 1,000MW 태양광</li>
+						<li class="title">당진 염해농지 100MW 태양광</li>
 					</ul>
 					<button type="button" class="btn btn-primary mt10"
 						onclick="href('env')">
@@ -801,7 +818,7 @@
 			</ul>	
 		</span>
 		
-		<!-- 울산 스팀폐수 -->
+		<!-- 울산 스팀폐수 
 		<span class="po env8  wow fadeInUp" data-wow-delay="0.5s">
 			<b class="colorwhite"><img src="/resource/images/main/map/evr.png"> 울산 스팀/폐수</b>
 			<ul class="po_photo" style="position: relative; margin-top: -84% !important">
@@ -817,7 +834,7 @@
 					</button>
 				</li>
 			</ul>
-		</span>
+		</span>-->
 
 		<!-- 전주소각 이도에코전주 -->
 		<span class="po env5 wow fadeInUp">

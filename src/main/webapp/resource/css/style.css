@@ -287,15 +287,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#437dab', end
     width: max-content;}
 .po b {font-weight: 500; letter-spacing:-1px; font-size: 13px;}
 .env1 {
-    top: 143px;
+    top: 129px;
     left: 49px;
 }
 .env2 {
-    top: 162px;
+    top: 166px;
     left: 26px;
 }
+.env15 {
+    top: 148px;
+    left: 48px;
+}
 .env2_2 {
-    top: 182px;
+    top: 184px;
     left: 25px;
 }
 .env3 {top: 99px; left: 246px;}
@@ -384,7 +388,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#437dab', end
     left: 15px;
 }
 .inf_kimpo {
-    top: 123px;
+    top: 103px;
     left: 17px;
 }
 .inf_sansung {
@@ -435,8 +439,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#437dab', end
     left: 284px;
 }
 .r1 {
-    top: 90px;
-    left: 92px;
+    top: 71px;
+    left: 90px;
 }
 .r2 {top: 128px; left: 103px;}
 .r3 {top: 175px; left: 250px;}
