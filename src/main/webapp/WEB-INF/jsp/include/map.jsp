@@ -8,7 +8,7 @@
 			<div class="totalcounter wow flipInX">
 				<span class="">TOTAL</span>
 			</div>
-			<span class="counter"> 127</span> 개
+			<span class="counter"> 131</span> 개
 		</div>
 		<div class="fl  business_score e">
 			<div class="totalcounter wow flipInX" data-wow-delay="0.4s">
@@ -29,14 +29,14 @@
 				<img class="wow fade-in one" src="resource/images/main/golf_dot.png">
 				<span class="">골프</span>
 			</div>
-			<span class="counter">5</span>개
+			<span class="counter">8</span>개
 		</div>
 		<div class="fl  business_score e">
 			<div class="totalcounter wow flipInX" data-wow-delay="1.5s">
 				<img class="wow fade-in one"
 					src="resource/images/main/project_dot.png"> <span class="">부동산</span>
 			</div>
-			<span class="counter">94</span>개
+			<span class="counter">95</span>개
 		</div>
 	</div>
 	<!-- 지도시작 -->
@@ -629,7 +629,7 @@
 		</span>
 
 		<!-- 클럽디 -->
-		<span class="po golfdream wow fadeInUp" data-wow-delay="0.3s">
+		<span class="po golfd wow fadeInUp" data-wow-delay="0.3s">
 			<b class="colorwhite">드림파크CC</b>
 		</span>
 		<span class="po g_golfeng wow fadeInUp" data-wow-delay="0.3s">

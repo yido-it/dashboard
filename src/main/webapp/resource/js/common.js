@@ -27,13 +27,13 @@ $(document).ready(function() {
 	if (param == "main") {
 		$('.mapimg').find('span.po').show();
 	} else if (param == "env") {
-		document.getElementById("mapimg").src = "/resource/images/main/map/map_env.png"; 
+		document.getElementById("mapimg").src = "/resource/images/main/map/map_env2.png"; 
 	} else if (param == "infra") { // 환경: param=1
-		document.getElementById("mapimg").src = "/resource/images/main//map/map_infa.png"; 
+		document.getElementById("mapimg").src = "/resource/images/main//map/map_infa2.png"; 
 	} else if (param == "golf") { // 골프: param=3
 		document.getElementById("mapimg").src = "/resource/images/main/map/map_golf.png"; 
 	} else if (param == "asset") {
-		document.getElementById("mapimg").src = "/resource/images/main/map/map_r.png"; 
+		document.getElementById("mapimg").src = "/resource/images/main/map/map_r2.png"; 
 	}
 
 	am4core.ready(function() {
