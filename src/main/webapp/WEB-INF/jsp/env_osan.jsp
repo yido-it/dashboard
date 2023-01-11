@@ -30,8 +30,7 @@
 		<div class="title_month">
 			<i class="fas fa-circle-notch"></i> 이도 에코 오산 2022년 12월 누적 Business Status
 		</div>
-		<ul class="section_data section_data2">
-			
+		<ul class="section_data section_data2">			
 			<li>
 				<p>매출</p> <span class="counter result"></span>억 <br>
 				<div class="year_count">계획 <span class="plan"></span>억</div>

@@ -93,13 +93,13 @@ $(document).ready(function() {
 		pieChart("jeju_data2", jeju_data2, "#00ccff");
 		pieChart2("jeju_data3", jeju_data3, "#ff8a00");
 		
-		pieChart("jeonju_data1", jeju_data1, "yellow");
-		pieChart("jeonju_data2", jeju_data2, "#00ccff");
-		pieChart2("jeonju_data3", jeju_data3, "#ff8a00");
+		pieChart("jeonju_data1", jeonju_data1, "yellow");
+		pieChart("jeonju_data2", jeonju_data2, "#00ccff");
+		pieChart2("jeonju_data3", jeonju_data3, "#ff8a00");
 		
-		pieChart("osan_data1", jeju_data1, "yellow");
-		pieChart("osan_data2", jeju_data2, "#00ccff");
-		pieChart2("osan_data3", jeju_data3, "#ff8a00");
+		pieChart("osan_data1", osan_data1, "yellow");
+		pieChart("osan_data2", osan_data2, "#00ccff");
+		pieChart2("osan_data3", osan_data3, "#ff8a00");
 		
 		//월별 변화그래프
 		lineChart("main_line1", main_line1);
@@ -202,6 +202,11 @@ function pieChart(div, data, color) {
 	}else if (rate < 0){
 		value1 = 0
 		value2 = 100;
+	}
+	
+	//-100% 이하 일경우 0 으로 표기
+	if(rate < -100){
+		rate = 0;
 	}
 	
 	value = [{ 
